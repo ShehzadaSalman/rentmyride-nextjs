@@ -26,7 +26,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script src="/js/beautified-bundle.js"></script>
+        {/* <script src="/js/beautified-bundle.js"></script> */}
       </Html>
     );
   }
