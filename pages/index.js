@@ -2584,11 +2584,11 @@ export default function Home() {
 								Minutes anywhere in Dubai.
 							</p>
 							<div className="pym">
-								<img src="images/payment/img1.png" />
+								{/* <img src="images/payment/img1.png" />
 								<img src="images/payment/img2.png" />
 								<img src="images/payment/img3.png" />
 								<img src="images/payment/img4.png" />
-								<img src="images/payment/img5.png" />
+								<img src="images/payment/img5.png" /> */}
 							</div>
 						</div>
 					</div>
