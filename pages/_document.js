@@ -19,8 +19,8 @@ class MyDocument extends Document {
 			type="text/css"
 			href="/css/jquery.datetimepicker.min.css"
 			/>
-         <link rel="stylesheet" type="text/css" href="/css/style.css" />
-		 <link rel="stylesheet" type ="text/css" href="/css/newcustom.css"/>
+         {/* <link rel="stylesheet" type="text/css" href="/css/style.css" /> */}
+		 {/* <link rel="stylesheet" type ="text/css" href="/css/newcustom.css"/> */}
         </Head>
         <body>
           <Main />
