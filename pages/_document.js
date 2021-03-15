@@ -14,11 +14,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta charSet="utf-8" />
           <link rel="shortcut icon" href="/images/favicon.png" />
-          <link
-			rel="stylesheet"
-			type="text/css"
-			href="/css/jquery.datetimepicker.min.css"
-			/>
+  
          {/* <link rel="stylesheet" type="text/css" href="/css/style.css" /> */}
 		 {/* <link rel="stylesheet" type ="text/css" href="/css/newcustom.css"/> */}
         </Head>
