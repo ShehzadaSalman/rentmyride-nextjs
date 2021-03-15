@@ -8,15 +8,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta property="og:title" content="RentMyRide" />
-          <meta property="og:type" content="website" />
-          <meta property="og:image" content="" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <meta charSet="utf-8" />
-          <link rel="shortcut icon" href="/images/favicon.png" />
-  
-         {/* <link rel="stylesheet" type="text/css" href="/css/style.css" /> */}
-		 {/* <link rel="stylesheet" type ="text/css" href="/css/newcustom.css"/> */}
+
         </Head>
         <body>
           <Main />

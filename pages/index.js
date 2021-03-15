@@ -361,7 +361,7 @@ export default function Home() {
 						</a>
 				</figure>
 				{/* <figure>
-					<a href="/cars/limousine/rent-infiniti-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Infiniti-RentMyRide.png " alt="infiniti"/></a>
+					<a href="/cars/limousine/rent-infiniti-in-dubai" className="brend-item" tabIndex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Infiniti-RentMyRide.png " alt="infiniti"/></a>
 				</figure> */}
 
 			</div>
@@ -385,7 +385,7 @@ export default function Home() {
 					<div className="col-sm-12 col-md-12">
 						<div className="categories">
 							<figure>
-								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
 								<Image
 								className="removeOutline"
 									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
@@ -397,7 +397,7 @@ export default function Home() {
 								</a>
 							</figure>
 							<figure>
-								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
 								<Image
 								className="removeOutline"
 									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
@@ -409,7 +409,7 @@ export default function Home() {
 								</a>
 							</figure>
 							<figure>
-								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
 								<Image
 								className="removeOutline"
 									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
@@ -421,7 +421,7 @@ export default function Home() {
 								</a>
 							</figure>
 							<figure>
-								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
 								<Image
 								className="removeOutline"
 									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
@@ -457,7 +457,7 @@ export default function Home() {
 				<div className="hiredCarss">
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -468,7 +468,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -487,7 +487,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -496,15 +496,15 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -515,7 +515,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -534,7 +534,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -543,15 +543,15 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -562,7 +562,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -581,7 +581,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -590,15 +590,15 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -609,7 +609,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -628,7 +628,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -637,15 +637,15 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -656,7 +656,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -675,7 +675,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -684,15 +684,15 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
 							<Image
 							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
 							alt="Picture of the author"
@@ -703,7 +703,7 @@ export default function Home() {
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -722,7 +722,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
+								<input type="checkbox" name="" tabIndex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -731,9 +731,9 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
 					</div>
 
@@ -1025,7 +1025,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1147,7 +1147,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1269,7 +1269,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1391,7 +1391,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1513,7 +1513,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1635,7 +1635,7 @@ export default function Home() {
 							<p>Price : <span>AED 2,650 / Day</span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabIndex="0"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -1836,7 +1836,6 @@ export default function Home() {
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
 							<a href="#">
-								<img src="images/gulf_news_png.png" />
 							    <Image
 								src="/images/gulf_news_png.png"
 								alt="Picture of the author"
@@ -2235,7 +2234,7 @@ export default function Home() {
 						<div className="widget">
 							<h4>Map <img src="images/border.png"/></h4>
 							<iframe  loading="lazy"
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.805017031698!2d55.13568148917137!3d25.069641253739636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f1d1d5afb1fc4aa!2sMyRide.ae%20Middle%20East!5e0!3m2!1sen!2s!4v1594899618875!5m2!1sen!2s" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.805017031698!2d55.13568148917137!3d25.069641253739636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f1d1d5afb1fc4aa!2sMyRide.ae%20Middle%20East!5e0!3m2!1sen!2s!4v1594899618875!5m2!1sen!2s" width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
 						</div>
 					</div>
 					<div className="col-sm-12 col-md-12">
