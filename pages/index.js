@@ -457,46 +457,14 @@ export default function Home() {
 				<div className="hiredCarss">
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-Ghost-with-2-Hours-Yacht-in-Dubai-RentMyRide.jpg" alt="Rolls Royce Ghost with 2 Hours Yacht Offer"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" tabindex="-1">Rolls Royce Ghost with 2 Hours Yacht Offer</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 4
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 2,500 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg" alt="Rolls Royce Wraith Combo Offer"/></a>                           
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
 						</figure>
 						<div className="offerdt">
 							<h5>
@@ -533,208 +501,21 @@ export default function Home() {
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
 						</div>
 					</div>
+
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-Wraith-with-1Person-Helicopter-Tour-Dubai-RentMyRIdeDubai.jpg" alt="Rolls Royce Wraith with  1/P Free 12mins  Helicopter Tour"/></a>                           
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" tabindex="-1">Rolls Royce Wraith with  1/P Free 12mins  Helicopter Tour</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 4,000 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Lamourghini-and-halicopter.jpg" alt="Rent  Lamborghini &amp; Enjoy Iconic Views of Dubai  in a Free  Helicopter Ride"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" tabindex="-1">Rent  Lamborghini &amp; Enjoy Iconic Views of Dubai  in a Free  Helicopter Ride</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 2
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 3,400 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg" alt="Rent a Ferrari &amp; Get 1 Free Ticket for the Adventurous Ferrari World"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" tabindex="-1">Rent a Ferrari &amp; Get 1 Free Ticket for the Adventurous Ferrari World</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 2
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 3,400 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari.jpg" alt="Rent  Ferrari Lusso &amp; visit Burj Khalifa with 1 Free Ticket"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" tabindex="-1">Rent  Ferrari Lusso &amp; visit Burj Khalifa with 1 Free Ticket</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 4,000 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" tabindex="0"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-Ghost-with-2-Hours-Yacht-in-Dubai-RentMyRide.jpg" alt="Rolls Royce Ghost with 2 Hours Yacht Offer"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" tabindex="0">Rolls Royce Ghost with 2 Hours Yacht Offer</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 4
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 2,500 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="0"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rolls-royce-ghost-with-2-hours-yacht-offer" className="book" tabindex="0">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="0"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg" alt="Rolls Royce Wraith Combo Offer"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="0">Rolls Royce Wraith Combo Offer</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -753,7 +534,7 @@ export default function Home() {
 							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
-								<input type="checkbox" name="" tabindex="0"/>
+								<input type="checkbox" name="" tabindex="-1"/>
 								<span>AED 3,000 Deposit</span>
 								</label>
 							</div>
@@ -762,18 +543,26 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="0"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="0">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
 						</div>
 					</div>
+
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" tabindex="0"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-Wraith-with-1Person-Helicopter-Tour-Dubai-RentMyRIdeDubai.jpg" alt="Rolls Royce Wraith with  1/P Free 12mins  Helicopter Tour"/></a>                           
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" tabindex="0">Rolls Royce Wraith with  1/P Free 12mins  Helicopter Tour</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -789,46 +578,7 @@ export default function Home() {
 									Automatic
 								</li>
 							</ul>
-							<p>Price: <span><span className="currency">AED </span> 4,000 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="0"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rolls-royce-rental-dubai/rent-rolls-royce-wraith-with-1-person-helicopter-tour-in-dubai" className="book" tabindex="0">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Lamourghini-and-halicopter.jpg" alt="Rent  Lamborghini &amp; Enjoy Iconic Views of Dubai  in a Free  Helicopter Ride"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" tabindex="-1">Rent  Lamborghini &amp; Enjoy Iconic Views of Dubai  in a Free  Helicopter Ride</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 2
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 3,400 <span className="day"> / Day</span></span></p>
+							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
 								<input type="checkbox" name="" tabindex="-1"/>
@@ -842,55 +592,24 @@ export default function Home() {
 								<p></p>
 								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rent-lamborghini-dubai/rent-lamborghini-enjoy-iconic-views-of-dubai-in-a-free-helicopter-ride" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
 						</div>
 					</div>
+
 					<div className="carItem">
 						<figure>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg" alt="Rent a Ferrari &amp; Get 1 Free Ticket for the Adventurous Ferrari World"/></a>                           
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
 						</figure>
 						<div className="offerdt">
 							<h5>
-								<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" tabindex="-1">Rent a Ferrari &amp; Get 1 Free Ticket for the Adventurous Ferrari World</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1-min.png"/>
-									Seats 2
-								</li>
-								<li>
-									<img src="images/icon2-min.png"/>
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3-min.png"/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price: <span><span className="currency">AED </span> 3,400 <span className="day"> / Day</span></span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="-1"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<div className="terms">
-								<h6>Terms &amp; Conditions</h6>
-								<p></p>
-								<p>test</p>
-								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
-							</div>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-a-ferrari-get-1-free-ticket-for-the-adventurous-ferrari-world" className="book" tabindex="-1">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" tabindex="-1"><img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari.jpg" alt="Rent  Ferrari Lusso &amp; visit Burj Khalifa with 1 Free Ticket"/></a>                           
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" tabindex="-1">Rent  Ferrari Lusso &amp; visit Burj Khalifa with 1 Free Ticket</a>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
 							</h5>
 							<ul>
 								<li>
@@ -906,7 +625,7 @@ export default function Home() {
 									Automatic
 								</li>
 							</ul>
-							<p>Price: <span><span className="currency">AED </span> 4,000 <span className="day"> / Day</span></span></p>
+							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
 							<div className="fieldWr">
 								<label>
 								<input type="checkbox" name="" tabindex="-1"/>
@@ -920,9 +639,105 @@ export default function Home() {
 								<p></p>
 								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
-							<a href="/cars/car-rental/rent-ferrari-dubai/rent-ferrari-lusso-visit-burj-khalifa-with-1-free-ticket" className="book" tabindex="-1">Book Now</a>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
 						</div>
 					</div>
+
+					<div className="carItem">
+						<figure>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
+						</figure>
+						<div className="offerdt">
+							<h5>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+							</h5>
+							<ul>
+								<li>
+									<img src="images/icon1-min.png"/>
+									Seats 4
+								</li>
+								<li>
+									<img src="images/icon2-min.png"/>
+									Doors 2
+								</li>
+								<li>
+									<img src="images/icon3-min.png"/>
+									Automatic
+								</li>
+							</ul>
+							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
+							<div className="fieldWr">
+								<label>
+								<input type="checkbox" name="" tabindex="-1"/>
+								<span>AED 3,000 Deposit</span>
+								</label>
+							</div>
+							<div className="terms">
+								<h6>Terms &amp; Conditions</h6>
+								<p></p>
+								<p>test</p>
+								<p></p>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+							</div>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+						</div>
+					</div>
+
+					<div className="carItem">
+						<figure>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">
+							<Image
+							src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-Rolls-Royce-with-Combo-Offer-in-Dubai-RentMyRide.jpg"
+							alt="Picture of the author"
+							width={290}
+							height={200}
+							/>
+                          </a>                           
+						</figure>
+						<div className="offerdt">
+							<h5>
+								<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabindex="-1">Rolls Royce Wraith Combo Offer</a>
+							</h5>
+							<ul>
+								<li>
+									<img src="images/icon1-min.png"/>
+									Seats 4
+								</li>
+								<li>
+									<img src="images/icon2-min.png"/>
+									Doors 2
+								</li>
+								<li>
+									<img src="images/icon3-min.png"/>
+									Automatic
+								</li>
+							</ul>
+							<p>Price: <span><span className="currency">AED </span> 7,000 <span className="day"> / Day</span></span></p>
+							<div className="fieldWr">
+								<label>
+								<input type="checkbox" name="" tabindex="-1"/>
+								<span>AED 3,000 Deposit</span>
+								</label>
+							</div>
+							<div className="terms">
+								<h6>Terms &amp; Conditions</h6>
+								<p></p>
+								<p>test</p>
+								<p></p>
+								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabindex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+							</div>
+							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabindex="-1">Book Now</a>
+						</div>
+					</div>
+
+
 				</div>
 			</div>
 	
@@ -1118,16 +933,37 @@ export default function Home() {
 								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car1.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
@@ -1136,16 +972,36 @@ export default function Home() {
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car1.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 									<li data-target="#carousel-thumb" data-slide-to="1">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 									<li data-target="#carousel-thumb" data-slide-to="2">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 									<li data-target="#carousel-thumb" data-slide-to="3">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1179,40 +1035,80 @@ export default function Home() {
 					<div className="carItem">
 						<figure>
 							<div
-								id="carousel-thumb2"
+								id="carousel-thumb"
 								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
+								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
 									<li
-										data-target="#carousel-thumb2"
+										data-target="#carousel-thumb"
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car2.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb2" data-slide-to="1">
-										<img src="images/cars/car1.png" />
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb2" data-slide-to="2">
-										<img src="images/cars/car3.png" />
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb2" data-slide-to="3">
-										<img src="images/cars/car4.png" />
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1221,15 +1117,30 @@ export default function Home() {
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1246,40 +1157,80 @@ export default function Home() {
 					<div className="carItem">
 						<figure>
 							<div
-								id="carousel-thumb3"
+								id="carousel-thumb"
 								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
+								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
 									<li
-										data-target="#carousel-thumb3"
+										data-target="#carousel-thumb"
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car3.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb3" data-slide-to="1">
-										<img src="images/cars/car2.png" />
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb3" data-slide-to="2">
-										<img src="images/cars/car1.png" />
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb3" data-slide-to="3">
-										<img src="images/cars/car4.png" />
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1288,15 +1239,30 @@ export default function Home() {
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1313,40 +1279,80 @@ export default function Home() {
 					<div className="carItem">
 						<figure>
 							<div
-								id="carousel-thumb4"
+								id="carousel-thumb"
 								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
+								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
 									<li
-										data-target="#carousel-thumb4"
+										data-target="#carousel-thumb"
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car4.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb4" data-slide-to="1">
-										<img src="images/cars/car2.png" />
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb4" data-slide-to="2">
-										<img src="images/cars/car3.png" />
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb4" data-slide-to="3">
-										<img src="images/cars/car1.png" />
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1355,15 +1361,30 @@ export default function Home() {
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1380,40 +1401,80 @@ export default function Home() {
 					<div className="carItem">
 						<figure>
 							<div
-								id="carousel-thumb5"
+								id="carousel-thumb"
 								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
+								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car5.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
 									<li
-										data-target="#carousel-thumb5"
+										data-target="#carousel-thumb"
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car5.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb5" data-slide-to="1">
-										<img src="images/cars/car2.png" />
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb5" data-slide-to="2">
-										<img src="images/cars/car3.png" />
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb5" data-slide-to="3">
-										<img src="images/cars/car4.png" />
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1422,15 +1483,30 @@ export default function Home() {
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1447,118 +1523,80 @@ export default function Home() {
 					<div className="carItem">
 						<figure>
 							<div
-								id="carousel-thumb6"
+								id="carousel-thumb"
 								className="carousel slide carousel-fade carousel-thumbnails"
-								>
+								data-ride="carousel">
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
-										<img src="images/cars/car6.png" />
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 									<div className="carousel-item">
-										<div className="videoplayer">
-											<video muted loop>
-												<source src="video/video.mp4" type="video/mp4" />
-											</video>
-											<img
-												className="video_icon"
-												src="images/newvideoicon.png"
-												/>
-										</div>
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</div>
 								</div>
 								<ol className="carousel-indicators">
 									<li
-										data-target="#carousel-thumb6"
+										data-target="#carousel-thumb"
 										data-slide-to="0"
 										className="active"
 										>
-										<img src="images/cars/car6.png" />
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb6" data-slide-to="1">
-										<img src="images/cars/car2.png" />
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb6" data-slide-to="2">
-										<img src="images/cars/car3.png" />
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
-									<li data-target="#carousel-thumb6" data-slide-to="3">
-										<img src="images/cars/car4.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5>
-								<a href="single.html">Ferrari 488 GTB with Video</a>
-							</h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb7"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car1.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<video>
-											<source src="video/video.mp4" type="video/mp4" />
-										</video>
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb7"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car1.png" />
-									</li>
-									<li data-target="#carousel-thumb7" data-slide-to="1">
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb7" data-slide-to="2">
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb7" data-slide-to="3">
-										<img src="images/cars/car4.png" />
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
 									</li>
 								</ol>
 							</div>
@@ -1567,15 +1605,30 @@ export default function Home() {
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={40}
+							height={40}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1589,341 +1642,7 @@ export default function Home() {
 							<a href="single.html" className="book">Book Now</a>
 						</div>
 					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb8"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb8"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb8" data-slide-to="1">
-										<img src="images/cars/car1.png" />
-									</li>
-									<li data-target="#carousel-thumb8" data-slide-to="2">
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb8" data-slide-to="3">
-										<img src="images/cars/car4.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb9"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb9"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb9" data-slide-to="1">
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb9" data-slide-to="2">
-										<img src="images/cars/car1.png" />
-									</li>
-									<li data-target="#carousel-thumb9" data-slide-to="3">
-										<img src="images/cars/car4.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb10"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car4.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car1.png" />
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb10"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car4.png" />
-									</li>
-									<li data-target="#carousel-thumb10" data-slide-to="1">
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb10" data-slide-to="2">
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb10" data-slide-to="3">
-										<img src="images/cars/car1.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb11"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car5.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb11"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car5.png" />
-									</li>
-									<li data-target="#carousel-thumb11" data-slide-to="1">
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb11" data-slide-to="2">
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb11" data-slide-to="3">
-										<img src="images/cars/car4.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb12"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel"
-								>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-										<img src="images/cars/car6.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car2.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car3.png" />
-									</div>
-									<div className="carousel-item">
-										<img src="images/cars/car4.png" />
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb12"
-										data-slide-to="0"
-										className="active"
-										>
-										<img src="images/cars/car6.png" />
-									</li>
-									<li data-target="#carousel-thumb12" data-slide-to="1">
-										<img src="images/cars/car2.png" />
-									</li>
-									<li data-target="#carousel-thumb12" data-slide-to="2">
-										<img src="images/cars/car3.png" />
-									</li>
-									<li data-target="#carousel-thumb12" data-slide-to="3">
-										<img src="images/cars/car4.png" />
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-									<img src="images/icon1.png" />
-									Seats 4
-								</li>
-								<li>
-									<img src="images/icon2.png" />
-									Doors 2
-								</li>
-								<li>
-									<img src="images/icon3.png" />
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabindex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
+			
 				</div>
 			</div>
 		</div>
@@ -2031,7 +1750,13 @@ export default function Home() {
 					</div>
 					<div className="col-sm-6 col-md-6">
 						<div className="mainCar">
-							<img src="images/mainCar.png" />
+						<Image
+								src="/images/mainCar.png"
+								alt="Picture of the author"
+								width={700}
+								height={700}
+							/>
+						
 						</div>
 					</div>
 				</div>
@@ -2110,22 +1835,54 @@ export default function Home() {
 				<div className="row">
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
-							<a href="#"><img src="images/gulf_news_png.png" /></a>
+							<a href="#">
+								<img src="images/gulf_news_png.png" />
+							    <Image
+								src="/images/gulf_news_png.png"
+								alt="Picture of the author"
+								width={200}
+								height={200}
+							    />	
+							</a>
 						</div>
 					</div>
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
-							<a href="#"><img src="images/the_national_png.png" /></a>
+							<a href="#">
+							 <Image
+								src="/images/the_national_png.png"
+								alt="Picture of the author"
+								width={200}
+								height={200}
+							    />	
+							</a>
 						</div>
 					</div>
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
-							<a href="#"><img src="images/time_out_png.png" /></a>
+							<a href="#">
+								<Image
+								src="/images/time_out_png.png"
+								alt="Picture of the author"
+								width={200}
+								height={200}
+							    />
+							
+							</a>
 						</div>
 					</div>
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
-							<a href="#"><img src="images/ahlan.jpg" /></a>
+							<a href="#">
+								{/* <img src="images/ahlan.jpg" /> */}
+								<Image
+								src="/images/ahlan.jpg"
+								alt="Picture of the author"
+								width={200}
+								height={200}
+							    />
+						
+							</a>
 						</div>
 					</div>
 				</div>
@@ -2139,7 +1896,7 @@ export default function Home() {
 					<div className="col-sm-12 col-md-12">
 						<h6>what customers are saying</h6>
 						<h2>customer reviews</h2>
-						<span><img src="images/border.png" /></span>
+						<span><img src="/images/border.png" /></span>
 					</div>
 				</div>
 			</div>
@@ -2345,7 +2102,13 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-						<img src="images/landrover.png" />
+					
+						<Image
+							src="/images/landrover.png"
+							alt="Picture of the author"
+							width={700}
+							height={450}
+						/>
 					</div>
 				</div>
 				<div className="col-sm-7 col-md-7">
@@ -2471,7 +2234,8 @@ export default function Home() {
 					<div className="col-sm-4 col-md-4">
 						<div className="widget">
 							<h4>Map <img src="images/border.png"/></h4>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.805017031698!2d55.13568148917137!3d25.069641253739636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f1d1d5afb1fc4aa!2sMyRide.ae%20Middle%20East!5e0!3m2!1sen!2s!4v1594899618875!5m2!1sen!2s" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe  loading="lazy"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.805017031698!2d55.13568148917137!3d25.069641253739636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f1d1d5afb1fc4aa!2sMyRide.ae%20Middle%20East!5e0!3m2!1sen!2s!4v1594899618875!5m2!1sen!2s" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 					<div className="col-sm-12 col-md-12">
