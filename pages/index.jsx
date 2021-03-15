@@ -3,8 +3,9 @@ import  Head from 'next/head'
 import $ from 'jquery'
 import {useEffect } from 'react'
 import Image from 'next/image'
-
-export default function Home() {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+const HOME = () => {
 
 
 
@@ -63,7 +64,11 @@ export default function Home() {
 		<div className="topBar">
 			<ul>
 				<li>
-					<a href="tel:+971 55 550 5281"><i className="fa fa-phone"></i> +971 55 550 5281  </a>
+					<a href="tel:+971 55 550 5281">
+						<i className="fa fa-phone"></i>
+						<FontAwesomeIcon icon={faCoffee} />
+						
+						 +971 55 550 5281  </a>
 				</li>
 				<li>
 					<a href="mailto:info@rentmyride.ae"><i className="fa fa-envelope"></i> info@rentmyride.ae</a>
@@ -2309,7 +2314,8 @@ export default function Home() {
 			});
 		</script> */}
 	</div>
- 
    </>
   )
 }
+
+export default HOME;
