@@ -2,11 +2,10 @@
 import  Head from 'next/head'
 import $ from 'jquery'
 import {useEffect } from 'react'
+import Image from 'next/image'
 
 export default function Home() {
 
-
-  useEffect(() => require('../public/js/custom.js'), [])
 
 
   return (<>
@@ -319,140 +318,52 @@ export default function Home() {
 		<div className="brandsWrap">
 			<div className="images">
 				<figure>
-					<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png " alt="Dodge"/></a>
+
+					<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+						
+	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+						
+						</a>
 				</figure>
-				<figure>
+				{/* <figure>
 					<a href="/cars/limousine/rent-infiniti-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Infiniti-RentMyRide.png " alt="infiniti"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-cadillac-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Cadillac-RentMyRide.png " alt="Cadillac"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-toyota-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Toyota-RentMyRide.png " alt="Toyota"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-ford-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Ford-RentMyRide.png " alt="Ford"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bugatti-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Bugatti-RentMyRide.png " alt="Bugatti"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/mini-cooper-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Mini-RentMyRide.png " alt="Mini"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/limousine/rent-a-lincoln-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lincoln-RentMyRide.png " alt="Lincoln"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/gmc" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/GMC-RentMyRide.png " alt="GMC"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/polaris" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Polaris-RentMyRide.png " alt="Polaris"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-lamborghini-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lamborghini-Rent-MyRide.png " alt="Lamborghini"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-audi-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Audi-RentMyRide.png " alt="Audi"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bmw-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/BMW-Rent-MyRide.png " alt="BMW"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-ferrari-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Ferrari-RentMyRide.png " alt="Ferrari"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-porsche-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Porsche-RentMyRide.png " alt="Porsche"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bentley-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Bentley-RentMyRide.png " alt="Bentley"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rolls-royce-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Rolls-Royce-RentMyRide.png " alt="Rolls Royce"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/range-rover-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Range-Rover-RentMyRide.png " alt="Range Rover"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-mercedes-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Mercedes-Benz-RentMyRide.png " alt="Mercedes-Benz"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/lexus-for-rent-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lexus-RentMyRide.png " alt="Lexus"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-maserati-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Maserati-RentMyRide.png " alt="Maserati"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-mclaren-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/McLaren-RentMyRide.png " alt="Mclaren"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-nissan-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Nissan-RentMyRide.png " alt="Nissan"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-chevrolet-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Chevrolet-RentMyRide.png " alt="Chevrolet"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/limousine/rent-chrysler-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Chrysler-RentMyRide.png " alt="Chrysler"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png " alt="Dodge"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/limousine/rent-infiniti-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Infiniti-RentMyRide.png " alt="infiniti"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-cadillac-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Cadillac-RentMyRide.png " alt="Cadillac"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-toyota-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Toyota-RentMyRide.png " alt="Toyota"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-ford-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Ford-RentMyRide.png " alt="Ford"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bugatti-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Bugatti-RentMyRide.png " alt="Bugatti"/></a>
-				</figure>
-				<figure >
-					<a href="/cars/car-rental/mini-cooper-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Mini-RentMyRide.png " alt="Mini"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/limousine/rent-a-lincoln-in-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lincoln-RentMyRide.png " alt="Lincoln"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/gmc" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/GMC-RentMyRide.png " alt="GMC"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/polaris" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Polaris-RentMyRide.png " alt="Polaris"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-lamborghini-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lamborghini-Rent-MyRide.png " alt="Lamborghini"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-audi-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Audi-RentMyRide.png " alt="Audi"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bmw-rental-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/BMW-Rent-MyRide.png " alt="BMW"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-ferrari-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Ferrari-RentMyRide.png " alt="Ferrari"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-a-porsche-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Porsche-RentMyRide.png " alt="Porsche"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/bentley-rental-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Bentley-RentMyRide.png " alt="Bentley"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rolls-royce-rental-dubai" className="brend-item" tabindex="0"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Rolls-Royce-RentMyRide.png " alt="Rolls Royce"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/range-rover-rental-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Range-Rover-RentMyRide.png " alt="Range Rover"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/rent-mercedes-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Mercedes-Benz-RentMyRide.png " alt="Mercedes-Benz"/></a>
-				</figure>
-				<figure>
-					<a href="/cars/car-rental/lexus-for-rent-in-dubai" className="brend-item" tabindex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Lexus-RentMyRide.png " alt="Lexus"/></a>
-				</figure>
+				</figure> */}
+
 			</div>
 		</div>
 		{/* <!-- Brands -->
@@ -475,118 +386,54 @@ export default function Home() {
 						<div className="categories">
 							<figure>
 								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/SportsCar.svg " alt="Sports Car"/>
-									<h4>Sports Car</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/mini-van" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Mini-Van.svg " alt="Mini Van"/>
-									<h4>Mini Van</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/crossover" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Crossover.svg " alt="Crossover"/>
-									<h4>Crossover</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/luxury-truck" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/luxury-truck.png " alt="Luxury Truck"/>
-									<h4>Luxury Truck</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/limousine" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/limo-01.svg " alt="Limousine"/>
-									<h4>Limousine</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/sedan" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Sedan.svg " alt="Sedan"/>
-									<h4>Sedan</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/convertible" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg " alt="Convertible"/>
-									<h4>Convertible</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/suv" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/SUV.svg " alt="SUV"/>
-									<h4>SUV</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/coupe" tabindex="0">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Coupe.svg " alt="Coupe"/>
-									<h4>Coupe</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/sports-car" tabindex="0">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/SportsCar.svg " alt="Sports Car"/>
-									<h4>Sports Car</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/mini-van" tabindex="0">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Mini-Van.svg " alt="Mini Van"/>
-									<h4>Mini Van</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/crossover" tabindex="0">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Crossover.svg " alt="Crossover"/>
-									<h4>Crossover</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/luxury-truck" tabindex="0">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/luxury-truck.png " alt="Luxury Truck"/>
-									<h4>Luxury Truck</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/limousine" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/limo-01.svg " alt="Limousine"/>
-									<h4>Limousine</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/sedan" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Sedan.svg " alt="Sedan"/>
-									<h4>Sedan</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/convertible" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg " alt="Convertible"/>
-									<h4>Convertible</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/suv" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/SUV.svg " alt="SUV"/>
-									<h4>SUV</h4>
-								</a>
-							</figure>
-							<figure>
-								<a className="removeOutline" href="/cars/coupe" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Coupe.svg " alt="Coupe"/>
-									<h4>Coupe</h4>
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
 								</a>
 							</figure>
 							<figure>
 								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
-									<img className="removeOutline" src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/SportsCar.svg " alt="Sports Car"/>
-									<h4>Sports Car</h4>
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
 								</a>
 							</figure>
+							<figure>
+								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
+								</a>
+							</figure>
+							<figure>
+								<a className="removeOutline" href="/cars/sports-car" tabindex="-1">
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
+								</a>
+							</figure>
+				
+				
 						</div>
 					</div>
 				</div>
