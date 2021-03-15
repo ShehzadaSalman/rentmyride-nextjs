@@ -118,7 +118,13 @@ export default function Home() {
 						</h2>
 						<p>Serving people from last 3 years with great success.</p>
 						<div className="bannerCars">
-							<img src="images/bannerCars3-min.png" />
+						<Image
+								src="/images/bannerCars3-min.png"
+								alt="Picture of the author"
+								width={560}
+								height={169}
+							/>
+							
 						</div>
 					</div>
 				</div>
@@ -543,7 +549,7 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
@@ -590,7 +596,7 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
@@ -637,7 +643,7 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
@@ -684,7 +690,7 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
@@ -731,7 +737,7 @@ export default function Home() {
 								<p></p>
 								<p>test</p>
 								<p></p>
-								<label><input type="checkbox" onchange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+								<label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
 							</div>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
 						</div>
