@@ -1,5 +1,16 @@
-/* styling for index page starts here */
-
+/* ======
+===============general styling===================   */
+a {
+    text-decoration: unset !important;
+    color: #4f504d;
+    text-decoration: none;
+    background-color: transparent;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+/*=======
+=================== styling for index page starts here */
 .topBar {
     background: #4F504D;
     height: 40px;
@@ -26,4 +37,142 @@ dl, ol, ul {
     font-weight: 400;
     font-size: 15px;
     text-decoration: unset;
+}
+
+/* styling 
+==============header here ===============*/
+.header {
+    line-height: 70px;
+    padding: 0px 80px;
+}
+.header .logo img {
+    vertical-align: middle;
+}
+.logo a.openNav {
+    display: none;
+}
+header nav {
+    text-align: right;
+}
+.header nav ul {
+    padding: 0px;
+    list-style: none;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.header nav ul li {
+    display: inline-block;
+}
+.header nav {
+    text-align: right;
+}
+.header nav ul li a {
+    color: #000;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: unset;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #fff;
+        border-bottom-color: rgb(255, 255, 255);
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.header nav ul li.active a {
+    border-color: #f00;
+    color: #f00;
+}
+
+
+/* main banner 
+============================================================ */
+.MainBanner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(/images/bg1-min.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 25px;
+    text-align: center;
+}
+.MainSlider.slick-initialized.slick-slider {
+    position: relative;
+}
+.MainSlider .slick-list.draggable {
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.MainBanner .bannerCars {
+    margin-top: 25px;
+}
+.MainBanner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: #222222;
+    min-height: 80px;
+}
+.MainBanner p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #222222;
+    margin: 0px;
+}
+
+
+/* SEarch Form
+============================================= */
+.searchTabs {
+    border-top: 4px solid #ff0000;
+}
+.searchTabs {
+    width: 88%;
+    margin: 0 auto;
+}
+.searchTabs div#tabs {
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 38px -9px #909090;
+}
+
+.searchTabs div#tabs ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.searchTabs div#tabs ul {
+    background: none;
+    border-radius: 0px;
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: .2em .2em 0;
 }

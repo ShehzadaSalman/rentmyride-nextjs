@@ -92,7 +92,7 @@ export default function Home() {
 				<div className="col-sm-9 col-md-9">
 					<nav>
 						<a href="#" className="closeNav"><i className="fa fa-times"></i></a>
-						<ul>
+						<ul className="navbar">
 							<li><a href="index.html" className="active">Home</a></li>
 							<li><a href="car_rental.html">Car rental </a></li>
 							<li><a href="car_with_driver.html">Car with driver </a></li>
