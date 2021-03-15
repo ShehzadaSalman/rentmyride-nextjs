@@ -4,9 +4,24 @@ import $ from 'jquery'
 import {useEffect } from 'react'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-const HOME = () => {
+import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
+import Slider from "react-slick";
 
+const HOME = () => {
+	var settings = {
+		dots: false,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 5,
+		slidesToScroll: 1
+	  };
+	  var settingstwo = {
+		dots: false,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 3,
+		slidesToScroll: 1
+	  };
 
 
   return (<>
@@ -65,26 +80,23 @@ const HOME = () => {
 			<ul>
 				<li>
 					<a href="tel:+971 55 550 5281">
-						<i className="fa fa-phone"></i>
-						<FontAwesomeIcon icon={faCoffee} />
+						<FontAwesomeIcon icon={faPhone} className="mr-1"/>
 						
 						 +971 55 550 5281  </a>
 				</li>
 				<li>
-					<a href="mailto:info@rentmyride.ae"><i className="fa fa-envelope"></i> info@rentmyride.ae</a>
+					<a href="mailto:info@rentmyride.ae"><FontAwesomeIcon icon={faEnvelope} className="mr-1"/> info@rentmyride.ae</a>
 				</li>
-				<li>
-					<i className="fa fa-coins"></i
-						>
+				<li><FontAwesomeIcon icon={faCoins} className="mr-1"/>
 					<select>
 						<option>AED</option>
 					</select>
 				</li>
 				<li>
-					<a href="login.html"><i className="fa fa-user"></i> Login</a>
+					<a href="login.html"><FontAwesomeIcon icon={faUser} className="mr-1"/> Login</a>
 				</li>
 			</ul>
-			<a href="#" className="plus"><i className="fa fa-plus"></i></a>
+			<a href="#" className="plus"></a>
 		</div>
 		{/* <!-- Top Bar -->
 		<!-- Header --> */}
@@ -327,55 +339,126 @@ const HOME = () => {
 			</div>
 		</div>
 		<div className="brandsWrap">
-			<div className="images">
-				<figure>
 
-					<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
-						
-	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-						
-						</a>
-				</figure>
-				{/* <figure>
-					<a href="/cars/limousine/rent-infiniti-in-dubai" className="brend-item" tabIndex="-1"><img style={{width:'50%'}} src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Infiniti-RentMyRide.png " alt="infiniti"/></a>
-				</figure> */}
+<Slider {...settings}>
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ {/* <Slider {...settings}> */}
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
 
-			</div>
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ {/* <Slider {...settings}> */}
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
+
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ {/* <Slider {...settings}> */}
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
+
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
+
+<div className="images">
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ {/* <Slider {...settings}> */}
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+</div>
+ </Slider>
+	  	{/* <Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      />
+	  	<Image
+        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+        alt="Picture of the author"
+        width={100}
+        height={100}
+      /> */}
+
+
+						
+			
+			
+
+	
 		</div>
 		{/* <!-- Brands -->
 		<!-- Brands --> */}
@@ -395,6 +478,7 @@ const HOME = () => {
 				<div className="row">
 					<div className="col-sm-12 col-md-12">
 						<div className="categories">
+							<Slider {...settings}>
 							<figure>
 								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
 								<Image
@@ -443,6 +527,44 @@ const HOME = () => {
 					        	<h4>Sports Car</h4>
 								</a>
 							</figure>
+							<figure>
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
+								</a>
+							</figure>
+							<figure>
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
+								</a>
+							</figure>
+							<figure>
+								<a className="removeOutline" href="/cars/sports-car" tabIndex="-1">
+								<Image
+								className="removeOutline"
+									src="https://cdn.rentmyride.ae/Portal/content/myrideImages/CarType/Convertible.svg "
+									alt="Picture of the author"
+									width={90}
+									height={90}
+								/>
+					        	<h4>Sports Car</h4>
+								</a>
+							</figure>
+				
+							</Slider>
 				
 				
 						</div>
@@ -466,6 +588,8 @@ const HOME = () => {
 		<div className="hiredCarWrap Packges">
 			<div className="container">
 				<div className="hiredCarss">
+
+					<Slider {...settingstwo}>
 					<div className="carItem">
 						<figure>
 							<a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
@@ -749,6 +873,8 @@ const HOME = () => {
 					</div>
 
 
+					</Slider>
+			
 				</div>
 			</div>
 	
@@ -936,6 +1062,8 @@ const HOME = () => {
 		<div className="hiredCarWrap">
 			<div className="container">
 				<div className="hiredCarss">
+
+					<Slider {...settingstwo}>
 					<div className="carItem">
 						<figure>
 							<div
@@ -1654,6 +1782,8 @@ const HOME = () => {
 						</div>
 					</div>
 			
+					</Slider>
+			
 				</div>
 			</div>
 		</div>
@@ -1914,6 +2044,7 @@ const HOME = () => {
 		<div className="testimonialWrap">
 			<div className="container">
 				<div className="testislider">
+					<Slider {...settingstwo}>
 					<div className="destiwrap">
 						<div className="desti">
 							<figure>
@@ -2039,6 +2170,9 @@ const HOME = () => {
 							</div>
 						</div>
 					</div>
+			
+					</Slider>
+			
 				</div>
 			</div>
 		</div>
