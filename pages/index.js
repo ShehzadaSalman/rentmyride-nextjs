@@ -24,14 +24,12 @@ const NewsPaper = dynamic(() => import('../components/homepage/NewsPaper'))
 const LuxuryWraps = dynamic(() => import('../components/LuxuryWraps'))
 const WhyChoosUs = dynamic(() => import('../components/WhyChoosUs'))
 const SearchForm = dynamic(() => import('../components/SearchForm'))
-
 const Header = dynamic(() => import('../components/Header'))
 const BrandSlider= dynamic(() => import('../components/homepage/BrandSlider'))
 const CategorySlider = dynamic(() => import('../components/homepage/CategorySlider'))
 
 const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'))
 const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
-
 const Footer = dynamic(() => import('../components/footer'))
 
 // import { NewsPaper } from '../components/homepage/NewsPaper';

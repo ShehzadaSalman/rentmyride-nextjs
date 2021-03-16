@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Slider from 'react-slick'
 
- const HiredPackageSlider = () => {
+ const HiredPackage = () => {
 
     var settingstwo = {
 		dots: false,
@@ -755,5 +755,5 @@ import Slider from 'react-slick'
 		
     )
 }
-
-export default HiredPackageSlider
+const HiredPackageSlider = React.memo(HiredPackage)
+export default HiredPackage
