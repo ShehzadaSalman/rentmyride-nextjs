@@ -1700,7 +1700,7 @@ height={100}
 							</div>
 						</div>
 			      {/* accordion */}
-				  <AccordionFAQ />
+				  {/* <AccordionFAQ /> */}
 				  {/* accordion ends here */}
 					</div>
 					<div className="col-sm-6 col-md-6">
@@ -1785,7 +1785,7 @@ height={100}
 		</div>
 	
 	   {/* Customer Review */}
-	    <CustomerReview/>
+	    {/* <CustomerReview/> */}
 		<div className="LuxuryWrrap">
 			<div className="heading">
 				<div className="container">
@@ -1933,7 +1933,7 @@ height={100}
 		</div>
 		{/* <!-- WhyChoose -->
 		<!-- footer --> */}
-        <Footer/>
+        {/* <Footer/> */}
 		{/* <!-- footer -->
 		<!--	Js Link
 			============================================================--> */}

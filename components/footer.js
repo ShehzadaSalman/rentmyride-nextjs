@@ -1,8 +1,16 @@
-import React from 'react'
 
-const Footer = () => {
-    return (
-		<footer>
+
+
+
+import React, { Component } from 'react'
+
+export default class Footer extends Component {
+    shouldComponentUpdate(){
+        return false;
+    }
+    render() {
+        return (
+            <footer>
 			<div className="container">
 				<div className="row">
 					<div className="col-sm-4 col-md-4">
@@ -77,6 +85,5 @@ const Footer = () => {
 			</div>
 		</footer>
         )
+    }
 }
-
-export default Footer;
