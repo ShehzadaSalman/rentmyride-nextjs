@@ -395,4 +395,4 @@ const CarPackageSlider = () => {
     )
 }
 
-export default React.memo(CarPackageSlider)
+export default CarPackageSlider

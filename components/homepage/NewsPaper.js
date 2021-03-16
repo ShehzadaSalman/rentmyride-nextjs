@@ -64,4 +64,4 @@ import Image from 'next/image'
 }
 
 
-export default React.memo(NewsPaper)
+export default NewsPaper

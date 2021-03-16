@@ -101,4 +101,4 @@ import Slider from 'react-slick'
     )
 }
 
-export default React.memo(CategorySlider)
+export default CategorySlider

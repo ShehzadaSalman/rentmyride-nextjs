@@ -104,4 +104,4 @@ height={100}
     )
 }
 
-export default React.memo(BrandSlider);
+export default BrandSlider;

@@ -755,5 +755,5 @@ import Slider from 'react-slick'
 		
     )
 }
-const HiredPackageSlider = React.memo(HiredPackage)
+
 export default HiredPackage
