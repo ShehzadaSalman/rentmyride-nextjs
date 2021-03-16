@@ -6,7 +6,7 @@ import React, { Component } from 'react'
 
 export default class Footer extends Component {
     shouldComponentUpdate(){
-        return false;
+        return true;
     }
     render() {
         return (
@@ -77,6 +77,7 @@ export default class Footer extends Component {
 						<div className="copy">
 							<p>
 								Copyrights (c) 2021 Rent Myride. All rights reserved.
+								
 								<a href="#">Privacy Policy</a>
 							</p>
 						</div>
