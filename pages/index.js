@@ -30,7 +30,7 @@ const Home = () => {
 			<ul>
 				<li>
 					<a href="tel:+971 55 550 5281">
-						{/* <FontAwesomeIcon icon={faPhone} className="mr-1"/> */}
+						<FontAwesomeIcon icon={faPhone} className="mr-1"/>
 						
 						 +971 55 550 5281  </a>
 				</li>
