@@ -2323,4 +2323,4 @@ height={100}
   )
 }
 
-export default  React.memo(HOME);
+export default HOME;
