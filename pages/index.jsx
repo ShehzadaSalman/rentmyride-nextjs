@@ -104,7 +104,15 @@ const HOME = () => {
 		<div className="header">
 			<div className="row">
 				<div className="col-sm-3 col-md-3 logo">
-					<a href="index.html"><img src="images/logo.png" /></a>
+					<a href="index.html">
+						{/* <img src="images/logo.png" /> */}
+						    <Image
+							src="/images/logo.png"
+							alt="logo"
+							width={217}
+							height={30}
+						/>
+					</a>
 					<a href="#" className="openNav"><i className="fa fa-bars"></i></a>
 				</div>
 				<div className="col-sm-9 col-md-9">
