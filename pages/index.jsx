@@ -616,15 +616,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -663,15 +678,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -710,15 +740,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -757,15 +802,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -804,15 +864,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -851,15 +926,30 @@ height={100}
 							</h5>
 							<ul>
 								<li>
-									<img src="images/icon1-min.png"/>
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2-min.png"/>
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3-min.png"/>
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
 									Automatic
 								</li>
 							</ul>
@@ -886,177 +976,6 @@ height={100}
 			
 				</div>
 			</div>
-	
-		{/* <!--Hired Cars -->
-		<!-- Offer -->
-		<!--<div className="lattestOffers">-->
-		<!--  <div className="heading">-->
-		<!--    <div className="container">-->
-		<!--      <div className="row">-->
-		<!--        <div className="col-sm-12 col-md-12">-->
-		<!--          <h2>Latest offers</h2>-->
-		<!--          <span><img src="images/border.png" /></span>-->
-		<!--        </div>-->
-		<!--      </div>-->
-		<!--    </div>-->
-		<!--  </div>-->
-		<!--  <div className="offersec">-->
-		<!--    <div className="offerWraps">-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer1.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer2.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer3.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer1.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer2.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--      <div className="offer">-->
-		<!--        <a href="#">-->
-		<!--          <figure>-->
-		<!--            <a href="single.html"><img src="images/offer3.png" /></a>-->
-		<!--          </figure>-->
-		<!--          <div className="offerdt">-->
-		<!--            <h5>Bentley Continental GT</h5>-->
-		<!--            <p>AED 2,800 / Day</p>-->
-		<!--            <ul>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon1.png" />-->
-		<!--                Seats 4-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon2.png" />-->
-		<!--                Doors 2-->
-		<!--              </li>-->
-		<!--              <li>-->
-		<!--                <img src="images/icon3.png" />-->
-		<!--                Automatic-->
-		<!--              </li>-->
-		<!--            </ul>-->
-		<!--          </div>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--    </div>-->
-		<!--  </div>-->
-		<!--</div>-->
-		<!-- Offers -->
-		<!-- Hired Cars --> */}
 		<div className="heading">
 			<div className="container">
 				<div className="row">
@@ -1158,15 +1077,274 @@ height={100}
 							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
 							<ul>
 								<li>
-									<img src="images/icon1.png" />
+    								<Image
+									src="/images/icon1-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={18}
+									/>
 									Seats 4
 								</li>
 								<li>
-									<img src="images/icon2.png" />
+								<Image
+									src="/images/icon2-min.png"
+									alt="Picture of the author"
+									width={15}
+									height={14}
+									/>
 									Doors 2
 								</li>
 								<li>
-									<img src="images/icon3.png" />
+								<Image
+								src="/images/icon3-min.png"
+								alt="Picture of the author"
+								width={15}
+								height={14}
+								/>
+									Automatic
+								</li>
+							</ul>
+							<p>Price : <span>AED 2,650 / Day</span></p>
+							<div className="fieldWr">
+								<label>
+								<input type="checkbox" name="" tabIndex="0"/>
+								<span>AED 3,000 Deposit</span>
+								</label>
+							</div>
+							<a href="single.html" className="book">Book Now</a>
+						</div>
+					</div>
+					<div className="carItem">
+						<figure>
+							<div
+								id="carousel-thumb"
+								className="carousel slide carousel-fade carousel-thumbnails"
+								data-ride="carousel">
+								<div className="carousel-inner" role="listbox">
+									<div className="carousel-item active">
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+								</div>
+								<ol className="carousel-indicators">
+									<li
+										data-target="#carousel-thumb"
+										data-slide-to="0"
+										className="active"
+										>
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+								</ol>
+							</div>
+						</figure>
+						<div className="offerdt">
+							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
+							<ul>
+								<li>
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
+									Seats 4
+								</li>
+								<li>
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
+									Doors 2
+								</li>
+								<li>
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
+									Automatic
+								</li>
+							</ul>
+							<p>Price : <span>AED 2,650 / Day</span></p>
+							<div className="fieldWr">
+								<label>
+								<input type="checkbox" name="" tabIndex="0"/>
+								<span>AED 3,000 Deposit</span>
+								</label>
+							</div>
+							<a href="single.html" className="book">Book Now</a>
+						</div>
+					</div>
+					<div className="carItem">
+						<figure>
+							<div
+								id="carousel-thumb"
+								className="carousel slide carousel-fade carousel-thumbnails"
+								data-ride="carousel">
+								<div className="carousel-inner" role="listbox">
+									<div className="carousel-item active">
+									<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+									<div className="carousel-item">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</div>
+								</div>
+								<ol className="carousel-indicators">
+									<li
+										data-target="#carousel-thumb"
+										data-slide-to="0"
+										className="active"
+										>
+												<Image
+							src="/images/cars/car1.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="1">
+									<Image
+							src="/images/cars/car2.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="2">
+									<Image
+							src="/images/cars/car3.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+									<li data-target="#carousel-thumb" data-slide-to="3">
+									<Image
+							src="/images/cars/car4.png"
+							alt="Picture of the author"
+							width={150}
+							height={150}
+							/>
+									</li>
+								</ol>
+							</div>
+						</figure>
+						<div className="offerdt">
+							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
+							<ul>
+								<li>
+								<Image
+							src="/images/icon1.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
+									Seats 4
+								</li>
+								<li>
+								<Image
+							src="/images/icon2.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
+									Doors 2
+								</li>
+								<li>
+								<Image
+							src="/images/icon3.png"
+							alt="Picture of the author"
+							width={15}
+							height={15}
+							/>
 									Automatic
 								</li>
 							</ul>
@@ -1390,8 +1568,8 @@ height={100}
 								<Image
 							src="/images/icon1.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Seats 4
 								</li>
@@ -1399,8 +1577,8 @@ height={100}
 								<Image
 							src="/images/icon2.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Doors 2
 								</li>
@@ -1408,8 +1586,8 @@ height={100}
 								<Image
 							src="/images/icon3.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Automatic
 								</li>
@@ -1512,8 +1690,8 @@ height={100}
 								<Image
 							src="/images/icon1.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Seats 4
 								</li>
@@ -1521,8 +1699,8 @@ height={100}
 								<Image
 							src="/images/icon2.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Doors 2
 								</li>
@@ -1530,252 +1708,8 @@ height={100}
 								<Image
 							src="/images/icon3.png"
 							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabIndex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel">
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-									<Image
-							src="/images/cars/car1.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car2.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car3.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car4.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb"
-										data-slide-to="0"
-										className="active"
-										>
-												<Image
-							src="/images/cars/car1.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="1">
-									<Image
-							src="/images/cars/car2.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="2">
-									<Image
-							src="/images/cars/car3.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="3">
-									<Image
-							src="/images/cars/car4.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-								<Image
-							src="/images/icon1.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Seats 4
-								</li>
-								<li>
-								<Image
-							src="/images/icon2.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Doors 2
-								</li>
-								<li>
-								<Image
-							src="/images/icon3.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Automatic
-								</li>
-							</ul>
-							<p>Price : <span>AED 2,650 / Day</span></p>
-							<div className="fieldWr">
-								<label>
-								<input type="checkbox" name="" tabIndex="0"/>
-								<span>AED 3,000 Deposit</span>
-								</label>
-							</div>
-							<a href="single.html" className="book">Book Now</a>
-						</div>
-					</div>
-					<div className="carItem">
-						<figure>
-							<div
-								id="carousel-thumb"
-								className="carousel slide carousel-fade carousel-thumbnails"
-								data-ride="carousel">
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
-									<Image
-							src="/images/cars/car1.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car2.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car3.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-									<div className="carousel-item">
-									<Image
-							src="/images/cars/car4.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</div>
-								</div>
-								<ol className="carousel-indicators">
-									<li
-										data-target="#carousel-thumb"
-										data-slide-to="0"
-										className="active"
-										>
-												<Image
-							src="/images/cars/car1.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="1">
-									<Image
-							src="/images/cars/car2.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="2">
-									<Image
-							src="/images/cars/car3.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-									<li data-target="#carousel-thumb" data-slide-to="3">
-									<Image
-							src="/images/cars/car4.png"
-							alt="Picture of the author"
-							width={150}
-							height={150}
-							/>
-									</li>
-								</ol>
-							</div>
-						</figure>
-						<div className="offerdt">
-							<h5><a href="single.html">Ferrari 488 GTB</a></h5>
-							<ul>
-								<li>
-								<Image
-							src="/images/icon1.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Seats 4
-								</li>
-								<li>
-								<Image
-							src="/images/icon2.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
-							/>
-									Doors 2
-								</li>
-								<li>
-								<Image
-							src="/images/icon3.png"
-							alt="Picture of the author"
-							width={40}
-							height={40}
+							width={15}
+							height={15}
 							/>
 									Automatic
 								</li>
@@ -1800,7 +1734,15 @@ height={100}
 		<!-- video --> */}
 		<div className="vedioWrap">
 			<div className="vimeo-wrapper"></div>
-			<div className="loaders"><img src="images/loader.gif" /></div>
+			<div className="loaders">
+				{/* <img src="images/loader.gif" /> */}
+				<Image
+					src="/images/loader.gif"
+					alt="loader"
+					width={48}
+					height={48}
+				/>
+			</div>
 			<a href="#" className="videobtn"><img src="images/videoicon.png" /></a>
 			<div className="container">
 				<div className="row">
@@ -1903,8 +1845,8 @@ height={100}
 						<Image
 								src="/images/mainCar.png"
 								alt="Picture of the author"
-								width={700}
-								height={700}
+								width={400}
+								height={500}
 							/>
 						
 						</div>
@@ -1931,8 +1873,8 @@ height={100}
 							    <Image
 								src="/images/gulf_news_png.png"
 								alt="Picture of the author"
-								width={200}
-								height={200}
+								width={100}
+								height={100}
 							    />	
 							</a>
 						</div>
@@ -1943,8 +1885,8 @@ height={100}
 							 <Image
 								src="/images/the_national_png.png"
 								alt="Picture of the author"
-								width={200}
-								height={200}
+								width={100}
+								height={100}
 							    />	
 							</a>
 						</div>
@@ -1955,8 +1897,8 @@ height={100}
 								<Image
 								src="/images/time_out_png.png"
 								alt="Picture of the author"
-								width={200}
-								height={200}
+								width={100}
+								height={100}
 							    />
 							
 							</a>
@@ -1968,8 +1910,8 @@ height={100}
 								<Image
 								src="/images/ahlan.jpg"
 								alt="Picture of the author"
-								width={200}
-								height={200}
+								width={100}
+								height={100}
 							    />
 						
 							</a>
@@ -2006,7 +1948,13 @@ height={100}
 								</p>
 							</figure>
 							<div className="bottomD">
-								<img src="images/user.png" />
+							    <Image
+								src="/images/user.png"
+								alt="Picture of the author"
+								width={60}
+								height={60}
+							    />
+							
 								<h3>
 									Robert Chaney
 									<span
@@ -2031,7 +1979,12 @@ height={100}
 								</p>
 							</figure>
 							<div className="bottomD">
-								<img src="images/user.png" />
+							<Image
+								src="/images/user.png"
+								alt="Picture of the author"
+								width={60}
+								height={60}
+							    />
 								<h3>
 									Robert Chaney
 									<span
@@ -2056,7 +2009,12 @@ height={100}
 								</p>
 							</figure>
 							<div className="bottomD">
-								<img src="images/user.png" />
+							<Image
+								src="/images/user.png"
+								alt="Picture of the author"
+								width={60}
+								height={60}
+							    />
 								<h3>
 									Robert Chaney
 									<span
@@ -2081,7 +2039,12 @@ height={100}
 								</p>
 							</figure>
 							<div className="bottomD">
-								<img src="images/user.png" />
+							<Image
+								src="/images/user.png"
+								alt="Picture of the author"
+								width={60}
+								height={60}
+							    />
 								<h3>
 									Robert Chaney
 									<span
@@ -2106,7 +2069,12 @@ height={100}
 								</p>
 							</figure>
 							<div className="bottomD">
-								<img src="images/user.png" />
+							<Image
+								src="/images/user.png"
+								alt="Picture of the author"
+								width={60}
+								height={60}
+							    />
 								<h3>
 									Robert Chaney
 									<span
@@ -2200,8 +2168,8 @@ height={100}
 						<Image
 							src="/images/landrover.png"
 							alt="Picture of the author"
-							width={700}
-							height={450}
+							width={500}
+							height={350}
 						/>
 					</div>
 				</div>
