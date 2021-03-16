@@ -1,6 +1,13 @@
-import React from 'react'
-
+import React, {useState} from 'react'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
  const SearchForm = () => {
+
+    const [toggleForm, setToggleForm] = useState(true);
+
+    const [startDate, setStartDate] = useState(new Date());
+
+
     return (
         <div className="searchForm">
         <div className="container">
@@ -8,18 +15,19 @@ import React from 'react'
                 <div className="col-sm-12 col-md-12">
                     <div className="searchTabs">
                         <div id="tabs">
-                            <ul>
-                                <li>
-                                    <a href="#tabs-1">
-                                    <i className="fa fa-search"></i>Find a Car</a
-                                        >
+                            <ul className="d-flex">
+                                <li className="">
+                                    <a className="position-relative" onClick={() => setToggleForm(true)}>
+                                    <i className="fa fa-search"></i>Find a Car</a>
                                 </li>
-                                <li>
-                                    <a href="#tabs-2">
-                                    <i className="fa fa-search"></i>Find Limo & Chauffeur</a
-                                        >
+                                <li className="">
+                                    <a className="position-relative" onClick={() => setToggleForm(false)}>
+                                    <i className="fa fa-search"></i>Find Limo & Chauffeur</a>
                                 </li>
                             </ul>
+
+                            { toggleForm 
+                            ? <>
                             <div id="tabs-1" className="formDetails">
                                 <div className="rows">
                                     <div className="formOptions">
@@ -46,21 +54,23 @@ import React from 'react'
                                         <div className="fieldset">
                                             <div className="fields">
                                                 <i className="fa fa-calendar"></i>
-                                                <input
+                                                <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+                                                {/* <input
                                                     className="datepicker"
                                                     type="text"
                                                     name=""
                                                     placeholder="From Date"
-                                                    />
+                                                    /> */}
                                             </div>
                                             <div className="fields">
                                                 <i className="fa fa-calendar"></i>
-                                                <input
+                                                {/* <input
                                                     type="text"
                                                     className="datepicker"
                                                     name=""
                                                     placeholder="To Date"
-                                                    />
+                                                    /> */}
+                                                     <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
                                             </div>
                                         </div>
                                         <div className="fieldset">
@@ -89,7 +99,10 @@ import React from 'react'
                                     </div>
                                 </div>
                             </div>
-                            <div id="tabs-2" className="formDetails">
+                            
+                            </>
+                            : <>
+                                        <div id="tabs-2" className="formDetails">
                                 <div className="rows">
                                     <div className="formOptions">
                                         <h3>LET'S FIND YOUR IDEAL LIMOUSINE:</h3>
@@ -172,6 +185,9 @@ import React from 'react'
                                     </div>
                                 </div>
                             </div>
+                
+                            
+                            </> }
                         </div>
                     </div>
                 </div>

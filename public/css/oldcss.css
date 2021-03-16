@@ -4906,7 +4906,26 @@ carItem:hover figure .carousel-inner img {
     padding: 10px 15px;
     color: #B3B3B3;
 }
-.searchTabs div#tabs .formDetails .formOptions .fields button {
+
+.searchTabs div#tabs .active{
+    box-shadow: 0px -1px 8px -2px #b9b9b9;
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -7px;
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid #ff0000;
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-left: 10px solid rgba(0, 0, 0, 0);
+ 
+}
+
+.searchTabs div#tabs ul li.ui-state-active a, .searchTabs div#tabs ul li a.active {
+    box-shadow: 0px -1px 8px -2px #b9b9b9;
+}
+
+
+/* .searchTabs div#tabs .formDetails .formOptions .fields button {
     background: #FF0000;
     color: #fff;
     font-size: 14px;
@@ -4919,7 +4938,7 @@ carItem:hover figure .carousel-inner img {
     font-weight: bold;
     display: block;
     width: 100%;
-}
+} */
 .carItem:hover figure .carousel-inner img {
     -webkit-transform: unset !important;
     -moz-transform: unset !important;
