@@ -59,16 +59,19 @@ const Home = () => {
 			<ul>
 				<li>
 					<a href="tel:+971 55 550 5281">
+					<i class="fa fa-phone"></i>
 						{/* <FontAwesomeIcon icon={faPhone} className="mr-1"/> */}
 						
 						 +971 55 550 5281  </a>
 				</li>
 				<li>
 					<a href="mailto:info@rentmyride.ae">
+					<i class="fa fa-envelope"></i>
 						{/* <FontAwesomeIcon icon={faEnvelope} className="mr-1"/> */}
 						 info@rentmyride.ae</a>
 				</li>
 				<li>
+				<i class="fa fa-coins"></i>
 					{/* <FontAwesomeIcon icon={faCoins} className="mr-1"/> */}
 					<select>
 						<option>AED</option>
@@ -76,6 +79,7 @@ const Home = () => {
 				</li>
 				<li>
 					<a href="login.html">
+					<i class="fa fa-user"></i>
 						{/* <FontAwesomeIcon icon={faUser} className="mr-1"/> */}
 						 Login</a>
 				</li>
