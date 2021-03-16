@@ -6,6 +6,7 @@ import Slider from 'react-slick'
 		dots: false,
 		infinite: true,
 		speed: 500,
+        lazyLoad: true,
 		slidesToShow: 5,
 		slidesToScroll: 1
 	  };

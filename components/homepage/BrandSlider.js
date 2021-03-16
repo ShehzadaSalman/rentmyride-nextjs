@@ -7,7 +7,8 @@ import Slider from 'react-slick'
 		dots: false,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 5,
+		slidesToShow: 6,
+        lazyLoad: true,
 		slidesToScroll: 1
 	  };
 
@@ -16,8 +17,12 @@ import Slider from 'react-slick'
 
     return (
         <div className="brandsWrap">
+
+
+<div className="images px-3">
 <Slider {...settings}>
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  <Image
@@ -28,8 +33,8 @@ height={100}
 />
 </a>
 </figure>
-</div>
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  {/* <Slider {...settings}> */}
@@ -41,9 +46,9 @@ height={100}
 />
 </a>
 </figure>
-</div>
 
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  {/* <Slider {...settings}> */}
@@ -55,9 +60,9 @@ height={100}
 />
 </a>
 </figure>
-</div>
 
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  {/* <Slider {...settings}> */}
@@ -69,9 +74,9 @@ height={100}
 />
 </a>
 </figure>
-</div>
 
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  <Image
@@ -82,9 +87,9 @@ height={100}
 />
 </a>
 </figure>
-</div>
 
-<div className="images">
+
+
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  <Image
@@ -95,10 +100,22 @@ height={100}
 />
 </a>
 </figure>
-</div>
+
+
+<figure>
+<a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
+ <Image
+src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
+alt="Picture of the author"
+width={100}
+height={100}
+/>
+</a>
+</figure>
+
  </Slider>
+ </div>
 
-	
 		</div>
 
     )
