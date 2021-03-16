@@ -3,8 +3,8 @@ import  Head from 'next/head'
 import $ from 'jquery'
 import {useEffect } from 'react'
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
 
 
@@ -81,20 +81,25 @@ const HOME = () => {
 			<ul>
 				<li>
 					<a href="tel:+971 55 550 5281">
-						<FontAwesomeIcon icon={faPhone} className="mr-1"/>
+						{/* <FontAwesomeIcon icon={faPhone} className="mr-1"/> */}
 						
 						 +971 55 550 5281  </a>
 				</li>
 				<li>
-					<a href="mailto:info@rentmyride.ae"><FontAwesomeIcon icon={faEnvelope} className="mr-1"/> info@rentmyride.ae</a>
+					<a href="mailto:info@rentmyride.ae">
+						{/* <FontAwesomeIcon icon={faEnvelope} className="mr-1"/> */}
+						 info@rentmyride.ae</a>
 				</li>
-				<li><FontAwesomeIcon icon={faCoins} className="mr-1"/>
+				<li>
+					{/* <FontAwesomeIcon icon={faCoins} className="mr-1"/> */}
 					<select>
 						<option>AED</option>
 					</select>
 				</li>
 				<li>
-					<a href="login.html"><FontAwesomeIcon icon={faUser} className="mr-1"/> Login</a>
+					<a href="login.html">
+						{/* <FontAwesomeIcon icon={faUser} className="mr-1"/> */}
+						 Login</a>
 				</li>
 			</ul>
 			<a href="#" className="plus"></a>
