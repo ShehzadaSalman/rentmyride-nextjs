@@ -2150,7 +2150,7 @@ height={100}
 							<figure>
 								<img src="images/quote.png" />
 								<p>
-									My ride recommended the Lamborghini Huracan. It was delivered
+								amborghini Huracan. It was delivered
 									to my Hotel by two lovely women, who I assumed were models.
 									All of the documents were straight forward and in English.
 								</p>
