@@ -1,4 +1,5 @@
 
+export const config = { amp: 'hybrid' }
 import  Head from 'next/head'
 import $ from 'jquery'
 import {useEffect } from 'react'
