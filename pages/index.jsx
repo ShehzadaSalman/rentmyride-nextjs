@@ -7,9 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
 
-export const config = {
-	unstable_runtimeJS: false
-}
 
 const HOME = () => {
 	var settings = {
@@ -1907,64 +1904,6 @@ height={100}
 				</div>
 			</div>
 		</div>
-		{/* <!-- faq --> */}
-		{/* <!-- areas 
-			<div className="heading">
-			  <div className="container">
-			    <div className="row">
-			      <div className="col-sm-12 col-md-12">
-			        <h6>OUR FEATURED DESTINATIONS</h6>
-			        <h2>Featured Areas</h2>
-			        <span><img src="images/border.png" /></span>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-			
-			<div className="destinations">
-			  <div className="container">
-			    <div className="desticnt">
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">Dubai</a></h3>
-			      </div>
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">ABU DHABI</a></h3>
-			      </div>
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">Sharjah</a></h3>
-			      </div>
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">Dubai</a></h3>
-			      </div>
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">ABU DHABI</a></h3>
-			      </div>
-			      <div className="desti">
-			        <figure>
-			          <img src="images/dubai.png" />
-			        </figure>
-			        <h3><a href="#">Sharjah</a></h3>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-			areas --> */}
-		{/* <!-- News --> */}
 		<div className="heading">
 			<div className="container">
 				<div className="row">
@@ -2018,7 +1957,6 @@ height={100}
 					<div className="col-6 col-sm-3 col-md-3">
 						<div className="newss">
 							<a href="#">
-								{/* <img src="images/ahlan.jpg" /> */}
 								<Image
 								src="/images/ahlan.jpg"
 								alt="Picture of the author"
@@ -2342,11 +2280,7 @@ height={100}
 								Minutes anywhere in Dubai.
 							</p>
 							<div className="pym">
-								{/* <img src="images/payment/img1.png" />
-								<img src="images/payment/img2.png" />
-								<img src="images/payment/img3.png" />
-								<img src="images/payment/img4.png" />
-								<img src="images/payment/img5.png" /> */}
+			
 							</div>
 						</div>
 					</div>
