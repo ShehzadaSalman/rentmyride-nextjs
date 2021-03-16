@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Slider from "react-slick";
 
 
-const HOME = () => {
+const Home = () => {
 	var settings = {
 		dots: false,
 		infinite: true,
@@ -386,41 +386,6 @@ height={100}
 </figure>
 </div>
  </Slider>
-	  	{/* <Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-	  	<Image
-        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Brand/Dodge-RentMyRide.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      /> */}
-
-
-						
-			
-			
 
 	
 		</div>
@@ -2321,4 +2286,4 @@ height={100}
   )
 }
 
-export default  React.memo(HOME);
+export default Home;
