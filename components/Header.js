@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-export const Header = () => {
+const Header = () => {
     return (
 <div className="header">
 			<div className="row">
@@ -35,3 +35,5 @@ export const Header = () => {
 		
     )
 }
+
+export default Header;

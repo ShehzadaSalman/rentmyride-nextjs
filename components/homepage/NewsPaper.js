@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export const NewsPaper = () => {
+ const NewsPaper = () => {
     return (
 		<div className="newspaprs">
 			<div className="container">
@@ -62,3 +62,5 @@ export const NewsPaper = () => {
 
     )
 }
+
+export default NewsPaper

@@ -1,20 +1,40 @@
 
 import  Head from 'next/head'
+import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Slider from "react-slick";
-import Footer from '../components/footer';
+// import Footer from '../components/footer';
 import CustomerReview from '../components/customer-review';
-import {AccordionFAQ} from '../components/AccordionFAQ'
-import { VideoSection } from '../components/VideoSection';
-import { LuxuryWraps } from '../components/LuxuryWraps';
-import { WhyChoosUs } from '../components/WhyChoosUs';
-import { SearchForm } from '../components/SearchForm';
-import { Header } from '../components/Header';
-import { BrandSlider } from '../components/homepage/BrandSlider';
-import { CategorySlider } from '../components/homepage/CategorySlider';
-import { CarPackageSlider } from '../components/homepage/CarPackageSlider';
-import { HiredPackageSlider } from '../components/homepage/HiredPackageSlider';
-import { NewsPaper } from '../components/homepage/NewsPaper';
+// import AccordionFAQ from '../components/AccordionFAQ'
+// import { VideoSection } from '../components/VideoSection';
+// import { LuxuryWraps } from '../components/LuxuryWraps';
+// import { WhyChoosUs } from '../components/WhyChoosUs';
+// import { SearchForm } from '../components/SearchForm';
+// import { Header } from '../components/Header';
+// import { BrandSlider } from '../components/homepage/BrandSlider';
+// import { CategorySlider } from '../components/homepage/CategorySlider';
+// import { CarPackageSlider } from '../components/homepage/CarPackageSlider';
+// import { HiredPackageSlider } from '../components/homepage/HiredPackageSlider';
+
+// dynamic imports 
+const AccordionFAQ = dynamic(() => import('../components/AccordionFAQ'))
+const VideoSection = dynamic(() => import('../components/VideoSection'))
+const NewsPaper = dynamic(() => import('../components/homepage/NewsPaper'))
+
+const LuxuryWraps = dynamic(() => import('../components/LuxuryWraps'))
+const WhyChoosUs = dynamic(() => import('../components/WhyChoosUs'))
+const SearchForm = dynamic(() => import('../components/SearchForm'))
+
+const Header = dynamic(() => import('../components/Header'))
+const BrandSlider= dynamic(() => import('../components/homepage/BrandSlider'))
+const CategorySlider = dynamic(() => import('../components/homepage/CategorySlider'))
+
+const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'))
+const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
+
+const Footer = dynamic(() => import('../components/footer'))
+
+// import { NewsPaper } from '../components/homepage/NewsPaper';
 
 
 const Home = () => {

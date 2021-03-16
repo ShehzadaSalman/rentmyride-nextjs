@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const LuxuryWraps = () => {
+ const LuxuryWraps = () => {
     return (
         <div className="LuxuryWrrap">
         <div className="heading">
@@ -50,3 +50,5 @@ export const LuxuryWraps = () => {
 
     )
 }
+
+export default LuxuryWraps

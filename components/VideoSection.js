@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-export const VideoSection = () => {
+const VideoSection = () => {
     return (
         <div className="vedioWrap">
         <div className="vimeo-wrapper"></div>
@@ -34,3 +34,5 @@ export const VideoSection = () => {
 
     )
 }
+
+export default VideoSection

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Slider from 'react-slick'
-export const BrandSlider = () => {
+ const BrandSlider = () => {
 
 	var settings = {
 		dots: false,
@@ -103,3 +103,5 @@ height={100}
 
     )
 }
+
+export default BrandSlider;

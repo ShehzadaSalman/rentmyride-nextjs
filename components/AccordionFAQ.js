@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AccordionFAQ = () => {
+const AccordionFAQ = () => {
     return (
         <div id="accordion">
         <h3 className="acrdBtn ui-state-active">
@@ -67,3 +67,5 @@ export const AccordionFAQ = () => {
 
     )
 }
+
+export default AccordionFAQ

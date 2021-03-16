@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-export const WhyChoosUs = () => {
+const WhyChoosUs = () => {
     return (
         <div className="chooseUs">
         <div className="row">
@@ -103,3 +103,5 @@ export const WhyChoosUs = () => {
 
     )
 }
+
+export default WhyChoosUs

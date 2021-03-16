@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Slider from 'react-slick'
 
-export const CarPackageSlider = () => {
+const CarPackageSlider = () => {
 
     var settingstwo = {
 		dots: false,
@@ -11,7 +11,7 @@ export const CarPackageSlider = () => {
 		slidesToShow: 3,
 		slidesToScroll: 1
 	  };
-      
+
     return (
         <div className="hiredCarss">
         <Slider {...settingstwo}>
@@ -394,3 +394,5 @@ export const CarPackageSlider = () => {
 
     )
 }
+
+export default CarPackageSlider

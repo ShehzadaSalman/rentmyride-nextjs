@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const SearchForm = () => {
+ const SearchForm = () => {
     return (
         <div className="searchForm">
         <div className="container">
@@ -181,3 +181,5 @@ export const SearchForm = () => {
 
     )
 }
+
+export default SearchForm

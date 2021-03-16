@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Slider from 'react-slick'
 
-export const HiredPackageSlider = () => {
-    
+ const HiredPackageSlider = () => {
+
     var settingstwo = {
 		dots: false,
 		infinite: true,
@@ -755,3 +755,5 @@ export const HiredPackageSlider = () => {
 		
     )
 }
+
+export default HiredPackageSlider
