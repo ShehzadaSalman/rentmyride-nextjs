@@ -27,55 +27,6 @@ const HOME = () => {
 
   return (<>
 
-  <Head>
-  </Head>
-	{/* <head> */}
-{/* 
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-			/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="description" content="RentMYRIDE" />
-		<meta name="keywords" content="" />
-		<meta name="author" content="Unicoder" />
-	
-		<link rel="shortcut icon" href="images/favicon.png" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-			rel="stylesheet"
-			/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-			rel="stylesheet"
-			/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-			rel="stylesheet"
-			/>
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous"
-			/> */}
-      {/* CSS links */}
-		{/* <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css" />
-		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" /> */}
-		{/* <link
-			rel="stylesheet"
-			type="text/css"
-			href="css/jquery.datetimepicker.min.css"
-			/>
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type ="text/css" href="css/newcustom.css"/>
-	 */}
-		{/* <title>RentMYRIDE</title> */}
-	{/* </head> */}
-
 		{/* <!-- Top Bar --> */}
 		<div className="topBar">
 			<ul>
