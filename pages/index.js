@@ -1,7 +1,8 @@
 
 import  Head from 'next/head'
+import React from 'react'
 import $ from 'jquery'
-import {useEffect } from 'react'
+import {useEffect, useMemo } from 'react'
 import Image from 'next/image'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -2322,4 +2323,4 @@ height={100}
   )
 }
 
-export default HOME;
+export default  React.memo(HOME);
