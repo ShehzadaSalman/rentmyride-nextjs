@@ -1,5 +1,4 @@
 
-export const config = { amp: 'hybrid' }
 import  Head from 'next/head'
 import $ from 'jquery'
 import {useEffect } from 'react'
@@ -7,6 +6,10 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
+
+export const config = {
+	unstable_runtimeJS: false
+}
 
 const HOME = () => {
 	var settings = {
