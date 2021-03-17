@@ -228,6 +228,9 @@ body {
     color: #df2a2a;
     margin-right: 10px;
 }
+.mainColor{
+    color: #df2a2a;
+}
 
 .searchTabs div#tabs ul li.ui-state-active a, .searchTabs div#tabs ul li:hover a {
     box-shadow: 0px -1px 8px -2px #b9b9b9;
@@ -318,7 +321,7 @@ body {
 .searchTabs div#tabs .formDetails .formOptions h3 small {
     font-size: 12px;
     font-weight: 400;
-    float: right;
+    padding-left: 10px;
     text-transform: capitalize;
 }
 

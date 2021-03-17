@@ -3,6 +3,8 @@ import  Head from 'next/head'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Slider from "react-slick";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 // import Footer from '../components/footer';
 import CustomerReview from '../components/customer-review';
 // import AccordionFAQ from '../components/AccordionFAQ'
@@ -27,7 +29,6 @@ const SearchForm = dynamic(() => import('../components/SearchForm'))
 const Header = dynamic(() => import('../components/Header'))
 const BrandSlider= dynamic(() => import('../components/homepage/BrandSlider'))
 const CategorySlider = dynamic(() => import('../components/homepage/CategorySlider'))
-
 const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'))
 const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
 const Footer = dynamic(() => import('../components/footer'))
@@ -59,20 +60,20 @@ const Home = () => {
 			<ul>
 				<li>
 					<a href="tel:+971 55 550 5281">
-					<i class="fa fa-phone"></i>
-						{/* <FontAwesomeIcon icon={faPhone} className="mr-1"/> */}
+					{/* <i class="fa fa-phone"></i> */}
+						<FontAwesomeIcon icon={faPhone} className="mr-1"/>
 						
 						 +971 55 550 5281  </a>
 				</li>
 				<li>
 					<a href="mailto:info@rentmyride.ae">
-					<i class="fa fa-envelope"></i>
-						{/* <FontAwesomeIcon icon={faEnvelope} className="mr-1"/> */}
+					{/* <i class="fa fa-envelope"></i> */}
+						<FontAwesomeIcon icon={faEnvelope} className="mr-1"/>
 						 info@rentmyride.ae</a>
 				</li>
 				<li>
-				<i class="fa fa-coins"></i>
-					{/* <FontAwesomeIcon icon={faCoins} className="mr-1"/> */}
+				{/* <i class="fa fa-coins"></i> */}
+					<FontAwesomeIcon icon={faCoins} className="mr-1"/>
 					<select>
 						<option>AED</option>
 					</select>
@@ -80,7 +81,7 @@ const Home = () => {
 				<li>
 					<a href="login.html">
 					<i class="fa fa-user"></i>
-						{/* <FontAwesomeIcon icon={faUser} className="mr-1"/> */}
+						<FontAwesomeIcon icon={faUser} className="mr-1"/>
 						 Login</a>
 				</li>
 			</ul>

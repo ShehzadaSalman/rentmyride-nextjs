@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-svg-icons'
  const SearchForm = () => {
 
     const [toggleForm, setToggleForm] = useState(true);
@@ -18,17 +20,19 @@ import "react-datepicker/dist/react-datepicker.css";
                             <ul className="d-flex">
                                 <li className="">
                                     <a className="position-relative" onClick={() => setToggleForm(true)}>
-                                    <i className="fa fa-search"></i>Find a Car</a>
+                                    <FontAwesomeIcon icon={faSearch} className="mainColor mr-1"/>
+                                    Find a Car</a>
                                 </li>
                                 <li className="">
                                     <a className="position-relative" onClick={() => setToggleForm(false)}>
-                                    <i className="fa fa-search"></i>Find Limo & Chauffeur</a>
+                                    <FontAwesomeIcon icon={faSearch} className="mainColor mr-1"/>
+                                    Find Limo & Chauffeur</a>
                                 </li>
                             </ul>
 
                             { toggleForm 
                             ? <>
-                            <div id="tabs-1" className="formDetails">
+                            <div id="tabs-1" className="formDetails px-3">
                                 <div className="rows">
                                     <div className="formOptions">
                                         <h3>LET'S FIND YOUR IDEAL CAR:</h3>
@@ -52,30 +56,21 @@ import "react-datepicker/dist/react-datepicker.css";
                                             <small>Minimum 1 day, Maximum 30 days</small>
                                         </h3>
                                         <div className="fieldset">
-                                            <div className="fields">
-                                                <i className="fa fa-calendar"></i>
-                                                <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
-                                                {/* <input
-                                                    className="datepicker"
-                                                    type="text"
-                                                    name=""
-                                                    placeholder="From Date"
-                                                    /> */}
+                                            <div className="fields ">
+                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            style={{zIndex: 1 }} />
+                                            <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                             <div className="fields">
-                                                <i className="fa fa-calendar"></i>
-                                                {/* <input
-                                                    type="text"
-                                                    className="datepicker"
-                                                    name=""
-                                                    placeholder="To Date"
-                                                    /> */}
-                                                     <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
+                                            <FontAwesomeIcon icon={faCalendar}  color="#b3b3b3" className="m-2 position-absolute"
+                                             style={{zIndex: 1 }}/>
+                                            <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
                                             </div>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                                <i className="fa fa-clock"></i>
+                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                      
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -84,7 +79,7 @@ import "react-datepicker/dist/react-datepicker.css";
                                                     />
                                             </div>
                                             <div className="fields">
-                                                <i className="fa fa-clock"></i>
+                                            <FontAwesomeIcon icon={faClock}  color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -102,7 +97,7 @@ import "react-datepicker/dist/react-datepicker.css";
                             
                             </>
                             : <>
-                                        <div id="tabs-2" className="formDetails">
+                                        <div id="tabs-2" className="formDetails px-3">
                                 <div className="rows">
                                     <div className="formOptions">
                                         <h3>LET'S FIND YOUR IDEAL LIMOUSINE:</h3>
@@ -128,40 +123,34 @@ import "react-datepicker/dist/react-datepicker.css";
                                         <div className="searchtype">
                                             <label>
                                             <input type="radio" name="type" />
-                                            <span><i className="fa fa-check"></i>Hourly</span>
+                                            <span>
+                                            <FontAwesomeIcon icon={faCheck} className="mr-1"/>
+                                            Hourly</span>
                                             </label>
                                             <label>
                                             <input type="radio" name="type" />
-                                            <span><i className="fa fa-check"></i>Daily</span>
+                                            <span><FontAwesomeIcon icon={faCheck} className="mr-1"/>Daily</span>
                                             </label>
                                             <label>
                                             <input type="radio" name="type" />
-                                            <span><i className="fa fa-check"></i>Weekly</span>
+                                            <span>   <FontAwesomeIcon icon={faCheck} className="mr-1"/>Weekly</span>
                                             </label>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                                <i className="fa fa-calendar"></i>
-                                                <input
-                                                    className="datepicker"
-                                                    type="text"
-                                                    name=""
-                                                    placeholder="From Date"
-                                                    />
+                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            style={{zIndex: 1 }} />
+                                            <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                             <div className="fields">
-                                                <i className="fa fa-calendar"></i>
-                                                <input
-                                                    type="text"
-                                                    className="datepicker"
-                                                    name=""
-                                                    placeholder="To Date"
-                                                    />
+                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            style={{zIndex: 1 }} />
+                                             <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                                <i className="fa fa-clock"></i>
+                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -170,7 +159,7 @@ import "react-datepicker/dist/react-datepicker.css";
                                                     />
                                             </div>
                                             <div className="fields">
-                                                <i className="fa fa-clock"></i>
+                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
