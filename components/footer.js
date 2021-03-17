@@ -3,6 +3,10 @@
 
 
 import React, { Component } from 'react'
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
+import {faFacebookF, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 export default class Footer extends Component {
     shouldComponentUpdate(){
@@ -15,7 +19,13 @@ export default class Footer extends Component {
 				<div className="row">
 					<div className="col-sm-4 col-md-4">
 						<div className="widget">
-							<img src="images/logo.png" />
+					     	<Image
+							src="/images/logo.png"
+							alt="logo"
+							width={217}
+							height={30}
+						    />
+							{/* <img src="images/logo.png" /> */}
 							<p>
 								Myride Middle East DMCC is one stop for Luxury Car Rental Dubai
 								& Limousine hiring in Dubai, where an individual can Select,
@@ -31,13 +41,13 @@ export default class Footer extends Component {
 						<div className="widget">
 							<h4>Contact <img src="images/border.png" /></h4>
 							<ul>
-								<li><i className="fa fa-phone"></i>+971 4566 7048</li>
-								<li><i className="fa fa-phone"></i>+971 5555 05281</li>
-								<li><i className="fa fa-phone"></i>+971 5555 05281</li>
-								<li><i className="fa fa-envelope"></i>info@myride.ae</li>
-								<li><i className="fa fa-envelope"></i>support@myride.ae</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" />+971 4566 7048</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1"  />+971 5555 05281</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" />+971 5555 05281</li>
+								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1" />info@myride.ae</li>
+								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1" />upport@myride.ae</li>
 								<li>
-									<i className="fa fa-map-marker"></i>Jumeirah Lake Towers, Dubai.
+								<FontAwesomeIcon icon={faMapMarker} className="mr-1" />Jumeirah Lake Towers, Dubai.
 								</li>
 							</ul>
 						</div>
@@ -65,12 +75,13 @@ export default class Footer extends Component {
 					</div>
 					<div className="col-sm-12 col-md-12">
 						<div className="social">
-							<a href="#"><i className="fab fa-twitter"></i></a>
-							<a href="#"><i className="fab fa-facebook-f"></i></a>
-							<a href="#"><i className="fab fa-linkedin-in"></i></a>
-							<a href="#"><i className="fab fa-google-plus"></i></a>
-							<a href="#"><i className="fab fa-pinterest"></i></a>
-							<a href="#"><i className="fab fa-youtube"></i></a>
+							<a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
+							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+							<a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+							{/* 
+							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a> */}
 						</div>
 					</div>
 					<div className="col-sm-12 col-md-12">

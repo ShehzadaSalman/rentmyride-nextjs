@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
     return (
 <div className="header">
 			<div className="row">
 				<div className="col-sm-3 col-md-3 logo">
 					<a href="index.html">
-						{/* <img src="images/logo.png" /> */}
 						    <Image
 							src="/images/logo.png"
 							alt="logo"
@@ -14,11 +15,15 @@ const Header = () => {
 							height={30}
 						/>
 					</a>
-					<a href="#" className="openNav"><i className="fa fa-bars"></i></a>
+					<a href="#" className="openNav">
+					<FontAwesomeIcon icon={faBars}  fixedWidth />
+					</a>
 				</div>
 				<div className="col-sm-9 col-md-9">
 					<nav>
-						<a href="#" className="closeNav"><i className="fa fa-times"></i></a>
+						<a href="#" className="closeNav">
+						<FontAwesomeIcon icon={faTimes}  fixedWidth />
+							</a>
 						<ul className="navbar">
 							<li><a href="index.html" className="active">Home</a></li>
 							<li><a href="car_rental.html">Car rental </a></li>

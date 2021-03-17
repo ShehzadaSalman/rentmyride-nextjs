@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCar, faCalendar} from '@fortawesome/free-solid-svg-icons'
+
 const WhyChoosUs = () => {
     return (
         <div className="chooseUs">
@@ -27,8 +30,8 @@ const WhyChoosUs = () => {
                     <Image
                         src="/images/landrover.png"
                         alt="Picture of the author"
-                        width={500}
-                        height={350}
+                        width={420}
+                        height={225}
                     />
                 </div>
             </div>
@@ -38,6 +41,7 @@ const WhyChoosUs = () => {
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
                                 <i className="fa fa-car"></i>
+                                <FontAwesomeIcon icon={faCar} size="2x" />
                                 <h5>Luxurious Car</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -47,7 +51,7 @@ const WhyChoosUs = () => {
                         </div>
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
-                                <i className="fa fa-calendar"></i>
+                            <FontAwesomeIcon icon={faCalendar} size="2x" />
                                 <h5>Book within Minutes</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed

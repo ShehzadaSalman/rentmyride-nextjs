@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 // import Footer from '../components/footer';
 import CustomerReview from '../components/customer-review';
+import NewBrandSlider from '../components/homepage/NewBrandSlider';
 // import AccordionFAQ from '../components/AccordionFAQ'
 // import { VideoSection } from '../components/VideoSection';
 // import { LuxuryWraps } from '../components/LuxuryWraps';
@@ -61,19 +62,19 @@ const Home = () => {
 				<li>
 					<a href="tel:+971 55 550 5281">
 					{/* <i class="fa fa-phone"></i> */}
-						<FontAwesomeIcon icon={faPhone} className="mr-1"/>
+						<FontAwesomeIcon icon={faPhone} className="mr-1"  fixedWidth/>
 						
 						 +971 55 550 5281  </a>
 				</li>
 				<li>
 					<a href="mailto:info@rentmyride.ae">
 					{/* <i class="fa fa-envelope"></i> */}
-						<FontAwesomeIcon icon={faEnvelope} className="mr-1"/>
+						<FontAwesomeIcon icon={faEnvelope} className="mr-1"  fixedWidth/>
 						 info@rentmyride.ae</a>
 				</li>
 				<li>
 				{/* <i class="fa fa-coins"></i> */}
-					<FontAwesomeIcon icon={faCoins} className="mr-1"/>
+					<FontAwesomeIcon icon={faCoins} className="mr-1"  fixedWidth/>
 					<select>
 						<option>AED</option>
 					</select>
@@ -81,7 +82,7 @@ const Home = () => {
 				<li>
 					<a href="login.html">
 					<i class="fa fa-user"></i>
-						<FontAwesomeIcon icon={faUser} className="mr-1"/>
+						<FontAwesomeIcon icon={faUser} className="mr-1"  fixedWidth/>
 						 Login</a>
 				</li>
 			</ul>
@@ -132,8 +133,9 @@ const Home = () => {
 			</div>
 		</div>
 		{/* <!-- Brands -->*/}
-		<BrandSlider/>
-	
+		{/* <BrandSlider/> */}
+		<NewBrandSlider/>
+		{/* <CategorySlider/> */}
 		<div className="heading">
 			<div className="container">
 				<div className="row">
