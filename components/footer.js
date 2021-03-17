@@ -41,13 +41,13 @@ export default class Footer extends Component {
 						<div className="widget">
 							<h4>Contact <img src="images/border.png" /></h4>
 							<ul>
-								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" />+971 4566 7048</li>
-								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1"  />+971 5555 05281</li>
-								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" />+971 5555 05281</li>
-								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1" />info@myride.ae</li>
-								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1" />upport@myride.ae</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" fixedWidth  />+971 4566 7048</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" fixedWidth  />+971 5555 05281</li>
+								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1"fixedWidth  />+971 5555 05281</li>
+								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1"fixedWidth  />info@myride.ae</li>
+								<li>	<FontAwesomeIcon icon={faEnvelope} className="mr-1"fixedWidth  />upport@myride.ae</li>
 								<li>
-								<FontAwesomeIcon icon={faMapMarker} className="mr-1" />Jumeirah Lake Towers, Dubai.
+								<FontAwesomeIcon icon={faMapMarker} fixedWidth  className="mr-1" />Jumeirah Lake Towers, Dubai.
 								</li>
 							</ul>
 						</div>
@@ -75,9 +75,9 @@ export default class Footer extends Component {
 					</div>
 					<div className="col-sm-12 col-md-12">
 						<div className="social">
-							<a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-							<a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+							<a href="#"><FontAwesomeIcon  fixedWidth icon={faFacebookF} fixedWidth  /></a>
+							<a href="#"><FontAwesomeIcon fixedWidth icon={faTwitter} fixedWidth  /></a>
+							<a href="#"><FontAwesomeIcon fixedWidth icon={faInstagram} fixedWidth  /></a>
 							{/* 
 							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
 							<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>

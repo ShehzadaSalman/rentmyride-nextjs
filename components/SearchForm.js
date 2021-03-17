@@ -20,12 +20,12 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                             <ul className="d-flex">
                                 <li className="">
                                     <a className="position-relative" onClick={() => setToggleForm(true)}>
-                                    <FontAwesomeIcon icon={faSearch} className="mainColor mr-1"/>
+                                    <FontAwesomeIcon icon={faSearch} fixedWidth  className="mainColor mr-1"/>
                                     Find a Car</a>
                                 </li>
                                 <li className="">
                                     <a className="position-relative" onClick={() => setToggleForm(false)}>
-                                    <FontAwesomeIcon icon={faSearch} className="mainColor mr-1"/>
+                                    <FontAwesomeIcon icon={faSearch} fixedWidth  className="mainColor mr-1"/>
                                     Find Limo & Chauffeur</a>
                                 </li>
                             </ul>
@@ -57,19 +57,19 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                         </h3>
                                         <div className="fieldset">
                                             <div className="fields ">
-                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            <FontAwesomeIcon  fixedWidth icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
                                             style={{zIndex: 1 }} />
                                             <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faCalendar}  color="#b3b3b3" className="m-2 position-absolute"
+                                            <FontAwesomeIcon fixedWidth  icon={faCalendar}  color="#b3b3b3" className="m-2 position-absolute"
                                              style={{zIndex: 1 }}/>
                                             <DatePicker selected={startDate} onChange={date => setStartDate(date)} />
                                             </div>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                       
                                                 <input
                                                     type="text"
@@ -79,7 +79,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                                     />
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faClock}  color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            <FontAwesomeIcon fixedWidth  icon={faClock}  color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -124,33 +124,33 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                             <label>
                                             <input type="radio" name="type" />
                                             <span>
-                                            <FontAwesomeIcon icon={faCheck} className="mr-1"/>
+                                            <FontAwesomeIcon  fixedWidth  icon={faCheck} className="mr-1"/>
                                             Hourly</span>
                                             </label>
                                             <label>
                                             <input type="radio" name="type" />
-                                            <span><FontAwesomeIcon icon={faCheck} className="mr-1"/>Daily</span>
+                                            <span><FontAwesomeIcon fixedWidth  icon={faCheck} className="mr-1"/>Daily</span>
                                             </label>
                                             <label>
                                             <input type="radio" name="type" />
-                                            <span>   <FontAwesomeIcon icon={faCheck} className="mr-1"/>Weekly</span>
+                                            <span>   <FontAwesomeIcon fixedWidth  icon={faCheck} className="mr-1"/>Weekly</span>
                                             </label>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            <FontAwesomeIcon fixedWidth  icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
                                             style={{zIndex: 1 }} />
                                             <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
+                                            <FontAwesomeIcon fixedWidth  icon={faCalendar} color="#b3b3b3" className="m-2 position-absolute" 
                                             style={{zIndex: 1 }} />
                                              <DatePicker selected={startDate} onChange={date => setStartDate(date)} /> 
                                             </div>
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -159,7 +159,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                                     />
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
                                                 <input
                                                     type="text"
                                                     className="timepicker"
