@@ -1,9 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCar, faCalendar} from '@fortawesome/free-solid-svg-icons'
+import { faCar, faCalendar, faMoneyCheck} from '@fortawesome/free-solid-svg-icons'
 
 const WhyChoosUs = () => {
+    
+    const onCardHover = () => {
+          
+    }
+    
     return (
         <div className="chooseUs">
         <div className="row">
@@ -41,7 +46,7 @@ const WhyChoosUs = () => {
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
                                 <i className="fa fa-car"></i>
-                                <FontAwesomeIcon icon={faCar} size="2x" fixedWidth  />
+                                <FontAwesomeIcon icon={faCar} size="2x" color="#777" fixedWidth className="mb-2 mt-1"  />
                                 <h5>Luxurious Car</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -51,7 +56,7 @@ const WhyChoosUs = () => {
                         </div>
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
-                            <FontAwesomeIcon icon={faCalendar} size="2x" fixedWidth  />
+                            <FontAwesomeIcon icon={faCalendar} size="2x" color="#777" fixedWidth className="mb-3 mt-1"  />
                                 <h5>Book within Minutes</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -60,8 +65,9 @@ const WhyChoosUs = () => {
                             </div>
                         </div>
                         <div className="col-sm-4 col-md-4">
-                            <div className="chosItem">
+                            <div className="chosItem" onMouseEnter={onCardHover}>
                                 <i className="fa fa-money-check"></i>
+                                <FontAwesomeIcon icon={faMoneyCheck} size="2x" color="#777" fixedWidth className="mb-2 mt-1"  />
                                 <h5>Reasonable Price</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -72,6 +78,7 @@ const WhyChoosUs = () => {
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
                                 <i className="fa fa-car"></i>
+                                <FontAwesomeIcon icon={faCar} size="2x" fixedWidth color="#777" className="mb-2 mt-1"  />
                                 <h5>Comfortable Ride</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -82,6 +89,7 @@ const WhyChoosUs = () => {
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
                                 <i className="fa fa-car"></i>
+                                <FontAwesomeIcon icon={faCar} size="2x" fixedWidth color="#777" className="mb-2 mt-1"  />
                                 <h5>On Time Delivery</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -92,6 +100,7 @@ const WhyChoosUs = () => {
                         <div className="col-sm-4 col-md-4">
                             <div className="chosItem">
                                 <i className="fa fa-car"></i>
+                                <FontAwesomeIcon icon={faCar} size="2x" fixedWidth color="#777" className="mb-2 mt-1" />
                                 <h5>Safe Car</h5>
                                 <p>
                                     Quis nostrud exercitate laboridy aliquip duis irure sed
@@ -103,6 +112,15 @@ const WhyChoosUs = () => {
                 </div>
             </div>
         </div>
+        <style>
+            {`
+             .chooseUs .rightSide .chosItem:hover   svg{
+                 color: #fff;
+             }
+            
+            
+            `}
+        </style>
     </div>
 
     )

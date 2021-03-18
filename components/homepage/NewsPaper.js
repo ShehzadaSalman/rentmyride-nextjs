@@ -7,25 +7,25 @@ import Image from 'next/image'
 			<div className="container">
 				<div className="row">
 					<div className="col-6 col-sm-3 col-md-3">
-						<div className="newss">
+						<div className="newss border">
 							<a href="#">
 							    <Image
 								src="/images/gulf_news_png.png"
 								alt="Picture of the author"
-								width={100}
-								height={100}
+								width={260}
+								height={120}
 							    />	
 							</a>
 						</div>
 					</div>
 					<div className="col-6 col-sm-3 col-md-3">
-						<div className="newss">
+						<div className="newss border">
 							<a href="#">
 							 <Image
 								src="/images/the_national_png.png"
 								alt="Picture of the author"
-								width={100}
-								height={100}
+								width={270}
+								height={120}
 							    />	
 							</a>
 						</div>
@@ -36,8 +36,8 @@ import Image from 'next/image'
 								<Image
 								src="/images/time_out_png.png"
 								alt="Picture of the author"
-								width={100}
-								height={100}
+								width={270}
+								height={120}
 							    />
 							
 							</a>
@@ -49,8 +49,8 @@ import Image from 'next/image'
 								<Image
 								src="/images/ahlan.jpg"
 								alt="Picture of the author"
-								width={100}
-								height={100}
+								width={270}
+								height={120}
 							    />
 						
 							</a>

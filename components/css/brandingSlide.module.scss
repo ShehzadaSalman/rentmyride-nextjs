@@ -1,0 +1,19 @@
+.backbutton {
+  height: 120px;
+  background-color: white;
+  z-index: 2;
+  border: none;
+  position: absolute;
+  box-shadow: 0px 0px 8px -2px #ccc;
+  svg {
+    color: #ff0000;
+    font-size: 20px;
+  }
+}
+
+.backbutton:hover {
+  background-color: #ff0000;
+  svg {
+    color: #fff;
+  }
+}

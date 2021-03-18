@@ -8,6 +8,8 @@ import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg
 // import Footer from '../components/footer';
 import CustomerReview from '../components/customer-review';
 import NewBrandSlider from '../components/homepage/NewBrandSlider';
+import NewCategorySlider from '../components/homepage/NewCategorySlider';
+// import CategorySlider from '../components/homepage/CategorySlider'
 // import AccordionFAQ from '../components/AccordionFAQ'
 // import { VideoSection } from '../components/VideoSection';
 // import { LuxuryWraps } from '../components/LuxuryWraps';
@@ -134,7 +136,14 @@ const Home = () => {
 		</div>
 		{/* <!-- Brands -->*/}
 		{/* <BrandSlider/> */}
+		<div className="container">
+		<div className="row">
+		
 		<NewBrandSlider/>
+		
+			</div> 		 	
+		</div>
+	
 		{/* <CategorySlider/> */}
 		<div className="heading">
 			<div className="container">
@@ -149,10 +158,11 @@ const Home = () => {
 		</div>
 		<div className="catesWrap">
 			<div className="container">
-				<div className="row">
-					<div className="col-sm-12 col-md-12">
+				<div className="row" >
+			
 						<CategorySlider/>
-					</div>
+						{/* <NewCategorySlider/> */}
+				
 				</div>
 			</div>
 		</div>
@@ -169,7 +179,7 @@ const Home = () => {
 				</div>
 			</div>
 		</div>
-		<div className="hiredCarWrap Packges">
+		<div className="hiredCarWrap Packges pb-0">
 			<div className="container">
 				<CarPackageSlider/>
 			</div>

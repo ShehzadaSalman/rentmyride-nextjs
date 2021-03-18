@@ -118,7 +118,9 @@ body {
 /*! =======================================================
                       Banner              
 ========================================================= */
-
+.react-datepicker-popper[data-placement^="bottom"]{
+    z-index: 3;
+}
 
 .mnHeight span.typed-cursor {display: none;}
 .MainBanner {background: url(../images/bg1-min.png);
@@ -3874,11 +3876,11 @@ a.btn {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.testimonialWrap .desti .bottomD img {
+/* .testimonialWrap .desti .bottomD img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-}
+} */
 .blog .blogDetail h3 {
     min-height: 99px;
 }
