@@ -8,7 +8,7 @@ const CarPackageSlider = () => {
 		dots: false,
 		infinite: true,
 		speed: 500,
-        lazyLoad: true,
+    lazyLoad: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
         responsive: [
@@ -40,23 +40,27 @@ const CarPackageSlider = () => {
       let arr = [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 
     return (
-        <div className="hiredCarss">
+        <div className="hiredCarss px-0">
         <Slider {...settingstwo}>
             {arr.map((li, key) => (
-     <div  key={key} className="carItem mx-2">
+
+
+        <div className="px-0" style={{ backgroundColor: '#eee' }}>
+      <div className="d-flex justify-content-center">
+      <div  key={key} className="carItem px-0 mx-0">
      <figure>
-         <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
+         <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer">
          <Image
          src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg"
          alt="Picture of the author"
-         width={360}
+         width={350}
          height={240}
          />
        </a>                           
      </figure>
      <div className="offerdt">
          <h5>
-             <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">Rolls Royce Wraith Combo Offer</a>
+             <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" >Rolls Royce Wraith Combo Offer</a>
          </h5>
          <ul>
              <li>
@@ -108,10 +112,26 @@ const CarPackageSlider = () => {
      </div>
  </div>
 
-            ))}
+            </div>
+        </div>
+
+
+
+
+  
+)
+            
+            
+            )}
    
    </Slider>
+<style>
+{`
 
+
+
+`}
+</style>
     </div>
 
     )
