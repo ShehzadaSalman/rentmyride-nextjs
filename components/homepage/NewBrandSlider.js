@@ -78,8 +78,8 @@ const NewBrandSlider = () => {
      
         <div className="images mx-5">
         <Slider ref={c => (slider = c)}  {...settings}>
-            {imagesArray.map(li => (
-            <div className="text-center px-1 py-1">
+            {imagesArray.map((li, key) => (
+            <div key={key} className="text-center px-1 py-1">
                 <div className="px-2 d-flex">
                 <Image
                 src={li}

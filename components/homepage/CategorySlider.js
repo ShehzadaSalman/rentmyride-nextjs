@@ -75,8 +75,8 @@ let categorySlider = [
      
         <div className="images mt-3 mx-5">
         <Slider ref={c => (slider = c)}  {...settings}>
-            {categorySlider.map(li => (
-            <div className="text-center px-1 py-1">
+            {categorySlider.map((li,key) => (
+            <div key={key} className="text-center px-1 py-1">
                 <div className="mx-3 shadow-sm d-flex justify-content-center flex-column" style={{
                     backgroundColor: '0px 0px 11px -4px #d6d6d6'
                 }}>

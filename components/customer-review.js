@@ -55,8 +55,8 @@ function CustomerReview() {
 			<div className="container">
 				<div className="testislider">
 		<Slider {...settingstwo}>
-	          {arr.map(li => (
-				  <div className="px-1">
+	          {arr.map((li,key) => (
+				  <div key={key} className="px-1">
 		<div className="destiwrap">
 		<div className="desti">
 			<figure>

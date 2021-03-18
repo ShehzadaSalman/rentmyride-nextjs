@@ -42,8 +42,8 @@ const CarPackageSlider = () => {
     return (
         <div className="hiredCarss">
         <Slider {...settingstwo}>
-            {arr.map(li => (
-     <div className="carItem mx-2">
+            {arr.map((li, key) => (
+     <div  key={key} className="carItem mx-2">
      <figure>
          <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" tabIndex="-1">
          <Image
