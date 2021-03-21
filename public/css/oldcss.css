@@ -510,6 +510,14 @@ body {
   overflow: hidden;
 }
 
+.slick-prev:before {
+  visibility: hidden;
+}
+
+.slick-next:before {
+  visibility: hidden;
+}
+
 .brandsWrap figure {
   width: 200px;
   height: 120px;

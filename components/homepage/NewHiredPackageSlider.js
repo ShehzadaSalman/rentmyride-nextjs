@@ -8,7 +8,8 @@ const NewHiredPackageSlider = () => {
 		dots: false,
 		infinite: true,
 		speed: 500,
-    lazyLoad: true,
+        arrows: false,
+        lazyLoad: true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
         responsive: [
@@ -37,7 +38,7 @@ const NewHiredPackageSlider = () => {
 			}
 		  ]
 	  };
-      let arr = [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+      let arr = [1,1,1,1]
 
     return (
         <div className="hiredCarss px-0">
@@ -52,23 +53,11 @@ const NewHiredPackageSlider = () => {
   <div style={{ width: '350px'}}>
   <DemoNavSlider /> 
   </div>
-    {/* */}
-
-
-         {/* <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer">
-         <Image
-         src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg"
-         alt="Picture of the author"
-         width={350}
-         height={240}
-         />
-       </a>                            */}
-     {/* </figure> */}
-     <div className="offerdt">
-         <h5>
+     <div className="offerdt pt-0">
+         <h5 className="py-1 mb-0">
              <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" >Rolls Royce Wraith Combo Offer</a>
          </h5>
-         <ul>
+         <ul className="mb-0 py-2">
              <li>
                  <Image
                  src="/images/icon1-min.png"

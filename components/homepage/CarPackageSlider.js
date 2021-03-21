@@ -37,7 +37,7 @@ const CarPackageSlider = () => {
 			}
 		  ]
 	  };
-      let arr = [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+      let arr = [1,1,1,1]
 
     return (
         <div className="hiredCarss px-0">
