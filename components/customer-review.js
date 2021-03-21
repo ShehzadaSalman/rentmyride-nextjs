@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import Image from 'next/image'
+import {StarIcon} from '../components/extracted-icons/Regularicons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 function CustomerReview() {
@@ -83,11 +84,16 @@ function CustomerReview() {
 						{/* <i className="fa fa-star"></i><i className="fa fa-star"></i
 						><i className="fa fa-star"></i><i className="fa fa-star"></i
 						><i className="fa fa-star"></i> */}
-						<FontAwesomeIcon icon={faStar} color="#ffce4a"fixedWidth/>
+						<StarIcon height={13} width={13} color="#ffce4a" />
+						<StarIcon height={13} width={13} color="#ffce4a" />
+						<StarIcon height={13} width={13} color="#ffce4a" />
+						<StarIcon height={13} width={13} color="#ffce4a" />
+						<StarIcon height={13} width={13} color="#ffce4a" />
+						{/* <FontAwesomeIcon icon={faStar} color="#ffce4a"fixedWidth/>
 						<FontAwesomeIcon icon={faStar} color="#ffce4a"fixedWidth/>
 						<FontAwesomeIcon icon={faStar} color="#ffce4a"fixedWidth/>
 						<FontAwesomeIcon icon={faStar} color="#ffce4a" fixedWidth/>
-						<FontAwesomeIcon icon={faStar} color="#ffce4a" fixedWidth/>
+						<FontAwesomeIcon icon={faStar} color="#ffce4a" fixedWidth/> */}
 						</cite
 						></span>
 				</h3>
