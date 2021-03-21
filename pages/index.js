@@ -9,6 +9,8 @@ import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg
 import CustomerReview from '../components/customer-review';
 import NewBrandSlider from '../components/homepage/NewBrandSlider';
 import NewCategorySlider from '../components/homepage/NewCategorySlider';
+import DemoNavSlider from '../components/DemoNavSlider'
+import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider';
 // import CategorySlider from '../components/homepage/CategorySlider'
 // import AccordionFAQ from '../components/AccordionFAQ'
 // import { VideoSection } from '../components/VideoSection';
@@ -196,14 +198,21 @@ const Home = () => {
 		</div>
 		<div className="hiredCarWrap">
 			<div className="container">
-		  <HiredPackageSlider/>
+		  {/* <HiredPackageSlider/> */}
+		  <NewHiredPackageSlider />
 			</div>
 		</div>
 		{/* <!--Hired Cars -->
 		<!-- video --> */}
 		<VideoSection/>
+
 		{/* <!-- video -->
+
 		<!-- faq --> */}
+
+
+  
+
 		<div className="faq">
 			<div className="container">
 				<div className="row">
