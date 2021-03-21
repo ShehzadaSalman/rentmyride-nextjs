@@ -1,19 +1,40 @@
 import React from 'react'
 import Image from 'next/image'
+import {useRef} from 'react'
 const VideoSection = () => {
+    const videoEl = useRef(null);
+
+ // play the video   
+const playVideo = () => {
+
+   console.log(videoEl)
+   videoEl.current.play();
+   alert("play the video")
+
+}
+
+
+
     return (
         <div className="vedioWrap">
-        <div className="vimeo-wrapper"></div>
+              <video  ref={videoEl} id="home-video-id" autoplay="" muted="" loop="">
+                  <source src="/Assets/video/bannerforweb.mov" type="video/mp4"/></video>
+        <div className="vimeo-wrapper">
+          
+        </div>
         <div className="loaders">
-            {/* <img src="images/loader.gif" /> */}
+            <img src="images/loader.gif" />
             <Image
-                src="/images/loader.gif"
-                alt="loader"
-                width={48}
-                height={48}
+            src="/images/loader.gif"
+            alt="loader"
+            width={48}
+            height={48}
             />
         </div>
-        <a href="#" className="videobtn"><img src="images/videoicon.png" /></a>
+        <a className="videobtn" onClick={playVideo} >
+            {/* <img src="" /> */}
+            <Image src ="/images/videoicon.png" height="144" width="144" alt = "video player" />
+        </a>
         <div className="container">
             <div className="row">
                 <div className="col-sm-2"></div>

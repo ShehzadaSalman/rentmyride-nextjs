@@ -9,8 +9,11 @@ import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg
 import CustomerReview from '../components/customer-review';
 import NewBrandSlider from '../components/homepage/NewBrandSlider';
 import NewCategorySlider from '../components/homepage/NewCategorySlider';
-import DemoNavSlider from '../components/DemoNavSlider'
+// import DemoNavSlider from '../components/DemoNavSlider'
 import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider';
+
+
+// const VideoSection = lazy(() => import('../components/VideoSection'));
 // import CategorySlider from '../components/homepage/CategorySlider'
 // import AccordionFAQ from '../components/AccordionFAQ'
 // import { VideoSection } from '../components/VideoSection';
@@ -24,19 +27,22 @@ import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider'
 // import { HiredPackageSlider } from '../components/homepage/HiredPackageSlider';
 
 // dynamic imports 
-const AccordionFAQ = dynamic(() => import('../components/AccordionFAQ'))
+const AccordionFAQ = dynamic(() => import('../components/AccordionFAQ'), {loading: () => <p>Loading...</p>})
 const VideoSection = dynamic(() => import('../components/VideoSection'))
 const NewsPaper = dynamic(() => import('../components/homepage/NewsPaper'))
 
 const LuxuryWraps = dynamic(() => import('../components/LuxuryWraps'))
 const WhyChoosUs = dynamic(() => import('../components/WhyChoosUs'))
-const SearchForm = dynamic(() => import('../components/SearchForm'))
-const Header = dynamic(() => import('../components/Header'))
-const BrandSlider= dynamic(() => import('../components/homepage/BrandSlider'))
-const CategorySlider = dynamic(() => import('../components/homepage/CategorySlider'))
-const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'))
-const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
-const Footer = dynamic(() => import('../components/footer'))
+const SearchForm = dynamic(() => import('../components/SearchForm'), {loading: () => <div className="border" style={{ height: '600px', width: '700px' }}>Loading...</div>})
+const Header = dynamic(() => import('../components/Header'),  { ssr: false })
+const BrandSlider= dynamic(() => import('../components/homepage/BrandSlider'),  { ssr: false })
+const CategorySlider = dynamic(() => import('../components/homepage/CategorySlider'),  { ssr: false })
+const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'),  { ssr: false })
+// const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
+const Footer = dynamic(() => import('../components/footer'),  { ssr: false })
+
+
+// const Footer = React.lazy(() => import('../components/footer'), { ssr: false });
 
 // import { NewsPaper } from '../components/homepage/NewsPaper';
 
@@ -131,7 +137,9 @@ const Home = () => {
 					<div className="col-sm-12 col-md-12">
 						<h6>choose your dream Brand</h6>
 						<h2>FIND CARS FOR RENT BY BRANDS</h2>
-						<span><img src="images/border.png" /></span>
+						<span>
+							<Image src ="/images/border.png" height="2" width="65" alt="border" />
+							</span>
 					</div>
 				</div>
 			</div>
@@ -153,7 +161,7 @@ const Home = () => {
 					<div className="col-sm-12 col-md-12">
 						<h6>choose your categories</h6>
 						<h2>Car Categories</h2>
-						<span><img src="images/border.png" /></span>
+						<span>	<Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
 					</div>
 				</div>
 			</div>
@@ -176,7 +184,7 @@ const Home = () => {
 					<div className="col-sm-12 col-md-12">
 						<h6>welcome to RentMyRide</h6>
 						<h2>Packages</h2>
-						<span><img src="images/border.png"/></span>
+						<span>	<Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
 					</div>
 				</div>
 			</div>
@@ -191,7 +199,7 @@ const Home = () => {
 					<div className="col-sm-12 col-md-12">
 						<h6>welcome to rent myride</h6>
 						<h2>OUR TOP HIRED CARS</h2>
-						<span><img src="images/border.png" /></span>
+						<span>	<Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
 					</div>
 				</div>
 			</div>
@@ -222,7 +230,7 @@ const Home = () => {
 								<div className="row">
 									<div className="col-sm-12 col-md-12">
 										<h2>FAQ</h2>
-										<span><img src="images/border.png" /></span>
+										<span>	<Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
 									</div>
 								</div>
 							</div>
@@ -248,7 +256,7 @@ const Home = () => {
 				<div className="row">
 					<div className="col-sm-12 col-md-12">
 						<h2>AS FEATURED IN</h2>
-						<span><img src="images/border.png" /></span>
+						<span>	<Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
 					</div>
 				</div>
 			</div>
@@ -260,9 +268,10 @@ const Home = () => {
 	
 	
 		<WhyChoosUs/>
-	
-	
-        <Footer/>
+
+	 <Footer/>
+
+
 		{/* <!-- footer -->
 		<!--	Js Link
 			============================================================--> */}
