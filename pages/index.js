@@ -120,7 +120,7 @@ const Home = () => {
 		<div className="container">
 		<div className="row">
 		
-		{/* <NewBrandSlider/> */}
+		<NewBrandSlider/>
 		
 			</div> 		 	
 		</div>
@@ -141,7 +141,7 @@ const Home = () => {
 			<div className="container">
 				<div className="row" >
 			
-						{/* <CategorySlider/> */}
+						<CategorySlider/>
 						{/* <NewCategorySlider/> */}
 				
 				</div>
@@ -162,7 +162,7 @@ const Home = () => {
 		</div>
 		<div className="hiredCarWrap Packges pb-0">
 			<div className="container">
-				<CarPackageSlider/>
+				{/* <CarPackageSlider/> */}
 			</div>
 		<div className="heading">
 			<div className="container">
@@ -178,7 +178,7 @@ const Home = () => {
 		<div className="hiredCarWrap">
 			<div className="container">
 		  {/* <HiredPackageSlider/> */}
-		  <NewHiredPackageSlider />
+		  {/* <NewHiredPackageSlider /> */}
 			</div>
 		</div>
 		{/* <!--Hired Cars -->
