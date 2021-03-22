@@ -4334,7 +4334,7 @@ a.btn {
 }
 .hiredCarss .carItem {
   display: inline-block;
-  margin: 0px 15px;
+  margin: 5px 15px;
 }
 .hiredCarss button.slick-prev.slick-arrow {
   top: 50%;
@@ -6771,6 +6771,7 @@ footer .widget iframe {
   color: #222222;
   font-weight: 700;
   font-size: 30px;
+  line-height: 1.1;
   text-transform: uppercase;
 }
 

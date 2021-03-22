@@ -53,19 +53,7 @@ const Home = () => {
 
 		{/* <!-- Top Bar --> */}
 		<TopBar/>
-		{/* <video id="home-video-id" autoPlay="" loop="">
-         <source src="" type="video/mp4"/>
-         </video> */}
 
-{/* <video id="videoElem">
-	<source id="videoSource" 
-	src="https://srv-store5.gofile.io/download/ptPLoe/ee07dbbafc579bfa7c79c18b75af5278/bannerforweb.mov"/>
-</video> */}
-
-
-	
-		{/* <!-- Top Bar -->
-		<!-- Header --> */}
 		<Header/>
 		{/* <!-- Header -->
 		<!-- Banner --> */}
@@ -114,10 +102,8 @@ const Home = () => {
 		{/* <BrandSlider/> */}
 		<div className="container">
 		<div className="row">
-		
-		<NewBrandSlider/>
-		
-			</div> 		 	
+		   <NewBrandSlider/>
+		</div> 		 	
 		</div>
 	
 		{/* <CategorySlider/> */}

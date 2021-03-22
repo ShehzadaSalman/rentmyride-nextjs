@@ -80,7 +80,7 @@ const NewBrandSlider = () => {
         <Slider ref={c => (slider = c)}  {...settings}>
             {imagesArray.map((li, key) => (
             <div key={key} className="text-center px-1 py-1">
-                <div className="px-2 d-flex">
+                <div className="px-2 d-flex justify-content-center">
                 <Image
                 src={li}
                 alt="Brand Cars"

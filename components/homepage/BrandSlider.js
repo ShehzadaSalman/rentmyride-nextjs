@@ -16,13 +16,9 @@ import Slider from 'react-slick'
 
 
     return (
-        <div className="brandsWrap">
-
-
+ <div className="brandsWrap">
 <div className="images px-3">
 <Slider {...settings}>
-
-
 <figure>
 <a href="/cars/limousine/rent-a-dodge-in-dubai" className="brend-item" tabindex="-1">
  <Image
