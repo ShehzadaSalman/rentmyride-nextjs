@@ -26,7 +26,7 @@ export default class DemoNavSlider extends Component {
           adaptiveHeight = {true}
           swipeToSlide= {false}
           ref={slider => (this.slider1 = slider)}>
-          <div>
+          {/* <div>
              <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
               height={230}
               width={350}
@@ -49,7 +49,7 @@ export default class DemoNavSlider extends Component {
               height={230}
               width={350}
              />
-          </div>
+          </div> */}
           <div>
           <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
               height={230}
@@ -121,7 +121,7 @@ export default class DemoNavSlider extends Component {
             </div>
           </div>
 
-          <div className="p-1">
+          {/* <div className="p-1">
             <div className="text-center">
               <div className="d-flex align-items-center justify-content-center" style={{ padding: '3px', borderRadius: '5px', border: 'Solid 2px red'}} >
               <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
@@ -153,7 +153,7 @@ export default class DemoNavSlider extends Component {
               </div>
             </div>
           </div>
-
+ */}
 
 
 
