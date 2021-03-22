@@ -9,6 +9,7 @@ import CustomerReview from '../components/customer-review';
 import NewBrandSlider from '../components/homepage/NewBrandSlider';
 import NewCategorySlider from '../components/homepage/NewCategorySlider';
 import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider';
+import SideNav from '../components/SideNav'
 
 
 
@@ -50,6 +51,7 @@ const Home = () => {
 
 
   return (<>
+  <SideNav/>
 
 		{/* <!-- Top Bar --> */}
 		<TopBar/>
@@ -58,7 +60,7 @@ const Home = () => {
 		{/* <!-- Header -->
 		<!-- Banner --> */}
 		<div className="MainBanner">
-			<div className="container">
+		<div className="container">
 				<div className="row">
 					<div className="col-sm-12 col-md-12">
 						<h2>
@@ -91,6 +93,9 @@ const Home = () => {
 					<div className="col-sm-12 col-md-12">
 						<h6>choose your dream Brand</h6>
 						<h2>FIND CARS FOR RENT BY BRANDS</h2>
+						{/* <video  id="home-video-id" autoPlay="" loop="">
+                           <source src="https://srv-store5.gofile.io/download/ptPLoe/ee07dbbafc579bfa7c79c18b75af5278/bannerforweb.mov" type="video/mp4"/>
+                       </video> */}
 						<span>
 							<Image src ="/images/border.png" height="2" width="65" alt="border" />
 							</span>

@@ -45,7 +45,7 @@ const CarPackageSlider = () => {
             {arr.map((li, key) => (
 
 
-        <div className="px-0" style={{ backgroundColor: '#eee' }}>
+        <div key={key} className="px-0" style={{ backgroundColor: '#eee' }}>
       <div className="d-flex justify-content-center">
       <div  key={key} className="carItem px-0 mx-0">
      <figure>
@@ -56,6 +56,7 @@ const CarPackageSlider = () => {
          width={350}
          height={240}
          />
+   
        </a>                           
      </figure>
      <div className="offerdt">
@@ -63,12 +64,13 @@ const CarPackageSlider = () => {
              <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" >Rolls Royce Wraith Combo Offer</a>
          </h5>
          <ul>
+           <li><img src="/images/icon1-min.png" /></li>
              <li>
                  <Image
                  src="/images/icon1-min.png"
                  alt="Picture of the author"
-                 width={15}
-                 height={18}
+                 width={14}
+                 height={14}
                  className="mr-1"
                  />
                  Seats 4
@@ -106,7 +108,7 @@ const CarPackageSlider = () => {
              <p></p>
              <p>test</p>
              <p></p>
-             <label><input type="checkbox" onChange="valueChangeds()" className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
+             <label><input type="checkbox"  className="termCheck" name="" tabIndex="-1"/><span><cite><i className="fa fa-check"></i></cite>Accept the Terms &amp; Conditions</span></label>
          </div>
          <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer" className="book" tabIndex="-1">Book Now</a>
      </div>

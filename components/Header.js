@@ -3,6 +3,15 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
+
+	const openNav = () =>{
+		console.log("open the menu")
+        document.getElementById("mySidenav").style.width = "250px";
+        // document.getElementById("main").style.marginLeft = "250px";
+        // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+
     return (
 <div className="header">
 			<div className="row">
@@ -15,7 +24,7 @@ const Header = () => {
 							height={30}
 						/>
 					</a>
-					<a href="#" className="openNav">
+					<a  onClick={openNav} className="openNav">
 					<FontAwesomeIcon icon={faBars}  fixedWidth />
 					</a>
 				</div>
@@ -23,7 +32,7 @@ const Header = () => {
 					<nav>
 						<a href="#" className="closeNav">
 						<FontAwesomeIcon icon={faTimes}  fixedWidth />
-							</a>
+					   </a>
 						<ul className="navbar">
 							<li><a href="index.html" className="active">Home</a></li>
 							<li><a href="car_rental.html">Car rental </a></li>

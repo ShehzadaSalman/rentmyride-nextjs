@@ -1529,7 +1529,6 @@ footer .widget h4 {
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 29px;
 }
 
 footer .widget h4 img {
@@ -4644,7 +4643,7 @@ a.btn {
   }
 
   .searchTabs div#tabs .formDetails .formOptions .fields input[type="submit"] {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .searchTabs div#tabs .formDetails .center {
@@ -4719,7 +4718,7 @@ a.btn {
 
   .vedioWrap .applySec .numbr p {
     width: 72%;
-    font-size: 13px;
+    font-size: 23px;
   }
 
   .vedioWrap .applySec .numbr p span {
@@ -4837,7 +4836,7 @@ a.btn {
   }
 
   .searchTabs div#tabs .formDetails .formOptions h3 {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 23px;
   }
 
@@ -6358,7 +6357,15 @@ footer .widget ul li a {
   padding-left: 17px;
 }
 
+.react-datepicker-wrapper {
+  display: block;
+}
+
 @media only screen and (max-width: 600px) {
+  .faq {
+    padding-top: 165px;
+  }
+
   #accordion_faqs h3 em.fa {
     display: none !important;
   }
@@ -6558,6 +6565,7 @@ footer .widget form {
   }
   .vedioWrap .applySec {
     padding: 20px 20px 20px;
+    flex-direction: column;
   }
   .vedioWrap .applySec .numbr img {
     vertical-align: middle;
@@ -6809,6 +6817,9 @@ footer .widget iframe {
 .carItem .offerdt {
   min-height: 300px;
 }
+
+.find-a-car svg{ margin-bottom: 4px;}
+.find-a-limo svg{margin-bottom: 4px;}
 
 /*Card With Driver*/
 

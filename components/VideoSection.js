@@ -59,11 +59,11 @@ else{
                 <div className="col-sm-8 col-md-8">
                     <div className="applySec">
                         <div className="numbr">
-                           <Image src ="/images/phone.png" width="34" height="35" alt="phone " /> 
+                           <Image src ="/images/phone.png" width="34" height="35" alt="phone" /> 
                             <p className="ml-3">Got any questions? <span>(+971) 5555 05281</span></p>
                         </div>
                         <div className="btns">
-                            <a href="#">Apply Now</a>
+                            <a href="#">Call Now</a>
                         </div>
                     </div>
                 </div>
