@@ -17,13 +17,13 @@ const playVideo = () => {
 
     return (
         <div className="vedioWrap">
-              <video  ref={videoEl} id="home-video-id" autoplay="" muted="" loop="">
+              <video  ref={videoEl} id="home-video-id" autoPlay="" muted="" loop="">
                   <source src="/Assets/video/bannerforweb.mov" type="video/mp4"/></video>
         <div className="vimeo-wrapper">
           
         </div>
         <div className="loaders">
-            <img src="images/loader.gif" />
+            {/* <img src="images/loader.gif" /> */}
             <Image
             src="/images/loader.gif"
             alt="loader"

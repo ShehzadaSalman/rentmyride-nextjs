@@ -132,4 +132,4 @@ const NewHiredPackageSlider = () => {
     )
 }
 
-export default NewHiredPackageSlider
+export default  React.memo(NewHiredPackageSlider)
