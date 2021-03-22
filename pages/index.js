@@ -3,7 +3,6 @@ import  Head from 'next/head'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Slider from "react-slick";
-import {PhoneIcon, EnvelopeIcon, CoinIcon, UserIcon } from '../components/extracted-icons/Regularicons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 // import Footer from '../components/footer';
@@ -12,6 +11,7 @@ import NewBrandSlider from '../components/homepage/NewBrandSlider';
 import NewCategorySlider from '../components/homepage/NewCategorySlider';
 // import DemoNavSlider from '../components/DemoNavSlider'
 import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider';
+import TopBar from '../components/TopBar';
 
 
 // const VideoSection = lazy(() => import('../components/VideoSection'));
@@ -68,46 +68,7 @@ const Home = () => {
   return (<>
 
 		{/* <!-- Top Bar --> */}
-		<div className="topBar">
-			<ul>
-				<li>
-					<a href="tel:+971 55 550 5281">
-					{/* <i class="fa fa-phone"></i> */}
-						{/* <FontAwesomeIcon icon={faPhone} className="mr-1"  fixedWidth/> */}
-						<PhoneIcon height={17} width={17} color="#fff" />
-						 <span className="ml-1"> +971 55 550 5281</span>
-						  </a>
-				</li>
-				<li>
-					<a href="mailto:info@rentmyride.ae">
-					{/* <i class="fa fa-envelope"></i> */}
-					   <EnvelopeIcon height={16} width={16} color="#fff" />
-						{/* <FontAwesomeIcon icon={faEnvelope} className="mr-1"  fixedWidth/> */}
-						<span className="ml-1"> info@rentmyride.ae</span>
-						</a>
-				</li>
-				<li>
-				{/* <i class="fa fa-coins"></i> */}
-				<span className="">
-				<CoinIcon height={17} width={17} color="#fff" />
-				</span>
-				     
-					{/* <FontAwesomeIcon icon={faCoins} className="mr-1"  fixedWidth/> */}
-					<select>
-						<option>AED</option>
-					</select>
-				</li>
-				<li>
-					<a href="login.html">
-					{/* <i class="fa fa-user"></i> */}
-					{/* <UserIcon height={11} width={11} color="#fff" /> */}
-						<FontAwesomeIcon icon={faUser} className="mr-1"  fixedWidth/>
-						 <span className="ml-1">Login</span> 
-						 </a>
-				</li>
-			</ul>
-			<a href="#" className="plus"></a>
-		</div>
+		<TopBar/>
 		{/* <!-- Top Bar -->
 		<!-- Header --> */}
 		<Header/>
@@ -159,7 +120,7 @@ const Home = () => {
 		<div className="container">
 		<div className="row">
 		
-		<NewBrandSlider/>
+		{/* <NewBrandSlider/> */}
 		
 			</div> 		 	
 		</div>
@@ -180,7 +141,7 @@ const Home = () => {
 			<div className="container">
 				<div className="row" >
 			
-						<CategorySlider/>
+						{/* <CategorySlider/> */}
 						{/* <NewCategorySlider/> */}
 				
 				</div>
