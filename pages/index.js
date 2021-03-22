@@ -2,16 +2,14 @@
 import  Head from 'next/head'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
-import Slider from "react-slick";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 // import Footer from '../components/footer';
 import CustomerReview from '../components/customer-review';
 import NewBrandSlider from '../components/homepage/NewBrandSlider';
 import NewCategorySlider from '../components/homepage/NewCategorySlider';
-// import DemoNavSlider from '../components/DemoNavSlider'
 import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider';
-import TopBar from '../components/TopBar';
+
 
 
 // const VideoSection = lazy(() => import('../components/VideoSection'));
@@ -41,7 +39,7 @@ const CategorySlider = dynamic(() => import('../components/homepage/CategorySlid
 const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'),  { ssr: false })
 // const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
 const Footer = dynamic(() => import('../components/footer'),  { ssr: false })
-
+const TopBar = dynamic(import('../components/TopBar'), {loading: () => <p>Loading...</p>})
 
 // const Footer = React.lazy(() => import('../components/footer'), { ssr: false });
 
@@ -49,26 +47,13 @@ const Footer = dynamic(() => import('../components/footer'),  { ssr: false })
 
 
 const Home = () => {
-	var settings = {
-		dots: false,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 5,
-		slidesToScroll: 1
-	  };
-	  var settingstwo = {
-		dots: false,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 3,
-		slidesToScroll: 1
-	  };
 
 
   return (<>
 
 		{/* <!-- Top Bar --> */}
 		<TopBar/>
+	
 		{/* <!-- Top Bar -->
 		<!-- Header --> */}
 		<Header/>
@@ -240,7 +225,7 @@ const Home = () => {
 	
 		<WhyChoosUs/>
 
-	 <Footer/>
+	 {/* <Footer/> */}
 
 
 		{/* <!-- footer -->
@@ -291,5 +276,16 @@ const Home = () => {
    </>
   )
 }
+
+export async function getStaticProps(context) {
+
+
+	return {
+	  props: {
+	  }, // will be passed to the page component as props
+	}
+  }
+
+
 
 export default Home;
