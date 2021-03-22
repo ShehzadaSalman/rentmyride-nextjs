@@ -26,7 +26,6 @@ export default class Footer extends Component {
 							width={217}
 							height={30}
 						    />
-							{/* <img src="images/logo.png" /> */}
 							<p>
 								Myride Middle East DMCC is one stop for Luxury Car Rental Dubai
 								& Limousine hiring in Dubai, where an individual can Select,
@@ -40,7 +39,7 @@ export default class Footer extends Component {
 					</div>
 					<div className="col-sm-2 col-md-2">
 						<div className="widget">
-							<h4>Contact <img src="images/border.png" /></h4>
+							<h4>Contact <Image src ="/images/border.png" height="2" width="65" alt="border" /></h4>
 							<ul>
 								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" fixedWidth  />+971 4566 7048</li>
 								<li>	<FontAwesomeIcon icon={faPhone} className="mr-1" fixedWidth  />+971 5555 05281</li>
@@ -55,7 +54,7 @@ export default class Footer extends Component {
 					</div>
 					<div className="col-sm-2 col-md-2">
 						<div className="widget">
-							<h4>Quick Links <img src="images/border.png" /></h4>
+							<h4>Quick Links <Image src ="/images/border.png" height="2" width="65" alt="border" /></h4>
 							<ul>
 								<li><a href="#">Home</a></li>
 								<li><a href="#">About Us</a></li>
@@ -69,7 +68,8 @@ export default class Footer extends Component {
 					</div>
 					<div className="col-sm-4 col-md-4">
 						<div className="widget">
-							<h4>Map <img src="images/border.png"/></h4>
+							<h4>Map <Image src ="/images/border.png" height="2" width="65" alt="border" /> </h4>
+							
 							<iframe  loading="lazy"
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14455.805017031698!2d55.13568148917137!3d25.069641253739636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f1d1d5afb1fc4aa!2sMyRide.ae%20Middle%20East!5e0!3m2!1sen!2s!4v1594899618875!5m2!1sen!2s" width="600" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
 						</div>

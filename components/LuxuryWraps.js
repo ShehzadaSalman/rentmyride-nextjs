@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
  const LuxuryWraps = () => {
     return (
@@ -9,7 +10,7 @@ import React from 'react'
                     <div className="col-sm-12 col-md-12">
                         <h6>welcome to rent myride</h6>
                         <h2>Luxury Car Rental in Dubai</h2>
-                        <span><img src="images/border.png" /></span>
+                        <span><Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
                         <p>
                             Welcome to MyRide, where you can fulfil your dream of driving a
                             luxury or sports car in Dubai. Our range of luxury cars are

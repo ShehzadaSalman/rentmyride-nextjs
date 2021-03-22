@@ -5,7 +5,7 @@ import {StarIcon} from '../components/extracted-icons/Regularicons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 function CustomerReview() {
-	let arr = [1,2,3,4,5]
+	let arr = [1,2,3,4]
     var settingstwo = {
 		dots: false,
 		infinite: true,
@@ -48,7 +48,8 @@ function CustomerReview() {
 					<div className="col-sm-12 col-md-12">
 						<h6>what customers are saying</h6>
 						<h2>customer reviews</h2>
-						<span><img src="/images/border.png" /></span>
+						<span><Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
+		
 					</div>
 				</div>
 			</div>
@@ -58,12 +59,13 @@ function CustomerReview() {
 				<div className="testislider">
 		<Slider {...settingstwo}>
 	          {arr.map((li,key) => (
-				  <div key={key} className="px-1">
+		<div key={key} className="px-1">
 		<div className="destiwrap">
 		<div className="desti">
 			<figure>
-				<img src="images/quote.png" />
-				<p>
+
+				<Image src="/images/quote.png" height={24} width={26} alt="quote"/>
+				<p className="mt-3">
 					My ride recommended the Lamborghini Huracan. It was delivered
 					to my Hotel by two lovely women, who I assumed were models.
 					All of the documents were straight forward and in English.

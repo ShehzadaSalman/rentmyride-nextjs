@@ -20,7 +20,7 @@ const WhyChoosUs = () => {
                                 <div className="col-sm-12 col-md-12">
                                     <h6>Rent my ride</h6>
                                     <h2>WHY CHOOSE MYRIDE?</h2>
-                                    <span><img src="images/border.png" /></span>
+                                    <span><Image src ="/images/border.png" height="2" width="65" alt="border" /></span>
                                     <p>
                                         Et dolore magna aliqua. Ut enim ad minim veniam, quis
                                         nostrud exercitation dolorin reprehenderits volupta velit
