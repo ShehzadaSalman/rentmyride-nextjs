@@ -42,17 +42,17 @@ else{
          <source src="https://srv-store5.gofile.io/download/ptPLoe/ee07dbbafc579bfa7c79c18b75af5278/bannerforweb.mov" type="video/mp4"/>
          </video>
         </div>
-        <div className="loaders">
+        {/* <div className="loaders">
             <Image
             src="/images/loader.gif"
             alt="loader"
             width={48}
             height={48}
             />
-        </div>
-        <a  ref = {videoplaybutton} className="videobtn" onClick={e => playVideo(e)}  >
+        </div> */}
+        <span ref = {videoplaybutton} className="videobtn" onClick={e => playVideo(e)}>
             <Image src ="/images/videoicon.png" height="144" width="144" alt = "video player" />
-        </a>
+        </span>
         <div className="container">
             <div className="row">
                 <div className="col-sm-2"></div>
