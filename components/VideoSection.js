@@ -1,29 +1,48 @@
 import React from 'react'
 import Image from 'next/image'
 import {useRef} from 'react'
+// import VideoClip from '../public/bannerforweb.webm'
+
+
+const isVideoPlaying = video => !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
+
 const VideoSection = () => {
     const videoEl = useRef(null);
+    const videowrapper = useRef(null);
+    const videoplaybutton = useRef(null);
 
  // play the video   
-const playVideo = () => {
-
-   console.log(videoEl)
+const playVideo = (e) => {
+  e.stopPropagation();
+   videowrapper.current.style.display = "block";
+   videoplaybutton.current.style.visibility = "hidden"
    videoEl.current.play();
-   alert("play the video")
+}
+
+// stop the video 
+const stopVideo = (e) => {
+if(isVideoPlaying(videoEl.current) === true){
+    console.log("play the video")
+    videoEl.current.pause();
+    videoplaybutton.current.style.visibility = "visible"
+    videowrapper.current.style.display = "none";
+}
+else{
+    playVideo(e)
+} 
 
 }
 
 
 
     return (
-        <div className="vedioWrap">
-              <video  ref={videoEl} id="home-video-id" autoPlay="" muted="" loop="">
-                  <source src="/Assets/video/bannerforweb.mov" type="video/mp4"/></video>
-        <div className="vimeo-wrapper">
-          
+        <div onClick={e => stopVideo(e)} className="vedioWrap">     
+        <div  ref ={videowrapper} className="vimeo-wrapper" style={{display: 'none'}}>
+        <video  ref={videoEl} id="home-video-id" autoPlay="" loop="">
+         <source src="https://srv-store5.gofile.io/download/ptPLoe/ee07dbbafc579bfa7c79c18b75af5278/bannerforweb.mov" type="video/mp4"/>
+         </video>
         </div>
         <div className="loaders">
-            {/* <img src="images/loader.gif" /> */}
             <Image
             src="/images/loader.gif"
             alt="loader"
@@ -31,8 +50,7 @@ const playVideo = () => {
             height={48}
             />
         </div>
-        <a className="videobtn" onClick={playVideo} >
-            {/* <img src="" /> */}
+        <a  ref = {videoplaybutton} className="videobtn" onClick={e => playVideo(e)}  >
             <Image src ="/images/videoicon.png" height="144" width="144" alt = "video player" />
         </a>
         <div className="container">
