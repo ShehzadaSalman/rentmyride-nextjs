@@ -225,7 +225,7 @@ const Home = () => {
 	
 		<WhyChoosUs/>
 
-	 {/* <Footer/> */}
+	 <Footer/>
 
 
 		{/* <!-- footer -->
