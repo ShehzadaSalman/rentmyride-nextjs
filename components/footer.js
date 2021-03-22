@@ -11,7 +11,7 @@ import {faFacebookF, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-
 
 export default class Footer extends Component {
     shouldComponentUpdate(){
-        return true;
+        return false;
     }
     render() {
         return (

@@ -51,4 +51,4 @@ import React from 'react'
     )
 }
 
-export default LuxuryWraps
+export default React.memo(LuxuryWraps)

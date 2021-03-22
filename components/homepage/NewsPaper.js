@@ -121,4 +121,4 @@ import Image from 'next/image'
 }
 
 
-export default NewsPaper
+export default React.memo(NewsPaper)

@@ -46,9 +46,9 @@ const NewHiredPackageSlider = () => {
             {arr.map((li, key) => (
 
 
-        <div className="px-0" style={{ backgroundColor: '#eee' }}>
+        <div  key={key} className="px-0" style={{ backgroundColor: '#eee' }}>
       <div className="d-flex justify-content-center">
-      <div  key={key} className="carItem px-0 mx-0">
+      <div  className="carItem px-0 mx-0">
      {/* <figure> */}
   <div style={{ width: '350px'}}>
   <DemoNavSlider /> 

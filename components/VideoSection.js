@@ -56,4 +56,4 @@ const playVideo = () => {
     )
 }
 
-export default VideoSection
+export default React.memo(VideoSection)

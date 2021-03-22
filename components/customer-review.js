@@ -34,7 +34,8 @@ function CustomerReview() {
 			  breakpoint: 600,
 			  settings: {
 				slidesToShow: 1,
-				slidesToScroll: 1
+				slidesToScroll: 1,
+				initialSlide: 1
 			  }
 			}
 		  ]
@@ -121,4 +122,4 @@ function CustomerReview() {
     )
 }
 
-export default CustomerReview
+export default React.memo(CustomerReview)

@@ -1,7 +1,8 @@
 
 import {PhoneIcon, EnvelopeIcon, CoinIcon, UserIcon } from './extracted-icons/Regularicons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
+import React from 'react'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faPhone,faEnvelope, faCoins, faUser } from '@fortawesome/free-solid-svg-icons'
 const TopBar = () => (
     <div className="topBar">
     <ul>
@@ -36,7 +37,7 @@ const TopBar = () => (
             <a href="login.html">
             {/* <i class="fa fa-user"></i> */}
             {/* <UserIcon height={11} width={11} color="#fff" /> */}
-                <FontAwesomeIcon icon={faUser} className="mr-1"  fixedWidth/>
+                {/* <FontAwesomeIcon icon={faUser} className="mr-1"  fixedWidth/> */}
                  <span className="ml-1">Login</span> 
                  </a>
         </li>
@@ -45,4 +46,4 @@ const TopBar = () => (
 </div>
 
 )
-export default TopBar;
+export default React.memo(TopBar);

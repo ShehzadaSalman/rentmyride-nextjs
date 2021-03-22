@@ -54,4 +54,4 @@ const AccordionFAQ = () => {
     )
 }
 
-export default AccordionFAQ
+export default React.memo(AccordionFAQ)

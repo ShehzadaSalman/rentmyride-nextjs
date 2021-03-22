@@ -126,4 +126,4 @@ const WhyChoosUs = () => {
     )
 }
 
-export default WhyChoosUs
+export default React.memo(WhyChoosUs)
