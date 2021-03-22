@@ -77,7 +77,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            {/* <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/> */}
                                       
                                                 <input
                                                     type="text"
@@ -87,7 +87,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                                     />
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon fixedWidth  icon={faClock}  color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            {/* <FontAwesomeIcon fixedWidth  icon={faClock}  color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/> */}
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -158,7 +158,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                         </div>
                                         <div className="fieldset">
                                             <div className="fields">
-                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            {/* <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/> */}
                                                 <input
                                                     type="text"
                                                     className="timepicker"
@@ -167,7 +167,7 @@ import { faCalendar, faClock, faCheck, faSearch } from '@fortawesome/free-solid-
                                                     />
                                             </div>
                                             <div className="fields">
-                                            <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/>
+                                            {/* <FontAwesomeIcon fixedWidth  icon={faClock} color="#b3b3b3" className="m-2 position-absolute"   style={{zIndex: 1 }}/> */}
                                                 <input
                                                     type="text"
                                                     className="timepicker"
