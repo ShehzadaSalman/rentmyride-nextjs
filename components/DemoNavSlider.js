@@ -26,30 +26,6 @@ export default class DemoNavSlider extends Component {
           adaptiveHeight = {true}
           swipeToSlide= {false}
           ref={slider => (this.slider1 = slider)}>
-          {/* <div>
-             <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
-              height={230}
-              width={350}
-             />
-          </div>
-          <div>
-          <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/13dda873e6b64829a1753726330fd928Range-Rover-Vogue-2020-Rental-in-Dubai-RentMyRide.jpg"
-              height={230}
-              width={350}
-             />
-          </div>
-          <div>
-          <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
-              height={230}
-              width={350}
-             />
-          </div>
-          <div>
-          <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/497fb2c37c104abc91db90f7cd7ddf1fRent-Range-Rover-Vogue-2020-in-Dubai-RentMyRide.jpg"
-              height={230}
-              width={350}
-             />
-          </div> */}
           <div>
           <Image src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicle/59885f4fbf1f4648a4adcbaa5e3d0b84Range-Rover-Vogue-2020-Rental-in-Dubai.jpg"
               height={230}
@@ -76,7 +52,7 @@ export default class DemoNavSlider extends Component {
           adaptiveHeight = {true}
           swipeToSlide={true}
           focusOnSelect={true}>
-            
+
           <div className="p-1">
             <div className="text-center">
               <div className="d-flex align-items-center justify-content-center" style={{ padding: '3px', borderRadius: '5px', border: 'Solid 2px red'}} >
@@ -223,8 +199,8 @@ export default class DemoNavSlider extends Component {
                 padding: 2%;
                 position: relative;
                 text-align: center;
-               } 
-            
+               }
+
             `}
         </style>
       </div>

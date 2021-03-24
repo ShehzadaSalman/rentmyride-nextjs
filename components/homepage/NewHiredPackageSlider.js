@@ -46,12 +46,12 @@ const NewHiredPackageSlider = () => {
             {arr.map((li, key) => (
 
 
-        <div  key={key} className="px-0" style={{ backgroundColor: '#eee' }}>
+  <div  key={key} className="px-0" style={{ backgroundColor: '#eee' }}>
       <div className="d-flex justify-content-center">
       <div  className="carItem px-0 mx-0">
      {/* <figure> */}
   <div style={{ width: '350px'}}>
-  <DemoNavSlider /> 
+  <DemoNavSlider />
   </div>
      <div className="offerdt pt-0">
          <h5 className="py-1 mb-0">
@@ -113,12 +113,12 @@ const NewHiredPackageSlider = () => {
 
 
 
-  
+
 )
-            
-            
+
+
             )}
-   
+
    </Slider>
 <style>
 {`
