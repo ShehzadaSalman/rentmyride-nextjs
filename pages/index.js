@@ -13,20 +13,7 @@ import SideNav from '../components/SideNav'
 
 
 
-// const VideoSection = lazy(() => import('../components/VideoSection'));
-// import CategorySlider from '../components/homepage/CategorySlider'
-// import AccordionFAQ from '../components/AccordionFAQ'
-// import { VideoSection } from '../components/VideoSection';
-// import { LuxuryWraps } from '../components/LuxuryWraps';
-// import { WhyChoosUs } from '../components/WhyChoosUs';
-// import { SearchForm } from '../components/SearchForm';
-// import { Header } from '../components/Header';
-// import { BrandSlider } from '../components/homepage/BrandSlider';
-// import { CategorySlider } from '../components/homepage/CategorySlider';
-// import { CarPackageSlider } from '../components/homepage/CarPackageSlider';
-// import { HiredPackageSlider } from '../components/homepage/HiredPackageSlider';
-
-// dynamic imports 
+// dynamic imports
 const AccordionFAQ = dynamic(() => import('../components/AccordionFAQ'), {loading: () => <p>Loading...</p>})
 const VideoSection = dynamic(() => import('../components/VideoSection'))
 const NewsPaper = dynamic(() => import('../components/homepage/NewsPaper'))
@@ -108,9 +95,9 @@ const Home = () => {
 		<div className="container">
 		<div className="row">
 		   <NewBrandSlider/>
-		</div> 		 	
 		</div>
-	
+		</div>
+
 		{/* <CategorySlider/> */}
 		<div className="heading">
 			<div className="container">
@@ -126,10 +113,10 @@ const Home = () => {
 		<div className="catesWrap">
 			<div className="container">
 				<div className="row" >
-			
+
 						<CategorySlider/>
 						{/* <NewCategorySlider/> */}
-				
+
 				</div>
 			</div>
 		</div>
@@ -176,7 +163,7 @@ const Home = () => {
 		<!-- faq --> */}
 
 
-  
+
 
 		<div className="faq">
 			<div className="container">
@@ -202,7 +189,7 @@ const Home = () => {
 								width={400}
 								height={500}
 							/>
-						
+
 						</div>
 					</div>
 				</div>
@@ -218,12 +205,12 @@ const Home = () => {
 				</div>
 			</div>
 		</div>
-       <NewsPaper/>	
-	
+       <NewsPaper/>
+
 	    <CustomerReview/>
 	  <LuxuryWraps/>
-	
-	
+
+
 		<WhyChoosUs/>
 
 	 <Footer/>
@@ -239,14 +226,14 @@ const Home = () => {
 			  .children()
 			  .eq(3)
 			  .addclassName("videoActive");
-			
+
 			$("#carousel-thumb6").carousel("cycle");
-			
+
 			// the functionality starts here
 			let isplaying = true; // global variable to check if the video is being played or not
 			$(function () {
 			  // running the slider via jquery
-			
+
 			  $("#carousel-thumb6").on("slid.bs.carousel", function (e) {
 			    let checactiveclassName = $(
 			      "#carousel-thumb6 .carousel-inner .videoActive"
