@@ -6818,8 +6818,15 @@ footer .widget iframe {
   min-height: 300px;
 }
 
-.find-a-car svg{ margin-bottom: 4px;}
-.find-a-limo svg{margin-bottom: 4px;}
+.find-a-car svg {
+  margin-bottom: 4px;
+}
+.find-a-limo svg {
+  margin-bottom: 4px;
+}
+\ #logo-div-id {
+  background-color: #000;
+}
 
 /*Card With Driver*/
 
@@ -7166,24 +7173,31 @@ a.c-btn-whatsapp {
   align-items: center;
 }
 
-
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-@media screen and(min-width: 576px){
-.container {max-width: 540px;}
+@media screen and(min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 }
 
-@media screen and(min-width: 768px){
-.container {max-width: 720px;}
+@media screen and(min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
-@media screen and(min-width: 992px){
-  .container {max-width: 960px;}
+@media screen and(min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
 }
-@media screen and (min-width: 1200px){
-  .container {max-width: 1200px;}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }

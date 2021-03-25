@@ -14,15 +14,14 @@ const Header = () => {
     return (
 <div className="header">
 			<div className="row">
-				<div className="col-sm-3 col-md-3 logo d-flex flex-column justify-content-center">
+				<div id="logo-div-id" className="col-sm-12 col-md-3 logo">
 					<Link href="/">
-
 					<a className="d-flex"> <Image
-							src="/images/logo.png"
-							alt="logo"
-							width={217}
-							height={30}
-						/>
+					src="/images/logo.png"
+					alt="logo"
+					width={217}
+					height={30}
+					/>
 					</a>
 					</Link>
 					<a  onClick={openNav} className="openNav">
@@ -46,6 +45,23 @@ const Header = () => {
 					</nav>
 				</div>
 			</div>
+			<style jsx>{
+				`
+				#logo-div-id{
+				 display: flex;	
+				 align-items: center;
+				}
+				@media only screen and (max-width: 670px){
+					#logo-div-id{
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+					}
+				}
+			
+		
+				
+				`}</style>
 		</div>
 
     )
