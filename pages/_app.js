@@ -4,7 +4,11 @@ import '../public/css/oldcss.css'
 // import '../public/css/style.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import NextNprogress from 'nextjs-progressbar';
+import 'react-day-picker/lib/style.css';
 import Head from 'next/head'
+
+
 function MyApp({ Component, pageProps }) {
   return <> 
   <Head>

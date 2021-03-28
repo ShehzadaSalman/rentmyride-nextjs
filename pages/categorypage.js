@@ -12,6 +12,7 @@ import NewHiredPackageSlider from '../components/homepage/NewHiredPackageSlider'
 import ListingCard from '../components/ListingCard'
 import ListingFilter from '../components/ListingFilter'
 import Image from 'next/image'
+import {carListing} from '../dummyData/carlisting'
 const CategoryPage = () => {
 const list = [1,2,3,4,5,6,7,8,9]
 
@@ -20,7 +21,7 @@ const list = [1,2,3,4,5,6,7,8,9]
       <SideNav />
      <TopBar/>
      <Header />
-      <InnerNavBanner />
+      <InnerNavBanner page ="Car Rental"  />
       <main className="main-wrapper container">
 
         {/* the sidebar is here */}
@@ -35,9 +36,9 @@ const list = [1,2,3,4,5,6,7,8,9]
             </div>
 
          <div className="row">
-           {list.map((li, key) => (
+           {carListing.map((li, key) => (
              <div key = {key} className="mb-2 col-md-4">
-                 <ListingCard />
+                 <ListingCard data = {li} />
              </div>
            ))}
          </div>

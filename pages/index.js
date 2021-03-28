@@ -27,7 +27,7 @@ const CategorySlider = dynamic(() => import('../components/homepage/CategorySlid
 const CarPackageSlider = dynamic(() => import('../components/homepage/CarPackageSlider'),  { ssr: false })
 // const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
 const Footer = dynamic(() => import('../components/footer'),  { ssr: false })
-const TopBar = dynamic(import('../components/TopBar'), {loading: () => <p>Loading...</p>})
+const TopBar = dynamic(import('../components/TopBar'), {loading: () => <p className="text-center">Loading...</p>})
 
 // const Footer = React.lazy(() => import('../components/footer'), { ssr: false });
 
@@ -161,9 +161,6 @@ const Home = () => {
 		{/* <!-- video -->
 
 		<!-- faq --> */}
-
-
-
 
 		<div className="faq">
 			<div className="container">

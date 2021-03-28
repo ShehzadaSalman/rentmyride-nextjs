@@ -1,49 +1,99 @@
-
+import { useState } from "react";
+// import DatePicker from 'react-date-picker';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+import DayPickerInput from 'react-day-picker/DayPickerInput';
 
 const SearchFilter = () => {
-  return (<div class="sideWidget">
-  									<h3><span><img src="images/caricon.png"/><i></i></span>Search Filters</h3>
-  									<div class="widgetContent">
-  										<form>
-  											<div class="searchtype">
-  												<label>
-  													<input type="radio" name="type"/>
-  													<span><i class="fa fa-check"></i>Hourly</span>
-  												</label>
-  												<label>
-  													<input type="radio" name="type"/>
-  													<span><i class="fa fa-check"></i>Daily</span>
-  												</label>
-  												<label>
-  													<input type="radio" name="type"/>
-  													<span><i class="fa fa-check"></i>Delivery</span>
-  												</label>
-  											</div>
-  											<h5><span>-</span>From Date</h5>
-  											<div class="fields">
-  												<i class="fa fa-calendar"></i>
-  												<input class="datepicker" type="text" name="" placeholder="From Date"/>
-  											</div>
-  											<h5><span>-</span>To Date</h5>
-  											<div class="fields">
-  												<i class="fa fa-calendar"></i>
-  												<input type="text" class="datepicker" name="" placeholder="To Date"/>
-  											</div>
-  											<h5><span>-</span>Time</h5>
-  											<div class="fieldset">
-  												<div class="fields">
-  													<input type="text"  class="timepicker" name="" placeholder="From"/>
-  												</div>
-  												<div class="fields">
-  													<input type="text"  class="timepicker" name="" placeholder="To"/>
-  												</div>
-  											</div>
-  											<h4>Filter by Price</h4>
-  											<input type="hidden" class="slider-input" value="23" />
-  											<button>Apply filters</button>
-  										</form>
-  									</div>
-  								</div>)
-}
+  const [startDate, setStartDate] = useState(new Date());
+  const [value, onChange] = useState(new Date());
+  return (
+    <div class="sideWidget">
+      <h3>
+        <span>
+          <img src="images/caricon.png" />
+          <i></i>
+        </span>
+        Search Filters
+      </h3>
+      <div class="widgetContent">
+        <form>
+          <h5>
+            <span>-</span>From Date
+          </h5>
+          <div class="fields">
+              <FontAwesomeIcon
+                fixedWidth
+                icon={faCalendar}
+                color="#4F504D"
+                className="calendar-icon-style position-absolute"
+                style={{  marginTop:'10px', right: '10px' }}
+              />
+              <DayPickerInput 
+              // classNames={ { display: 'd-block'  } }
+              onDayChange={day => console.log(day)}
+              dayPickerProps={{
+                fromMonth: new Date(),
+              }}
+              />
+          </div>
+          <h5>
+            <span>-</span>To Date
+          </h5>
+          <div class="fields">
+            <FontAwesomeIcon
+              fixedWidth
+              icon={faCalendar}
+              color="#4F504D"
+		      	  className="position-absolute"
+              style={{ marginTop:'10px', right:'10px' }}
+            />
+   <DayPickerInput
+    // classNames={ { display: 'd-block'  } }
+   onDayChange={day => console.log(day)} />
+          </div>
+          <h5>
+            <span>-</span>Time
+          </h5>
+          <div class="fieldset">
+            <div class="fields">
+              <select className="datepicker">
+				  <option>12:00</option>
+				  <option>13:00</option>
+				  <option>14:00</option>
+				  <option>15:00</option>
+				  <option>16:00</option>
+				  <option>17:00</option>
+				  <option>18:00</option>
+				  <option>19:00</option>
+				  <option>20:00</option>
+				  <option>21:00</option>
+				  <option>22:00</option>
+			  </select>
+            </div>
+            <div class="fields">
+                           <select className="datepicker">
+				  <option>12:00</option>
+				  <option>13:00</option>
+				  <option>14:00</option>
+				  <option>15:00</option>
+				  <option>16:00</option>
+				  <option>17:00</option>
+				  <option>18:00</option>
+				  <option>19:00</option>
+				  <option>20:00</option>
+				  <option>21:00</option>
+				  <option>22:00</option>
+			  </select>
+            </div>
+          </div>
+          <h4>Filter by Price</h4>
+          <input type="hidden" class="slider-input" value="23" />
+          <button className="filter-btn">Apply filters</button>
+        </form>
+      </div>
+    </div>
+  );
+};
 
 export default SearchFilter;

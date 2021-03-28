@@ -10,6 +10,7 @@ a {
 
 body {
   overflow-x: hidden;
+  line-height: 1;
 }
 
 .topBar {
@@ -778,15 +779,15 @@ body {
   font-family: "Arimo", sans-serif;
   font-weight: 400;
   color: #222222;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0px 5px;
 }
 
-.carItem .offerdt ul li img {
+/* .carItem .offerdt ul li img {
   width: 15px;
   vertical-align: middle;
   margin-right: 7px;
-}
+} */
 
 .offer .offerdt ul {
   padding: 0px;
@@ -2092,19 +2093,6 @@ footer .copy p a {
   color: #222;
 }
 
-.sideWidget .widgetContent button {
-  border: 2px solid #222;
-  width: 100%;
-  font-family: "Arimo", sans-serif;
-  font-weight: 600;
-  color: #222;
-  font-size: 22px;
-  display: block;
-  padding: 10px 10px;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
 .sideWidget .widgetContent .slider-container.theme-green .selected-bar {
   background: #f00;
 }
@@ -2112,6 +2100,30 @@ footer .copy p a {
 .sideWidget .widgetContent .slider-container.theme-green .pointer {
   background: #f00;
   border: 0px;
+}
+
+.filter-btn {
+  background: #ff0000;
+  border: 0px;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  border: solid 2px #ff0000;
+  font-family: "Arimo", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  display: block;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.DayPickerInput {
+  width: 100%;
+}
+
+.filter-btn:hover {
+  background-color: #4f504d;
+  border: solid 2px #4f504d;
 }
 
 .sideWidget .widgetContent .slider-container.theme-green .scale {
@@ -3375,17 +3387,6 @@ h2 {
 
 .infiniteslide_wrap.hoverL .images {
   animation: 5.38s linear 0s infinite reverse none running infiniteslide12 !important;
-}
-.sideWidget .widgetContent button:hover {
-  background: #f00;
-  color: #fff;
-  border-color: #f00;
-}
-
-.sideWidget .widgetContent button {
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
 }
 
 .innerHirdCars .carItem .offerdt a.book:hover {
@@ -6425,13 +6426,6 @@ footer .widget ul li a {
   opacity: 0.8;
 }
 
-.sideWidget .widgetContent button {
-  background: #ff0000;
-  border: 0px;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
 footer .widget form input {
   border: 0px;
   outline: none;
@@ -7171,6 +7165,11 @@ a.c-btn-whatsapp {
   text-decoration: none;
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  .main-wrapper .sidebar {
+    display: none;
+  }
 }
 
 .container {

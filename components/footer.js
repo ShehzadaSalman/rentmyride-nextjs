@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {PhoneIcon, EnvelopeIcon, MapMarkerIcon} from './extracted-icons/Regularicons'
 import { faPhone, faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons'
 import {faFacebookF, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import Link from 'next/link'
 
 export default class Footer extends Component {
     shouldComponentUpdate(){
@@ -70,6 +71,7 @@ export default class Footer extends Component {
 								<li><a href="#">Stretch Limo</a></li>
 								<li><a href="#">Car Rental</a></li>
 								<li><a href="#">Blogs</a></li>
+								<li><Link href="feedback"><a href="#">Feedback</a></Link></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="#">Contact</a></li>
 							</ul>

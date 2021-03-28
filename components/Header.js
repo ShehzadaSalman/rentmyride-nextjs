@@ -40,7 +40,7 @@ const Header = () => {
 							<li><a href="stretch_limo.html">Stretch Limo </a></li>
 							<li><a href="#">Packages</a></li>
 							<li><a href="blog.html">Blog </a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><Link href="contactus"><a>Contact</a></Link></li>
 						</ul>
 					</nav>
 				</div>

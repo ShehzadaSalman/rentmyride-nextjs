@@ -25,163 +25,101 @@ const FeedBack = () => {
     <Header />
     <InnerNavBanner />
       <div class="FeedbackBox container">
-                      <h3 className="text-center">Feedback</h3>
+                      <h2 className="text-center mb-3">Feedback</h2>
 
                       <div class="contactForm mb-5">
-  <form action="/feedback" enctype="multipart/form-data" method="post">                            <div class="field">
-
-                                  <label>
-                                      Your Name
+                        <form action="/feedback" enctype="multipart/form-data" method="post">                            <div class="field">
+                              <div class="field mb-4">
+                                   <label>
+                                   <strong> Your Name</strong>  
                                   </label>
-                                  <input className="feedback-input" type="text" value=""/>
+                                  <input className="mt-2 feedback-input" type="text" value=""/>
                                   <span className="field-validation-valid text-danger" data-valmsg-for="WriterName" data-valmsg-replace="true"></span>
+                            
                               </div>
-                              <div className="field">
+                            </div>
+                              <div className="field mb-4">
                                   <label>
-                                      Your Comment
+                                     <strong>Your Comment</strong> 
                                   </label>
 
-                                  <textarea cols="80" rows="10" className="feedback-textarea"></textarea>
+                                  <textarea cols="80" rows="10"
+                                   className=" mt-2 feedback-textarea"></textarea>
                               </div>
-                              <div className="field">
-
+                              <div className="field mb-4">
                                   <label>
-                                      Your rating
+                                     <strong>Your rating</strong> 
                                   </label>
                                   <div className="rating-stars">
                                     <ReactStars
                                        count={5}
                                        onChange={ratingChanged}
-                                       size={24}
+                                       size={50}
                                        activeColor="#ffd700"
                                      />
 
-                                      <ul id="stars">
-                                          <li className="star" title="Poor" data-value="1">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Fair" data-value="2">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Good" data-value="3">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Excellent" data-value="4">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="WOW!!!" data-value="5">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                      </ul>
                                   </div>
                                   <input type="hidden" name="Rating" id="Rating" value="0"/>
                               </div>
-                              <div className="field">
-
+                              <div className="field mb-4">
                                   <label>
-                                      How was your Experience?
+                                     <strong>How was your Experience?</strong> 
                                   </label>
                                   <div className="rating-stars">
-                                      <ul id="Estars">
-                                          <li className="star" title="Poor" data-value="1">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Fair" data-value="2">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Good" data-value="3">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Excellent" data-value="4">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="WOW!!!" data-value="5">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                      </ul>
+                                  <ReactStars
+                                       count={5}
+                                       onChange={ratingChanged}
+                                       size={50}
+                                       activeColor="#ffd700"
+                                     />
                                   </div>
                                   <input type="hidden" name="Experience" id="Experience" value="0"/>
                               </div>
-                              <div className="field">
+                              <div className="field mb-4">
 
                                   <label>
-                                      On Time Delivery?
+                                     <strong>On Time Delivery?</strong> 
                                   </label>
                                   <div className="rating-stars">
-                                      <ul id="Dstars">
-                                          <li className="star" title="Poor" data-value="1">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Fair" data-value="2">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Good" data-value="3">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="Excellent" data-value="4">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                          <li className="star" title="WOW!!!" data-value="5">
-                                              <i className="fa fa-star fa-fw"></i>
-                                          </li>
-                                      </ul>
+                                  <ReactStars
+                                       count={5}
+                                       onChange={ratingChanged}
+                                       size={50}
+                                       activeColor="#ffd700"
+                                     />
                                   </div>
                                   <input type="hidden" name="TimeDelivery" id="TimeDelivery" value="0"/>
                               </div>
-                                      <div className="field">
-
+                               <div className="field mb-4">
                                           <label>
-                                              Cleanness of the car?
+                                             <strong>Cleanness of the car?</strong> 
                                           </label>
                                           <div className="rating-stars">
-                                              <ul id="Cstars">
-                                                  <li className="star" title="Poor" data-value="1">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Fair" data-value="2">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Good" data-value="3">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Excellent" data-value="4">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="WOW!!!" data-value="5">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                              </ul>
+                                          <ReactStars
+                                       count={5}
+                                       onChange={ratingChanged}
+                                       size={50}
+                                       activeColor="#ffd700"
+                                     />
                                           </div>
                                           <input type="hidden" name="Cleanness" id="Cleanness" value="0"/>
                                       </div>
-                                      <div className="field">
-
+                                    <div className="field mb-4">
                                           <label>
-                                              Employees Presentation?
+                                             <strong>Employees Presentation?</strong>
                                           </label>
                                           <div className="rating-stars">
-                                              <ul id="Pstars">
-                                                  <li className="star" title="Poor" data-value="1">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Fair" data-value="2">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Good" data-value="3">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="Excellent" data-value="4">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                                  <li className="star" title="WOW!!!" data-value="5">
-                                                      <i className="fa fa-star fa-fw"></i>
-                                                  </li>
-                                              </ul>
+                                          <ReactStars
+                                       count={5}
+                                       onChange={ratingChanged}
+                                       size={50}
+                                       activeColor="#ffd700"
+                                        />
                                           </div>
                                           <input type="hidden" name="EmployeePresentation" id="EmployeePresentation" value="0"/>
                                       </div>
-                                      <div className="field">
-                                          <label for="inputEmail3">Your Image</label>
+                                      <div className="field mb-4">
+                                          <label for="inputEmail3"><strong>Your Image</strong></label>
                                           <div>
                                               <div className="upload-btn-wrapper-custom">
                                                   <input id="TestimonialWriterImage" name="TestimonialWriterImage" className="feedback-input" type="file" value=""/>
