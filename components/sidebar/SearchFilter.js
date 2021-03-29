@@ -8,7 +8,7 @@ const SearchFilter = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [value, onChange] = useState(new Date());
   return (
-    <div class="sideWidget">
+    <div className="sideWidget">
       <h3>
         <span>
           <img src="images/caricon.png" />
@@ -16,12 +16,12 @@ const SearchFilter = () => {
         </span>
         Search Filters
       </h3>
-      <div class="widgetContent">
+      <div className="widgetContent">
         <form>
           <h5>
             <span>-</span>From Date
           </h5>
-          <div class="fields">
+          <div className="fields">
               <FontAwesomeIcon
                 fixedWidth
                 icon={faCalendar}
@@ -40,7 +40,7 @@ const SearchFilter = () => {
           <h5>
             <span>-</span>To Date
           </h5>
-          <div class="fields">
+          <div className="fields">
             <FontAwesomeIcon
               fixedWidth
               icon={faCalendar}
@@ -55,9 +55,9 @@ const SearchFilter = () => {
           <h5>
             <span>-</span>Time
           </h5>
-          <div class="fieldset">
-            <div class="fields">
-              <select className="datepicker">
+          <div className="fieldset">
+          <div className="fields">
+          <select className="datepicker">
 				  <option>12:00</option>
 				  <option>13:00</option>
 				  <option>14:00</option>
@@ -71,8 +71,8 @@ const SearchFilter = () => {
 				  <option>22:00</option>
 			  </select>
             </div>
-            <div class="fields">
-                           <select className="datepicker">
+            <div className="fields">
+         <select className="datepicker">
 				  <option>12:00</option>
 				  <option>13:00</option>
 				  <option>14:00</option>
@@ -88,7 +88,7 @@ const SearchFilter = () => {
             </div>
           </div>
           <h4>Filter by Price</h4>
-          <input type="hidden" class="slider-input" value="23" />
+          <input type="hidden" className="slider-input" value="23" />
           <button className="filter-btn">Apply filters</button>
         </form>
       </div>

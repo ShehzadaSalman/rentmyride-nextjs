@@ -55,8 +55,8 @@ const SideNav = () => {
   
   .sidenav .closebtn {
     position: absolute;
-    top: -9px;
-    right: -13px;
+    top: -3px;
+    right: -17px;
     font-size: 36px;
     margin-left: 50px;
   }

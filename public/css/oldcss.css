@@ -1871,6 +1871,7 @@ footer .copy p a {
   padding: 10px 12px;
   border: 1px solid #ddd;
   margin-right: 10px;
+  background-color: #fff;
   min-width: 200px;
 }
 
@@ -6030,7 +6031,7 @@ h3#ui-id-3 {
   .MainBanner {
     background-size: cover !important;
   }
-  .sideWidget .widgetContent .brands figure {
+  /* .sideWidget .widgetContent .brands figure {
     height: 150px;
     line-height: 150px;
     box-sizing: border-box;
@@ -6041,7 +6042,7 @@ h3#ui-id-3 {
     height: auto;
     vertical-align: middle;
     margin: 0px;
-  }
+  } */
 }
 @media only screen and (max-width: 350px) {
   .innerHirdCars .carItem figure {

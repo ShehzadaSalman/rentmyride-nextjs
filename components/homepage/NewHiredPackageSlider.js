@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Slider from 'react-slick'
 import DemoNavSlider from '../DemoNavSlider'
+import {carListing} from '../../dummyData/carlisting'
 const NewHiredPackageSlider = () => {
 
     var settingstwo = {
@@ -43,9 +44,7 @@ const NewHiredPackageSlider = () => {
     return (
         <div className="hiredCarss px-0">
         <Slider {...settingstwo}>
-            {arr.map((li, key) => (
-
-
+  {carListing.map((li, key) => (
   <div  key={key} className="px-0" style={{ backgroundColor: '#eee' }}>
       <div className="d-flex justify-content-center">
       <div  className="carItem px-0 mx-0">
