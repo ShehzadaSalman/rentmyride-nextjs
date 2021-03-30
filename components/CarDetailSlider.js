@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-export default class DemoNavSlider extends Component {
+export default class CarDetailSlider extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,8 +17,9 @@ export default class DemoNavSlider extends Component {
       nav2: this.slider2,
     });
   }
+
   settings = {
-    slidesToShow: 4,
+    slidesToShow: 7,
     adaptiveHeight: true,
     swipeToSlide: true,
     focusOnSelect: true,
@@ -26,16 +27,16 @@ export default class DemoNavSlider extends Component {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 6,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -63,7 +64,7 @@ export default class DemoNavSlider extends Component {
           {this.props.mainCarousel &&
             this.props.mainCarousel.map((li, key) => (
               <div key={key}>
-                <Image src={li} height={230} width={350} />
+                <Image src={li} height={510} width={800} />
               </div>
             ))}
         </Slider>
@@ -81,10 +82,10 @@ export default class DemoNavSlider extends Component {
                     style={{
                       padding: "3px",
                       borderRadius: "5px",
-                      border: "Solid 2px red",
+                      border: "Solid 2px #424242",
                     }}
                   >
-                    <Image src={li} height={45} width={70} layout="intrinsic" />
+                    <Image src={li} height={65} width={90} layout="intrinsic" />
                   </div>
                 </div>
               </div>

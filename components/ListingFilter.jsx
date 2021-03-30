@@ -30,7 +30,6 @@ const ListingFilter = () => {
               <option value="High">High to Low</option>
             </select>
             <select
-              id="selectShow"
               name="range"
               onChange={(e) => formSubmit(e)}
               style={{ width: "50px" }}
@@ -82,7 +81,6 @@ const ListingFilter = () => {
             </select>
             <select
               className="mobile-listing-filter"
-              id="selectShow"
               name="range"
               onChange={(e) => formSubmit(e)}
             >

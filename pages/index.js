@@ -1,18 +1,7 @@
-import Head from "next/head";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faCoins,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
-// import Footer from '../components/footer';
 import CustomerReview from "../components/customer-review";
 import NewBrandSlider from "../components/homepage/NewBrandSlider";
-import NewCategorySlider from "../components/homepage/NewCategorySlider";
-import NewHiredPackageSlider from "../components/homepage/NewHiredPackageSlider";
 import SideNav from "../components/SideNav";
 
 // dynamic imports
@@ -26,7 +15,10 @@ const LuxuryWraps = dynamic(() => import("../components/LuxuryWraps"));
 const WhyChoosUs = dynamic(() => import("../components/WhyChoosUs"));
 const SearchForm = dynamic(() => import("../components/SearchForm"), {
   loading: () => (
-    <div className="border" style={{ height: "600px", width: "700px" }}>
+    <div
+      className="border text-center"
+      style={{ height: "600px", width: "700px", backgroundColor: "#eee" }}
+    >
       Loading...
     </div>
   ),

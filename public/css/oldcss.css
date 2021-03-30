@@ -2028,8 +2028,8 @@ footer .copy p a {
 
 .sideWidget .widgetContent .fields i {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 11px;
+  right: 11px;
   color: #a9a9a9;
 }
 
@@ -7095,7 +7095,7 @@ div#accordion_faqs {
   left: 0px;
   margin: 0px;
   margin-top: -25px;
-  z-index: 999;
+  z-index: 1;
 }
 
 .sideWidget .widgetContent .searchtype label input:checked + span {

@@ -14,7 +14,6 @@ import BrandFilter from "../components/sidebar/BrandFilter";
 import NewHiredPackageSlider from "../components/homepage/NewHiredPackageSlider";
 import ListingCard from "../components/ListingCard";
 import ListingFilter from "../components/ListingFilter";
-import Image from "next/image";
 import SideNavFilter from "../components/SideNavFilter";
 import PaginationComponent from "../components/PaginationComponent";
 const CategoryPage = ({ listing, info }) => {
@@ -37,7 +36,7 @@ const CategoryPage = ({ listing, info }) => {
             <ListingFilter />
           </div>
 
-          <div className="row">
+          <div className="row hiredCarss">
             {listing.map((li, key) => (
               <div key={key} className="mb-2 col-md-4">
                 <ListingCard data={li} />
