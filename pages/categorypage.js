@@ -15,12 +15,9 @@ import NewHiredPackageSlider from "../components/homepage/NewHiredPackageSlider"
 import ListingCard from "../components/ListingCard";
 import ListingFilter from "../components/ListingFilter";
 import Image from "next/image";
-import { carListing } from "../dummyData/carlisting";
 import SideNavFilter from "../components/SideNavFilter";
 import PaginationComponent from "../components/PaginationComponent";
 const CategoryPage = ({ listing, info }) => {
-  console.log(info);
-
   return (
     <>
       <SideNav />
@@ -47,7 +44,9 @@ const CategoryPage = ({ listing, info }) => {
               </div>
             ))}
           </div>
-          <PaginationComponent data={info} />
+          <div className="d-flex justify-content-center">
+            <PaginationComponent data={info} />
+          </div>
           {/* pagination ends here */}
         </div>
       </main>
@@ -99,7 +98,11 @@ const CategoryPage = ({ listing, info }) => {
     </>
   );
 };
-
+{
+  /* remember that it won't work on the production because we're using the api from the nextjs rather from outside 
+  and to make this page work simply connect to another api
+  */
+}
 export async function getServerSideProps(context) {
   {
     /* implementing a fake api with infinite scrolling on pagination */

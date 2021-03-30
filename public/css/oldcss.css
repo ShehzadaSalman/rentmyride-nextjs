@@ -1874,6 +1874,13 @@ footer .copy p a {
   background-color: #fff;
   min-width: 200px;
 }
+.pagination .page-item {
+  cursor: pointer;
+}
+.pagination .page-item .page-link {
+  color: #424242;
+  font-size: 17px;
+}
 
 .sortOption .sortBtn {
   width: 15%;

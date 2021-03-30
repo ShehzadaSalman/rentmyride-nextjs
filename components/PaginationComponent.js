@@ -1,5 +1,11 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronRight,
+  faChevronLeft,
+} from "@fortawesome/free-solid-svg-icons";
+
 const PaginationComponent = ({ data }) => {
   const router = useRouter();
   const [pagesArray, setPagesArray] = useState([]);
@@ -39,21 +45,13 @@ const PaginationComponent = ({ data }) => {
     }
   };
 
-  //   const availablePages = () => {
-  //     for (let i = 1; i <= totalPages; i++) {
-  //       setPagesArray([...pagesArray, i]);
-  //       console.log(i);
-  //       console.log(pagesArray);
-  //     }
-  //   };
-
   return (
     <>
       <nav aria-label="Page navigation example">
         <ul className="pagination">
           <li className="page-item">
             <a className="page-link" onClick={prevPage}>
-              Previous
+              <FontAwesomeIcon icon={faChevronLeft} />
             </a>
           </li>
           {/* <AvailablePages /> */}
@@ -71,7 +69,7 @@ const PaginationComponent = ({ data }) => {
           {/*  Available pages end here */}
           <li className="page-item">
             <a className="page-link" onClick={nextPage}>
-              Next
+              <FontAwesomeIcon icon={faChevronRight} />
             </a>
           </li>
         </ul>
