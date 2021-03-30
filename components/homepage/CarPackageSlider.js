@@ -63,17 +63,13 @@ const CarPackageSlider = () => {
                   </h5>
                   <ul>
                     <li>
-                      <img src="/images/icon1-min.png" />
-                    </li>
-                    <li>
                       <Image
                         src="/images/icon1-min.png"
                         alt="Picture of the author"
                         width={14}
                         height={14}
-                        className="mr-1"
                       />
-                      Seats 4
+                      <span className="ml-1">Seats 4</span>
                     </li>
                     <li>
                       <Image
@@ -81,9 +77,8 @@ const CarPackageSlider = () => {
                         alt="Picture of the author"
                         width={15}
                         height={14}
-                        className="mr-1"
                       />
-                      Doors 2
+                      <span className="ml-1">Doors 2</span>
                     </li>
                     <li>
                       <Image
@@ -91,9 +86,8 @@ const CarPackageSlider = () => {
                         alt="Picture of the author"
                         width={15}
                         height={14}
-                        className="mr-1"
                       />
-                      Automatic
+                      <span className="ml-1">Automatic</span>
                     </li>
                   </ul>
                   <p>
