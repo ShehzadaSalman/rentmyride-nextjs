@@ -11,7 +11,6 @@ const SideNav = () => {
           &times;
         </a>
         <Link href="/">
-          {" "}
           <a>Home</a>
         </Link>
         <Link href="/categorypage">
