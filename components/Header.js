@@ -35,9 +35,9 @@ const Header = () => {
             </a>
             <ul className="navbar">
               <li>
-                <a href="index.html" className="active">
-                  Home
-                </a>
+                <Link href="/">
+                  <a className="active">Home</a>
+                </Link>
               </li>
               <li>
                 <Link href="/categorypage">
@@ -45,17 +45,21 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <a href="car_with_driver.html">Car with driver </a>
+                <Link href="/categorypage">
+                  <a>Car with driver </a>
+                </Link>
               </li>
               <li>
-                <a href="stretch_limo.html">Stretch Limo </a>
+                <Link href="/categorypage">
+                  <a>Stretch Limo </a>
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Packages</a>
               </li>
               <li>
                 <a href="blog.html">Blog </a>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contactus">
                   <a>Contact</a>
