@@ -2747,10 +2747,6 @@ h2 {
   background: #f00;
 }
 
-.sideWidget .widgetContent .fieldset .fields div {
-  position: relative;
-}
-
 .sideWidget .widgetContent .fieldWr label span {
   background: #cacaca;
   width: 100%;
@@ -3666,9 +3662,7 @@ a.btn {
   font-weight: 600;
   color: #f00;
 }
-.btnLoads a.les {
-  display: none;
-}
+
 .specification ul {
   margin: 0px;
 }
@@ -3701,9 +3695,6 @@ a.btn {
   position: relative;
   z-index: 9;
   text-decoration: unset !important;
-}
-.discription a.les {
-  display: none;
 }
 .discription {
   text-align: justify;
@@ -3748,13 +3739,13 @@ a.btn {
 }
 .shadows a {
   bottom: -20px;
+  text-align: left;
+  cursor: pointer;
 }
 .btnLoads a {
   text-align: left;
 }
-.shadows a {
-  text-align: left;
-}
+
 .btnLoads a i {
   vertical-align: middle;
   margin-right: 8px;
@@ -5056,8 +5047,7 @@ a.btn {
 
 .discription .shwCnt {
   display: block;
-  /* height: 98px; */
-  height: auto;
+  height: 98px;
   overflow: hidden;
   -ms-transition: all 1s;
   -o-transition: all 1s;

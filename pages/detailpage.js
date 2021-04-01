@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/Header";
+import { useState } from "react";
 import TopBar from "../components/TopBar";
 import InnerNavBanner from "../components/InnerNavBanner";
 import DemoNavSlider from "../components/DemoNavSlider";
@@ -16,9 +17,28 @@ import {
   faCalendar,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
-import customerReview from "../components/customer-review";
+// import customerReview from "../components/customer-review";
+import AccordionFAQ from "../components/AccordionFAQ";
+import CarFeatures from "../components/CarFeatures";
+import CarDescription from "../components/CarDescription";
+import CustomerReview from "../components/customer-review";
+import PaymentCarDetail from "../components/PaymentCarDetail";
 const DetailPage = ({ detail, info }) => {
-  console.log(detail);
+  const [paymentform, setPaymentForm] = useState({
+    fromDate: "",
+    toDate: "",
+    fromTime: "",
+    toTime: "",
+    pickupLocation: "",
+    dropdownLocation: "",
+    Discount: "",
+  });
+
+  const calculateRent = (e) => {
+    e.preventDefault();
+    // alert("Your rent is this and this");
+  };
+
   return (
     <>
       <TopBar />
@@ -34,276 +54,10 @@ const DetailPage = ({ detail, info }) => {
                   mainCarousel={detail.crouselImages}
                   carouselNav={detail.crouselImageNavigation}
                 />
-                {/* <div className="specification">
-                  <h3>Car Features</h3>
-                  <ul>
-                    <li title="Registration">
-                      <cite>Registration</cite>
-                      <span>2019</span>
-                    </li>
-                    <li title="Condition">
-                      <cite>Condition</cite>
-                      <span>New</span>
-                    </li>
-                    <li title="Brand / Model">
-                      <cite>Brand / Model</cite>
-                      <span>Ferrai 488 GTB</span>
-                    </li>
-                    <li title="Mileage">
-                      <cite>Mileage</cite>
-                      <span>20,000 MI</span>
-                    </li>
-                  </ul>
-                  <ul className="showLess">
-                    <li title="Body Style">
-                      <cite>Body Style</cite>
-                      <span>Sedan</span>
-                    </li>
-                    <li title="Transmission">
-                      <cite>Transmission</cite>
-                      <span>8-Speed A/T</span>
-                    </li>
-                    <li title="Color">
-                      <cite>Color</cite>
-                      <span>Red</span>
-                    </li>
-                    <li title="Car Type">
-                      <cite>Car Type</cite>
-                      <span>Sports Car</span>
-                    </li>
-                    <li title="Fuel Type">
-                      <cite>Fuel Type</cite>
-                      <span>Gasoline</span>
-                    </li>
-                    <li title="Door">
-                      <cite>Door</cite>
-                      <span>4 Doors</span>
-                    </li>
-                    <li title="Engine">
-                      <cite>Engine</cite>
-                      <span>255 hp @5000 rpm</span>
-                    </li>
-                    <li title="No. Of Seats">
-                      <cite>No. Of Seats</cite>
-                      <span>5 Seats</span>
-                    </li>
-                  </ul>
-                  <div className="btnLoads spcifi">
-                    <a href="#" className="shw">
-                      <i className="fa fa-angle-down"></i> Read More
-                    </a>
-                    <a href="#" className="les">
-                      <i className="fa fa-angle-up"></i> Hide
-                    </a>
-                  </div>
-                </div> */}
-
-                <div className="Features mt-5">
-                  <h3>Car Features</h3>
-                  <ul>
-                    <li title="Cruise Control">
-                      <img src="images/fet1.png" />
-                      Cruise Control: Yes
-                    </li>
-                    <li title="Fog Lights">
-                      <img src="images/fet2.png" />
-                      Fog Lights
-                    </li>
-                    <li title="Front Air Bags">
-                      <img src="images/fet3.png" />
-                      Front Air Bags
-                    </li>
-                    <li title="Convertible Sports Car">
-                      <img src="images/fet4.png" />
-                      Convertible Sports Car
-                    </li>
-                    <li title="Reverse Camera">
-                      <img src="images/fet5.png" />
-                      Reverse Camera
-                    </li>
-                    <li title="Leather Seats">
-                      <img src="images/fet6.png" />
-                      Leather Seats
-                    </li>
-                  </ul>
-                  <ul className="showLEss">
-                    <li title="Premium Audio">
-                      <img src="images/fet7.png" />
-                      Premium Audio
-                    </li>
-                    <li title="Butterfly Doors">
-                      <img src="images/fet8.png" />
-                      Butterfly Doors
-                    </li>
-                    <li title="Built-in GPS">
-                      <img src="images/fet9.png" />
-                      Built-in GPS
-                    </li>
-                    <li title="Push Button Ignition">
-                      <img src="images/fet10.png" />
-                      Push Button Ignition
-                    </li>
-                    <li title="USB">
-                      <img src="images/fet11.png" />
-                      USB
-                    </li>
-                    <li title="Power Windows">
-                      <img src="images/fet12.png" />
-                      Power Windows
-                    </li>
-                    <li title="Front & Rear Airbags">
-                      <img src="images/fet13.png" />
-                      Front & Rear Airbags
-                    </li>
-                    <li title="Bluetooth">
-                      <img src="images/fet14.png" />
-                      Bluetooth
-                    </li>
-                    <li title="Power Mirrors">
-                      <img src="images/fet15.png" />
-                      Power Mirrors
-                    </li>
-                    <li title="Parking Sensors">
-                      <img src="images/fet16.png" />
-                      Parking Sensors
-                    </li>
-                    <li title="Power Seats">
-                      <img src="images/fet17.png" />
-                      Power Seats
-                    </li>
-                    <li title="Power Door Locks">
-                      <img src="images/fet18.png" />
-                      Power Door Locks
-                    </li>
-                  </ul>
-                  <div className="btnLoads fetur">
-                    <a href="#" className="shw">
-                      <i className="fa fa-angle-down"></i> Read More
-                    </a>
-                    <a href="#" className="les">
-                      <i className="fa fa-angle-up"></i> Hide
-                    </a>
-                  </div>
-                </div>
-
-                <div className="discription">
-                  <h3>Description</h3>
-                  <div className="shwCnt">
-                    <p>{detail.description}</p>
-                  </div>
-
-                  <div className="shadows">
-                    <a href="#" className="shw">
-                      <i className="fa fa-angle-down"></i> Read More
-                    </a>
-                    <a href="#" className="les">
-                      <i className="fa fa-angle-up"></i> Hide
-                    </a>
-                  </div>
-                </div>
-
-                <div id="accordion">
-                  <h3 className="acrdBtn ui-state-active">
-                    <span>
-                      1 <i></i>
-                    </span>
-                    Ferrari 488 GTB IN DUBAI{" "}
-                    <em className="fa fa-angle-down"></em>{" "}
-                    <em className="fa fa-angle-up"></em>
-                  </h3>
-                  <div className="acrdContent frst">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <h3 className="acrdBtn">
-                    <span>
-                      2 <i></i>
-                    </span>
-                    DELIVERY AND PICK UP <em className="fa fa-angle-down"></em>{" "}
-                    <em className="fa fa-angle-up"></em>
-                  </h3>
-                  <div className="acrdContent">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <h3 className="acrdBtn">
-                    <span>
-                      3 <i></i>
-                    </span>
-                    DEPOSIT AND REFUND DURATION{" "}
-                    <em className="fa fa-angle-down"></em>{" "}
-                    <em className="fa fa-angle-up"></em>
-                  </h3>
-                  <div className="acrdContent">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <h3 className="acrdBtn">
-                    <span>
-                      4 <i></i>
-                    </span>
-                    TOLLS AND TAXES AND CANCELLATION POLICY{" "}
-                    <em className="fa fa-angle-down"></em>{" "}
-                    <em className="fa fa-angle-up"></em>
-                  </h3>
-                  <div className="acrdContent">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                  <h3 className="acrdBtn">
-                    <span>
-                      5 <i></i>
-                    </span>
-                    DESCRIPTION <em className="fa fa-angle-down"></em>{" "}
-                    <em className="fa fa-angle-up"></em>
-                  </h3>
-                  <div className="acrdContent">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
-                  </div>
-                </div>
+                <CarFeatures />
+                <CarDescription />
+                <AccordionFAQ />
               </div>
-              <customerReview />
             </div>
 
             <div className="order-1 order-md-12 col-sm-4 col-md-4">
@@ -362,8 +116,12 @@ const DetailPage = ({ detail, info }) => {
                               style={{ marginTop: "10px", right: "10px" }}
                             />
                             <DayPickerInput
-                              // classNames={ { display: 'd-block'  } }
-                              onDayChange={(day) => console.log(day)}
+                              onDayChange={(day) =>
+                                setPaymentForm({
+                                  ...paymentform,
+                                  fromDate: day,
+                                })
+                              }
                               dayPickerProps={{
                                 fromMonth: new Date(),
                               }}
@@ -464,6 +222,7 @@ const DetailPage = ({ detail, info }) => {
                       </div>
 
                       <button
+                        onClick={calculateRent}
                         type="submit"
                         id="Chk"
                         className="d-flex p-3 justify-content-center"
@@ -474,58 +233,7 @@ const DetailPage = ({ detail, info }) => {
                     </form>
                   </div>
                 </div>
-
-                <div className="sideWidget">
-                  <h3>
-                    <span>
-                      <img src="images/caricon.png" />
-                      <i></i>
-                    </span>
-                    Payment{" "}
-                  </h3>
-                  <div className="widgetContent payments">
-                    <ul className="payment">
-                      <li>
-                        From Date: <span>May 18, 2020</span>
-                      </li>
-                      <li>
-                        To Date: <span>May 20, 2020</span>
-                      </li>
-                      <li>
-                        From Time: <span>15:00</span>
-                      </li>
-                      <li>
-                        To Time: <span>20:00</span>
-                      </li>
-                      <li>
-                        Discount: <span>30%</span>
-                      </li>
-                      <li>
-                        Deposit: <span>Zero Deposit</span>
-                      </li>
-                    </ul>
-                    <cite>
-                      Total Rent Amount<span>AED 2,650</span>
-                    </cite>
-                    <p>
-                      <span>-</span>Deposit Payment Method{" "}
-                      <small>Credit Card, Debit Card & Cash</small>
-                    </p>
-                    <p>
-                      <input name="isGoing" type="checkbox" /> I agree that
-                      myride.ae will arrange for me to rent Ferrari 488 GTB
-                      under their Terms and Conditions and I agree to commit to
-                      my financials obligations to the rental providers.{" "}
-                    </p>
-                    <a href="#" className="btn">
-                      BOOK NOW
-                    </a>
-                    <div className="cards">
-                      Secure Payment By <img src="images/paypal.png" />
-                    </div>
-                  </div>
-                </div>
-
+                <PaymentCarDetail />
                 <div className="sideWidget">
                   <h3>
                     <span>
@@ -559,6 +267,9 @@ const DetailPage = ({ detail, info }) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="mb-5">
+            <CustomerReview />
           </div>
         </div>
       </div>
