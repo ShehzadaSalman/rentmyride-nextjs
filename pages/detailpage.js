@@ -34,11 +34,8 @@ const DetailPage = ({ detail, info }) => {
     Discount: "",
   });
 
-  const calculateRent = (e) => {
-    e.preventDefault();
-    // alert("Your rent is this and this");
-  };
-
+  const calculateRent = () => {};
+  const [showPaymentDetail, setPaymentDetail] = useState(null);
   return (
     <>
       <TopBar />
@@ -233,7 +230,8 @@ const DetailPage = ({ detail, info }) => {
                     </form>
                   </div>
                 </div>
-                <PaymentCarDetail />
+                {showPaymentDetail && <PaymentCarDetail />}
+
                 <div className="sideWidget">
                   <h3>
                     <span>

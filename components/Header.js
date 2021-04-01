@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { useRouter } from "next/router";
 import Link from "next/link";
 const Header = () => {
+  const router = useRouter();
+  const { pathname } = router;
+
   const openNav = () => {
     console.log("open the menu");
     document.getElementById("mySidenav").style.width = "250px";
@@ -15,7 +20,6 @@ const Header = () => {
         <div id="logo-div-id" className="col-sm-12 col-md-3 logo">
           <Link href="/">
             <a className="d-flex">
-              {" "}
               <Image
                 src="/images/logo.png"
                 alt="logo"
@@ -36,33 +40,41 @@ const Header = () => {
             <ul className="navbar">
               <li>
                 <Link href="/">
-                  <a className="active">Home</a>
+                  <a className={pathname === "/" ? "active" : ""}>Home</a>
                 </Link>
               </li>
               <li>
                 <Link href="/categorypage">
-                  <a>Car rental</a>
+                  <a className={pathname === "/categorypage" ? "active" : ""}>
+                    Car rental
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
+                <Link href="/">
                   <a>Car with driver </a>
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
+                <Link href="/">
                   <a>Stretch Limo </a>
                 </Link>
               </li>
-              {/* <li>
-                <a href="#">Packages</a>
+              <li>
+                <Link href="/">
+                  <a>Packages</a>
+                </Link>
               </li>
               <li>
-                <a href="blog.html">Blog </a>
-              </li> */}
+                <Link href="/">
+                  <a>Blog </a>
+                </Link>
+              </li>
               <li>
                 <Link href="/contactus">
-                  <a>Contact</a>
+                  <a className={pathname === "/contactus" ? "active" : ""}>
+                    Contact
+                  </a>
                 </Link>
               </li>
             </ul>
