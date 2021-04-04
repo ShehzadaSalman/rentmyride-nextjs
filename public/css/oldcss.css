@@ -3897,10 +3897,7 @@ a.btn {
 }
 
 .loginBox p a {
-  color: #f00;
-}
-
-.loginBox {
+  color: #f00 !important;
 }
 
 .loginBox .contactForm label {
