@@ -18,17 +18,13 @@ const TopBar = () => (
     <ul>
       <li>
         <a href="tel:+971 55 550 5281">
-          {/* <i class="fa fa-phone"></i> */}
-          {/* <FontAwesomeIcon icon={faPhone} className="mr-1"  fixedWidth/> */}
           <PhoneIcon height={17} width={17} color="#fff" />
           <span className="ml-1"> +971 55 550 5281</span>
         </a>
       </li>
       <li>
         <a href="mailto:info@rentmyride.ae">
-          {/* <i class="fa fa-envelope"></i> */}
           <EnvelopeIcon height={16} width={16} color="#fff" />
-          {/* <FontAwesomeIcon icon={faEnvelope} className="mr-1"  fixedWidth/> */}
           <span className="ml-1"> info@rentmyride.ae</span>
         </a>
       </li>
@@ -38,10 +34,13 @@ const TopBar = () => (
         </span>
         <select>
           <option>AED</option>
+          <option>USD</option>
+          <option>USD</option>
+          <option>GBP</option>
         </select>
       </li>
       <li>
-        <Link href="/login">
+        <Link href="/Account/login">
           <a>
             <FontAwesomeIcon icon={faUser} className="mr-1" size="1x" />
             <span className="ml-1">Login</span>

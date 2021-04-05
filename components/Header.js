@@ -71,7 +71,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contactus">
+                <Link href="contactus">
                   <a className={pathname === "/contactus" ? "active" : ""}>
                     Contact
                   </a>

@@ -1,23 +1,13 @@
-import Header from "../components/Header";
-import Footer from "../components/footer";
-import InnerNavBanner from "../components/InnerNavBanner";
-import TopBar from "../components/TopBar";
+import Header from "../../components/Header";
+import Footer from "../../components/footer";
+import InnerNavBanner from "../../components/InnerNavBanner";
+import TopBar from "../../components/TopBar";
 import Link from "next/link";
 import { useRef } from "react";
 
 const LOGIN = () => {
   const login = useRef(null);
   const register = useRef(null);
-
-  /* adding the transition animation here */
-
-  // const login = document.querySelector(
-  //   "#rentmyride-authentication  #login-container"
-  // );
-  // const register = document.querySelector(
-  //   "#rentmyride-authentication  #register-container"
-  // );
-
   const registerFormTransition = () => {
     login.current.style.display = "none";
     register.current.style.display = "flex";
@@ -60,7 +50,7 @@ const LOGIN = () => {
                           <label>Email</label>
                           <input
                             type="email"
-                            value="Contact@dianaahadpour.ae"
+                            defaultValue="contact@rentmyride.ae"
                             className=""
                           />
                         </div>
@@ -93,9 +83,9 @@ const LOGIN = () => {
                             </div>
                           </div>
                           <div className="col-6 text-right">
-                            <a className="remember-me" href="#">
-                              Forget Password?
-                            </a>
+                            <Link href="ForgottenPassword">
+                              <a className="remember-me">Forget Password?</a>
+                            </Link>
                           </div>
                         </div>
                       </div>

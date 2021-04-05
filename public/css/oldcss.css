@@ -3912,7 +3912,7 @@ a.btn {
   margin-bottom: 28px;
 }
 
-.loginBox .contactForm a {
+.loginBox .contactForm > a {
   width: auto;
   border: 0px;
   font-family: "Arimo", sans-serif;
@@ -5562,6 +5562,13 @@ carItem:hover figure .carousel-inner img {
   padding: 0px;
   list-style: none;
 }
+
+.mainContent.contactPage.accountPage .container .first {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+}
+
 .accountPage .leftSide ul li a {
   font-family: "Arimo", sans-serif;
   color: #4f504d !important;
@@ -5578,7 +5585,6 @@ carItem:hover figure .carousel-inner img {
   font-size: 20px;
 }
 .topdetaail {
-  border-bottom: 1px solid #e0e0e0;
   margin-bottom: 20px;
   padding: 0px 20px 0px;
 }
@@ -6011,10 +6017,6 @@ h3#ui-id-3 {
 
 .contactDetailOnly {
   margin-bottom: 30px;
-}
-
-.contactDetailsShow .contactForm {
-  display: none;
 }
 .modal-body iframe {
   width: 100%;

@@ -1,12 +1,12 @@
-import Footer from "../components/footer";
-import Header from "../components/Header";
+import Footer from "../../components/footer";
+import Header from "../../components/Header";
 import { useState } from "react";
-import TopBar from "../components/TopBar";
-import InnerNavBanner from "../components/InnerNavBanner";
-import DemoNavSlider from "../components/DemoNavSlider";
+import TopBar from "../../components/TopBar";
+import InnerNavBanner from "../../components/InnerNavBanner";
+import DemoNavSlider from "../../components/DemoNavSlider";
 import axios from "axios";
-import CarDetailSlider from "../components/CarDetailSlider";
-import SideNav from "../components/SideNav";
+import CarDetailSlider from "../../components/CarDetailSlider";
+import SideNav from "../../components/SideNav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import DayPickerInput from "react-day-picker/DayPickerInput";
@@ -18,11 +18,11 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 // import customerReview from "../components/customer-review";
-import AccordionFAQ from "../components/AccordionFAQ";
-import CarFeatures from "../components/CarFeatures";
-import CarDescription from "../components/CarDescription";
-import CustomerReview from "../components/customer-review";
-import PaymentCarDetail from "../components/PaymentCarDetail";
+import AccordionFAQ from "../../components/AccordionFAQ";
+import CarFeatures from "../../components/CarFeatures";
+import CarDescription from "../../components/CarDescription";
+import CustomerReview from "../../components/customer-review";
+import PaymentCarDetail from "../../components/PaymentCarDetail";
 const DetailPage = ({ detail, info }) => {
   const [paymentform, setPaymentForm] = useState({
     fromDate: "",
@@ -62,7 +62,7 @@ const DetailPage = ({ detail, info }) => {
                 <div className="sideWidget">
                   <h3>
                     <span>
-                      <img src="images/caricon.png" />
+                      <img src="/images/caricon.png" />
                       <i></i>
                     </span>
                     Detail’s
@@ -235,7 +235,7 @@ const DetailPage = ({ detail, info }) => {
                 <div className="sideWidget">
                   <h3>
                     <span>
-                      <img src="images/caricon.png" />
+                      <img src="/images/caricon.png" />
                       <i></i>
                     </span>
                     Need Help?{" "}
@@ -276,7 +276,7 @@ const DetailPage = ({ detail, info }) => {
   );
 };
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const res = await axios.get("http://localhost:3000/api/cardetail");
   const response = await res.data.details;
   const info = await res.data.meta;

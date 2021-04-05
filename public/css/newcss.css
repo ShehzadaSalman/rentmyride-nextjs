@@ -1,9 +1,5 @@
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
+/* styling for the login and register page 
+=================================   =*/
 #rentmyride-authentication .bg-banner-login {
   background-image: url("https://i.ibb.co/TBZJYHd/bg1-min.png");
   background-repeat: no-repeat;
@@ -279,4 +275,106 @@ body {
     transform-origin: right;
     opacity: 1;
   }
+}
+
+/* styling for the user dashboard
+=================================   =*/
+.accountPage .leftSide {
+  border-right: 1px solid #e0e0e0;
+  padding-right: 0px;
+  padding-top: 20px;
+}
+.accountPage .c100 span > img {
+  border-radius: 90px;
+}
+
+.accountPage .leftSide .topdetaail h4 {
+  font-size: 16px !important;
+}
+.accountPage .leftSide .topdetaail h4 {
+  font-family: "Arimo", sans-serif !important;
+  color: #4f504d !important;
+  font-weight: 700 !important;
+  line-height: 23px !important;
+  font-size: 20px !important;
+  margin: 0 auto !important;
+  display: table !important;
+}
+.accountPage .leftSide .topdetaail p {
+  margin: 0 auto !important;
+  display: table !important;
+  color: #4f504d !important;
+  font-family: "Arimo", sans-serif !important;
+  font-size: 15px;
+}
+.accountPage .leftSide ul {
+  padding: 0px;
+  list-style: none;
+}
+.accountPage .rightSide {
+  padding: 10px 50px 0px !important;
+}
+.accountPage .rightSide h3 {
+  font-size: 45px !important;
+  line-height: 52px !important;
+  font-weight: 700 !important;
+  font-family: "Arimo", sans-serif !important;
+  color: #4f504d !important;
+  margin-top: 10px !important;
+}
+.cstm-edit {
+  float: right;
+  width: auto;
+  border: 0px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 53px;
+  background: #f00;
+  border-radius: 0px;
+  position: relative;
+  top: -10px;
+}
+.accountPage .rightSide h2 {
+  font-size: 20px !important;
+  margin-bottom: 23px !important;
+  font-weight: 700 !important;
+  font-family: "Arimo", sans-serif !important;
+  color: #4f504d !important;
+  line-height: 23px !important;
+}
+
+fieldset {
+  border: 1px solid #d3d3d3;
+  padding: 0px 5px 10px 10px;
+  margin: 0 0 1.5em 0;
+  border-radius: 3px;
+  box-shadow: 0px 1px #d3d3d3;
+}
+legend {
+  font-size: 15px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  line-height: 17px;
+  color: #4f504d;
+  text-align: left;
+  display: block;
+  width: inherit;
+  padding: 0 10px;
+  border-bottom: none;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  white-space: normal;
+}
+fieldset a,
+fieldset span {
+  text-decoration: none !important;
+  color: #4f504d;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Arim0", sans-serif;
+  opacity: 70%;
+  word-break: break-all;
 }

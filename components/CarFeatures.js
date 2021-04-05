@@ -26,15 +26,15 @@ const CarFeatures = () => {
         <h3>Car Features</h3>
         <ul ref={lessRef}>
           <li title="Cruise Control">
-            <img src="images/fet1.png" />
+            <img src="/images/fet1.png" />
             Cruise Control: Yes
           </li>
           <li title="Fog Lights">
-            <img src="images/fet2.png" />
+            <img src="/images/fet2.png" />
             Fog Lights
           </li>
           <li title="Front Air Bags">
-            <img src="images/fet3.png" />
+            <img src="/images/fet3.png" />
             Front Air Bags
           </li>
           <li title="Convertible Sports Car">
@@ -42,59 +42,59 @@ const CarFeatures = () => {
             Convertible Sports Car
           </li>
           <li title="Reverse Camera">
-            <img src="images/fet5.png" />
+            <img src="/images/fet5.png" />
             Reverse Camera
           </li>
           <li title="Leather Seats">
-            <img src="images/fet6.png" />
+            <img src="/images/fet6.png" />
             Leather Seats
           </li>
           <li title="Premium Audio">
-            <img src="images/fet7.png" />
+            <img src="/images/fet7.png" />
             Premium Audio
           </li>
           <li title="Butterfly Doors">
-            <img src="images/fet8.png" />
+            <img src="/images/fet8.png" />
             Butterfly Doors
           </li>
           <li title="Built-in GPS">
-            <img src="images/fet9.png" />
+            <img src="/images/fet9.png" />
             Built-in GPS
           </li>
           <li title="Push Button Ignition">
-            <img src="images/fet10.png" />
+            <img src="/images/fet10.png" />
             Push Button Ignition
           </li>
           <li title="USB">
-            <img src="images/fet11.png" />
+            <img src="/images/fet11.png" />
             USB
           </li>
           <li title="Power Windows">
-            <img src="images/fet12.png" />
+            <img src="/images/fet12.png" />
             Power Windows
           </li>
           <li title="Front & Rear Airbags">
-            <img src="images/fet13.png" />
+            <img src="/images/fet13.png" />
             Front & Rear Airbags
           </li>
           <li title="Bluetooth">
-            <img src="images/fet14.png" />
+            <img src="/images/fet14.png" />
             Bluetooth
           </li>
           <li title="Power Mirrors">
-            <img src="images/fet15.png" />
+            <img src="/images/fet15.png" />
             Power Mirrors
           </li>
           <li title="Parking Sensors">
-            <img src="images/fet16.png" />
+            <img src="/images/fet16.png" />
             Parking Sensors
           </li>
           <li title="Power Seats">
-            <img src="images/fet17.png" />
+            <img src="/images/fet17.png" />
             Power Seats
           </li>
           <li title="Power Door Locks">
-            <img src="images/fet18.png" />
+            <img src="/images/fet18.png" />
             Power Door Locks
           </li>
         </ul>
