@@ -1,7 +1,3 @@
-import Footer from "../../components/footer";
-import Header from "../../components/Header";
-import InnerNavBanner from "../../components/InnerNavBanner";
-import TopBar from "../../components/TopBar";
 import Link from "next/link";
 import { useState } from "react";
 import DashboardLayout from "../../layouts/dashboard";
