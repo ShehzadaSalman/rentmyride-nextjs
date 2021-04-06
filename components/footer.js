@@ -102,10 +102,14 @@ export default class Footer extends Component {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <Link href="/">
+                      <a>Home</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link href="/about">
+                      <a>About Us</a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#">Stretch Limo</a>
@@ -122,7 +126,7 @@ export default class Footer extends Component {
                     <a href="#">Blogs</a>
                   </li>
                   <li>
-                    <Link href="feedback">
+                    <Link href="/feedback">
                       <a href="#">Feedback</a>
                     </Link>
                   </li>
@@ -130,7 +134,9 @@ export default class Footer extends Component {
                     <a href="#">Terms & Conditions</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <Link href="/contactus">
+                      <a>Contact</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
