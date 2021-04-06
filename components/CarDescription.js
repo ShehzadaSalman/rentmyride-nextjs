@@ -56,11 +56,11 @@ const CarDescription = () => {
         <div className="shadows">
           {show ? (
             <a className="shw" onClick={toggleReadMore}>
-              <FontAwesomeIcon icon={faAngleDown} /> Read More
+              <FontAwesomeIcon icon={faAngleDown} size="sm" /> Read More
             </a>
           ) : (
             <a className="les" onClick={toggleReadMore}>
-              <FontAwesomeIcon icon={faAngleUp} /> Hide
+              <FontAwesomeIcon icon={faAngleUp} size="sm" /> Hide
             </a>
           )}
         </div>

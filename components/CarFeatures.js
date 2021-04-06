@@ -103,11 +103,11 @@ const CarFeatures = () => {
         <div ref={btnLoads} className="btnLoads fetur">
           {show ? (
             <a href="#" className="shw" onClick={toggleReadMore}>
-              <FontAwesomeIcon icon={faAngleUp} /> Hide
+              <FontAwesomeIcon icon={faAngleUp} size="sm" /> Hide
             </a>
           ) : (
             <a href="#" className="les" onClick={toggleReadMore}>
-              <FontAwesomeIcon icon={faAngleDown} /> Read More
+              <FontAwesomeIcon icon={faAngleDown} size="sm" /> Read More
             </a>
           )}
         </div>
