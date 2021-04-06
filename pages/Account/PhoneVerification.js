@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/footer";
 import InnerNavBanner from "../../components/InnerNavBanner";
-import TopBar from "../components/TopBar";
+import TopBar from "../../components/TopBar";
 import Link from "next/link";
 
 const PhoneVerification = () => {
