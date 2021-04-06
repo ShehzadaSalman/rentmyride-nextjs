@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Slider from "react-slick";
-
+import Link from "next/link";
 const CarPackageSlider = () => {
   var settingstwo = {
     dots: false,
@@ -57,9 +57,9 @@ const CarPackageSlider = () => {
                 </figure>
                 <div className="offerdt">
                   <h5>
-                    <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer">
+                    <Link href="detailpage">
                       Rolls Royce Wraith Combo Offer
-                    </a>
+                    </Link>
                   </h5>
                   <ul>
                     <li>
@@ -123,13 +123,11 @@ const CarPackageSlider = () => {
                       </span>
                     </label>
                   </div>
-                  <a
-                    href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer"
-                    className="book"
-                    tabIndex="-1"
-                  >
-                    Book Now
-                  </a>
+                  <Link href="detailpage">
+                    <a className="book" tabIndex="-1">
+                      Book Now
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

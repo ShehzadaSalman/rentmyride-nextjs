@@ -90,12 +90,15 @@ const LOGIN = () => {
                         </div>
                       </div>
                       <div className="col-12 px-5">
-                        <button
-                          type="submit"
-                          className="bookingpopup-button mt-2 mb-4 w-100 "
-                        >
-                          Log In
-                        </button>
+                        <Link href="/Account">
+                          <button
+                            type="button"
+                            className="bookingpopup-button mt-2 mb-4 w-100"
+                          >
+                            Log In
+                          </button>
+                        </Link>
+
                         <a
                           onClick={registerFormTransition}
                           className="have-an-account cursor-pointer"
@@ -215,12 +218,14 @@ const LOGIN = () => {
                       </div>
                     </div>
                     <div className="col-12 px-5 mb-5">
-                      <button
-                        type="submit"
-                        className="bookingpopup-button mt-2 mb-4 w-100 "
-                      >
-                        Sign Up
-                      </button>
+                      <Link href="/Account">
+                        <button
+                          type="button"
+                          className="bookingpopup-button mt-2 mb-4 w-100"
+                        >
+                          Submit
+                        </button>
+                      </Link>
                       <a
                         onClick={loginFormTransition}
                         className="have-an-account cursor-pointer"

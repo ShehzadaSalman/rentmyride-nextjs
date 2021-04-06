@@ -37,7 +37,7 @@ const DashboardLayout = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="Account/Bookings">
+                    <Link href="/Account/Bookings">
                       <a
                         className={
                           pathname === "/Account/Bookings" ? "active" : ""
@@ -59,7 +59,7 @@ const DashboardLayout = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="ChangePassword">
+                    <Link href="/Account/ChangePassword">
                       <a
                         className={
                           pathname === "/Account/ChangePassword" ? "active" : ""
@@ -82,7 +82,7 @@ const DashboardLayout = (props) => {
                   </li>
 
                   <li>
-                    <Link href="/Account/Logout" title="">
+                    <Link href="/" title="">
                       Logout
                     </Link>
                   </li>
