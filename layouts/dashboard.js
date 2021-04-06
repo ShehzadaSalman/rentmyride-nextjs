@@ -1,7 +1,7 @@
 import Footer from "../components/footer";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import InnerNavBanner from "../components/InnerNavBanner";
-import TopBar from "../components/TopBar";
+// import TopBar from "../components/TopBar";
 import Link from "next/link";
 import { useRouter } from "next/router";
 const DashboardLayout = (props) => {
@@ -11,8 +11,8 @@ const DashboardLayout = (props) => {
   console.info(pathname);
   return (
     <>
-      <TopBar />
-      <Header />
+      {/* <TopBar /> */}
+      {/* <Header /> */}
       <InnerNavBanner page="User Dashboard" />
       <div className="mainContent contactPage accountPage">
         <div className="container">
