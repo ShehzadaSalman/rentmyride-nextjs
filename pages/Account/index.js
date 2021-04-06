@@ -164,17 +164,12 @@ const UserAccount = () => {
                   value=""
                 />
               </div>
-              <div className="custm-profile">
-                <button type="submit">Update</button>
-                <a
-                  href="javascript:;"
-                  title=""
-                  onclick="revertValues('Ayaz Chishti','ayazchishti@gmail.com','971503404768','0','')"
-                  className="edits"
-                >
+              {/* <div className="custm-profile d-none">
+                <button>Update</button>
+                <a className="edits">
                   <button className="ml-5">Cancel</button>
                 </a>
-              </div>
+              </div> */}
             </form>{" "}
           </div>
         )}
