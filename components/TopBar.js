@@ -13,6 +13,7 @@ import {
   faCoins,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+
 const TopBar = () => (
   <div className="topBar">
     <ul>
@@ -51,4 +52,4 @@ const TopBar = () => (
     <a href="#" className="plus"></a>
   </div>
 );
-export default React.memo(TopBar);
+export default TopBar;
