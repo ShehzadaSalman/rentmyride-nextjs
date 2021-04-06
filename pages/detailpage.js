@@ -24,7 +24,7 @@ import CarDescription from "../components/CarDescription";
 import CustomerReview from "../components/customer-review";
 import PaymentCarDetail from "../components/PaymentCarDetail";
 
-const details = {
+const detail = {
   dailyrent: 200,
   seats: 4,
   doors: 2,
