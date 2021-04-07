@@ -46,18 +46,20 @@ const CarPackageSlider = () => {
             <div className="d-flex justify-content-center">
               <div key={key} className="carItem px-0 mx-0">
                 <figure>
-                  <a href="/cars/car-rental/rolls-royce-rental-dubai/wraith-combo-offer">
-                    <Image
-                      src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg"
-                      alt="Picture of the author"
-                      width={350}
-                      height={240}
-                    />
-                  </a>
+                  <Link href="/Cars/Lamborgini">
+                    <a>
+                      <Image
+                        src="https://cdn.rentmyride.ae/Portal/content/myrideImages/vehicleType/Rent-a-Ferrari-and-ferrari-world.jpg"
+                        alt="Picture of the author"
+                        width={350}
+                        height={240}
+                      />
+                    </a>
+                  </Link>
                 </figure>
                 <div className="offerdt">
                   <h5>
-                    <Link href="detailpage">
+                    <Link href="/Cars/Lamborgini">
                       Rolls Royce Wraith Combo Offer
                     </Link>
                   </h5>
@@ -123,7 +125,7 @@ const CarPackageSlider = () => {
                       </span>
                     </label>
                   </div>
-                  <Link href="detailpage">
+                  <Link href="/Cars/lamborgini">
                     <a className="book" tabIndex="-1">
                       Book Now
                     </a>
