@@ -23,6 +23,7 @@ import CarFeatures from "../../components/CarFeatures";
 import CarDescription from "../../components/CarDescription";
 import CustomerReview from "../../components/customer-review";
 import PaymentCarDetail from "../../components/PaymentCarDetail";
+import BookingForm from "../../components/BookingForm";
 
 const detail = {
   dailyrent: 200,
@@ -92,10 +93,17 @@ const DetailPage = () => {
     Discount: "",
   });
 
-  const calculateRent = () => {};
-  const [showPaymentDetail, setPaymentDetail] = useState(null);
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const calculateRent = (e) => {
+    e.preventDefault();
+    setPaymentDetail(true);
+  };
+  const [showPaymentDetail, setPaymentDetail] = useState(false);
+
   return (
     <>
+      <BookingForm isFormOpen={isFormOpen} setIsFormOpen={setIsFormOpen} />
       <InnerNavBanner page="Ferrari 488 GTB" />
       <div className="mainContent">
         <div className="container">
@@ -117,7 +125,7 @@ const DetailPage = () => {
                 <div className="sideWidget">
                   <h3>
                     <span>
-                      <img src="images/caricon.png" />
+                      <img src="/images/caricon.png" />
                       <i></i>
                     </span>
                     Detail’s
@@ -285,12 +293,14 @@ const DetailPage = () => {
                     </form>
                   </div>
                 </div>
-                {showPaymentDetail && <PaymentCarDetail />}
+                {showPaymentDetail && (
+                  <PaymentCarDetail setIsFormOpen={setIsFormOpen} />
+                )}
 
                 <div className="sideWidget">
                   <h3>
                     <span>
-                      <img src="images/caricon.png" />
+                      <img src="/images/caricon.png" />
                       <i></i>
                     </span>
                     Need Help?{" "}

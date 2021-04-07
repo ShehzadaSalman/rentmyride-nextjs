@@ -23,8 +23,6 @@ const LOGIN = () => {
 
   return (
     <>
-      <TopBar />
-      <Header />
       <div id="rentmyride-authentication" classNameName="px-0 ">
         <div className="container-fluid d-flex flex-column justify-content-center">
           <div className="row ">
@@ -244,7 +242,6 @@ const LOGIN = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

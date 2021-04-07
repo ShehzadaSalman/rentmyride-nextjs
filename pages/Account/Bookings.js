@@ -5,7 +5,7 @@ const Bookings = () => {
 
   return (
     <>
-      <DashboardLayout>
+
         <ul className="booking-tabs">
           <li
             onClick={() => setActiveBooking("all")}
@@ -125,7 +125,6 @@ const Bookings = () => {
             </table>
           </div>
         </div>
-      </DashboardLayout>
       <style>
         {`
         .booking-tabs{

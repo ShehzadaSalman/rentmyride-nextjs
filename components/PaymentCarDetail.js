@@ -7,6 +7,7 @@ const PaymentCarDetail = ({
   toTime = "20:00",
   Discount = "20%",
   Deposit = "0",
+  setIsFormOpen,
 }) => {
   const [rentAmount, setRentAmount] = useState(0);
 
@@ -15,7 +16,7 @@ const PaymentCarDetail = ({
       <div className="sideWidget">
         <h3>
           <span>
-            <img src="images/caricon.png" />
+            <img src="/images/caricon.png" />
             <i></i>
           </span>
           Payment{" "}
@@ -54,11 +55,11 @@ const PaymentCarDetail = ({
             Conditions and I agree to commit to my financials obligations to the
             rental providers.{" "}
           </p>
-          <a href="#" className="btn">
+          <a className="btn" onClick={() => setIsFormOpen(true)}>
             BOOK NOW
           </a>
           <div className="cards">
-            Secure Payment By <img src="images/paypal.png" />
+            Secure Payment By <img src="/images/paypal.png" />
           </div>
         </div>
       </div>
