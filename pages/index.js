@@ -3,7 +3,7 @@ import Image from "next/image";
 import CustomerReview from "../components/customer-review";
 import NewBrandSlider from "../components/homepage/NewBrandSlider";
 import SideNav from "../components/SideNav";
-
+import Layout from "../layouts/layout1";
 // dynamic imports
 const AccordionFAQ = dynamic(() => import("../components/AccordionFAQ"), {
   loading: () => <p>Loading...</p>,
@@ -49,14 +49,6 @@ const TopBar = dynamic(import("../components/TopBar"), {
 const Home = () => {
   return (
     <>
-      <SideNav />
-
-      {/* <!-- Top Bar --> */}
-      <TopBar />
-
-      <Header />
-      {/* <!-- Header -->
-		<!-- Banner --> */}
       <div className="MainBanner">
         <div className="container">
           <div className="row">
@@ -190,14 +182,7 @@ const Home = () => {
             {/* <NewHiredPackageSlider /> */}
           </div>
         </div>
-        {/* <!--Hired Cars -->
-		<!-- video --> */}
         <VideoSection />
-
-        {/* <!-- video -->
-
-		<!-- faq --> */}
-
         <div className="faq">
           <div className="container">
             <div className="row">
@@ -254,58 +239,9 @@ const Home = () => {
           </div>
         </div>
         <NewsPaper />
-
         <CustomerReview />
         <LuxuryWraps />
-
         <WhyChoosUs />
-
-        <Footer />
-
-        {/* <!-- footer -->
-		<!--	Js Link
-			============================================================--> */}
-        {/* <script src="js/beautified-bundle.js"></script>
-		<script>
-			// Adding a video active className to the video div
-			$("#carousel-thumb6 .carousel-inner")
-			  .children()
-			  .eq(3)
-			  .addclassName("videoActive");
-
-			$("#carousel-thumb6").carousel("cycle");
-
-			// the functionality starts here
-			let isplaying = true; // global variable to check if the video is being played or not
-			$(function () {
-			  // running the slider via jquery
-
-			  $("#carousel-thumb6").on("slid.bs.carousel", function (e) {
-			    let checactiveclassName = $(
-			      "#carousel-thumb6 .carousel-inner .videoActive"
-			    ).hasclassName("active");
-			    if (!checactiveclassName) {
-			      $("#carousel-thumb6").find("video").trigger("pause");
-			      $("#carousel-thumb6").find(".video_icon").show(200);
-			      isplaying = true;
-			    }
-			  });
-			  // on click functionality to use the video in the slider
-			  $(".videoplayer").click(function () {
-			    if (isplaying) {
-			      $(this).find("video").trigger("play");
-			      $(this).find(".video_icon").hide(200);
-			      $("#carousel-thumb6").carousel("pause");
-			      isplaying = false;
-			    } else {
-			      $(this).find("video").trigger("pause");
-			      $(this).find(".video_icon").show(200);
-			      $("#carousel-thumb6").carousel("cycle");
-			      isplaying = true;
-			    }
-			  });
-			});
-		</script> */}
       </div>
     </>
   );

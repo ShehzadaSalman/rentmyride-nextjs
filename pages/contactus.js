@@ -25,8 +25,6 @@ import {
 const ContactUs = () => {
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner page="Contact Us" />
       <div className="mainContent contactPage">
         <div className="container">
@@ -112,8 +110,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

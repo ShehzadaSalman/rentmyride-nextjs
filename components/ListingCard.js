@@ -25,7 +25,7 @@ const ListingCard = (props) => {
           </div>
           <div className="offerdt pt-0">
             <h5 className="py-1 mb-0">
-              <Link href="CarDetail/detailpage">{title}</Link>
+              <Link href="Cars/detailpage">{title}</Link>
             </h5>
             <ul className="mb-0 py-2">
               <li>
@@ -93,7 +93,7 @@ const ListingCard = (props) => {
                 </span>
               </label>
             </div>
-            <Link href="CarDetail/detailpage">
+            <Link href="Cars/detailpage">
               <a className="book" tabIndex="-1">
                 Book Now
               </a>

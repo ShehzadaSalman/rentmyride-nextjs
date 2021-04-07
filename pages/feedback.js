@@ -21,8 +21,6 @@ const FeedBack = () => {
   };
 
   return (<>
-    <TopBar />
-    <Header />
     <InnerNavBanner />
       <div class="FeedbackBox container">
                       <h2 className="text-center mb-3">Feedback</h2>
@@ -129,7 +127,6 @@ const FeedBack = () => {
                                       <button type="submit" value="Login" className="text-center submit-btn ">Submit</button>
   </form>                    </div>
                   </div>
-    <Footer />
 <style global>{`
   .mainContent.contactPage {
   margin-top: 100px;

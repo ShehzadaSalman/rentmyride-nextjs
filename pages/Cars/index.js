@@ -1,28 +1,25 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-const TopBar = dynamic(import("../components/TopBar"), {
+const TopBar = dynamic(import("../../components/TopBar"), {
   loading: () => <p>Loading...</p>,
 });
 import axios from "axios";
-const Footer = dynamic(() => import("../components/footer"), { ssr: false });
-import CustomerReview from "../components/customer-review";
-import SideNav from "../components/SideNav";
-import InnerNavBanner from "../components/InnerNavBanner";
-const Header = dynamic(() => import("../components/Header"), { ssr: false });
-import SearchFilter from "../components/sidebar/SearchFilter";
-import BrandFilter from "../components/sidebar/BrandFilter";
-import NewHiredPackageSlider from "../components/homepage/NewHiredPackageSlider";
-import ListingCard from "../components/ListingCard";
-import ListingFilter from "../components/ListingFilter";
-import SideNavFilter from "../components/SideNavFilter";
-import PaginationComponent from "../components/PaginationComponent";
+const Footer = dynamic(() => import("../../components/footer"), { ssr: false });
+import CustomerReview from "../../components/customer-review";
+import SideNav from "../../components/SideNav";
+import InnerNavBanner from "../../components/InnerNavBanner";
+const Header = dynamic(() => import("../../components/Header"), { ssr: false });
+import SearchFilter from "../../components/sidebar/SearchFilter";
+import BrandFilter from "../../components/sidebar/BrandFilter";
+import NewHiredPackageSlider from "../../components/homepage/NewHiredPackageSlider";
+import ListingCard from "../../components/ListingCard";
+import ListingFilter from "../../components/ListingFilter";
+import SideNavFilter from "../../components/SideNavFilter";
+import PaginationComponent from "../../components/PaginationComponent";
 const CategoryPage = ({ listing, info }) => {
   return (
     <>
-      <SideNav />
       <SideNavFilter />
-      <TopBar />
-      <Header />
       <InnerNavBanner page="Car Rental" />
       <main className="main-wrapper container">
         {/* the sidebar is here */}
@@ -80,7 +77,6 @@ const CategoryPage = ({ listing, info }) => {
       </div>
 
       <CustomerReview />
-      <Footer />
       <style global jsx>
         {`
           .main-wrapper {

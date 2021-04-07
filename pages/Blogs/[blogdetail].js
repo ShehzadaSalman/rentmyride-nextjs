@@ -6,8 +6,6 @@ import Footer from "../../components/footer";
 const BlogDetail = () => {
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner page="Advantage of Long Term Automobile Renting in Dubai" />
       {/* blog starts here  */}
       <div class="mainContent mb-5">
@@ -102,7 +100,6 @@ const BlogDetail = () => {
       </div>
 
       {/* blog content ends here */}
-      <Footer />
     </>
   );
 };

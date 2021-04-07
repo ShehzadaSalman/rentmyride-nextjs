@@ -44,8 +44,8 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
-                  <a className={pathname === "/categorypage" ? "active" : ""}>
+                <Link href="/Cars">
+                  <a className={pathname === "/Cars" ? "active" : ""}>
                     Car rental
                   </a>
                 </Link>
@@ -66,8 +66,8 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/Blog">
-                  <a>Blog </a>
+                <Link href="/Blogs">
+                  <a className={pathname === "/Blogs" ? "active" : ""}>Blog </a>
                 </Link>
               </li>
               <li>

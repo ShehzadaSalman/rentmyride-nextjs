@@ -18,10 +18,7 @@ import Image from "next/image";
 const TestimonialPage = () => {
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner />
-
       <div class="heading">
         <div class="container">
           <div class="row">
@@ -178,8 +175,6 @@ const TestimonialPage = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };

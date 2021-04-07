@@ -27,8 +27,6 @@ const About = () => {
   };
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner page="About Us" />{" "}
       <div className="aboutUs">
         <div className="container">
@@ -333,7 +331,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

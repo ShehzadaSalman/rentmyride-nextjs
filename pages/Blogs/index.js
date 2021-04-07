@@ -7,8 +7,6 @@ import Link from "next/link";
 const Blog = () => {
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner page="Blog" />
       <div className="mainContent mb-4">
         <div className="container">
@@ -16,13 +14,13 @@ const Blog = () => {
             <div className="col-sm-4 col-md-4">
               <div className="blog">
                 <figure>
-                  <Link href="/Blog/blogdetail">
+                  <Link href="/Blogs/The-Best-Luck-Vehicles-to-Drive">
                     <img src="https://cdn.rentmyride.ae/Portal/content/myrideImages/Blogs/The Best Luxury Vehicles.jpg" />
                   </Link>
                 </figure>
                 <div className="blogDetail">
                   <h3>
-                    <Link href="/Blog/blogdetail">
+                    <Link href="/Blogs/The-Best-Luck-Vehicles-to-Drive">
                       The Best Luxury Vehicles to Drive in Dubai
                     </Link>
                   </h3>
@@ -43,7 +41,6 @@ const Blog = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
