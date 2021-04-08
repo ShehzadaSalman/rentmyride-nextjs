@@ -56,11 +56,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <!-- Banner -->
-		<!-- SearchForm --> */}
       <SearchForm />
-      {/* <!-- SearchForm -->
-		<!-- Brands --> */}
       <div className="heading">
         <div className="container">
           <div className="row">
@@ -86,8 +82,6 @@ const Home = () => {
           <NewBrandSlider />
         </div>
       </div>
-
-      {/* <CategorySlider/> */}
       <div className="heading">
         <div className="container">
           <div className="row">
@@ -111,12 +105,9 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <CategorySlider />
-            {/* <NewCategorySlider/> */}
           </div>
         </div>
       </div>
-      {/* <!-- Brands -->
-		<!-- Packages --> */}
       <div className="heading">
         <div className="container">
           <div className="row">

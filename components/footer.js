@@ -131,7 +131,9 @@ export default class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="/terms">
+                      <a>Terms & Conditions</a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/contactus">
