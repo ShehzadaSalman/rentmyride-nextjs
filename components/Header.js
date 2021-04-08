@@ -51,17 +51,17 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
+                <Link href="/Cars">
                   <a>Car with driver </a>
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
+                <Link href="/Cars">
                   <a>Stretch Limo </a>
                 </Link>
               </li>
               <li>
-                <Link href="/categorypage">
+                <Link href="/Cars">
                   <a>Packages</a>
                 </Link>
               </li>

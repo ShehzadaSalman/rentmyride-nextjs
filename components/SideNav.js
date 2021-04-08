@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 const SideNav = () => {
+  const route = useRouter();
+  const { pathname } = route;
   const closeNav = () => {
     document.getElementById("mySidenav").style.width = "0";
   };
@@ -11,21 +14,38 @@ const SideNav = () => {
           &times;
         </a>
         <Link href="/">
-          <a>Home</a>
+          <a onClick={closeNav} className={pathname === "/" ? "active" : ""}>
+            Home
+          </a>
         </Link>
-        <Link href="/categorypage">
-          <a>Car Rental</a>
+        <Link href="/Cars">
+          <a
+            onClick={closeNav}
+            className={pathname === "/Cars" ? "active" : ""}
+          >
+            Car Rental
+          </a>
         </Link>
 
         <a href="#">Car With Driver</a>
-        <a href="#" className="active">
-          Stretch Limo
-        </a>
-        <a href="#">Packages</a>
         <a href="#">Stretch Limo</a>
-        <a href="#">Blogs</a>
+        <a href="#">Packages</a>
+        <Link href="Blogs">
+          <a
+            onClick={closeNav}
+            className={pathname === "/Blogs" ? "active" : ""}
+          >
+            Blogs
+          </a>
+        </Link>
         <Link href="/contactus">
-          <a href="#">Contact</a>
+          <a
+            onClick={closeNav}
+            className={pathname === "/contactus" ? "active" : ""}
+            href="#"
+          >
+            Contact
+          </a>
         </Link>
       </div>
 

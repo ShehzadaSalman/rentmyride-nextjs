@@ -4,7 +4,7 @@ import {
   faThLarge,
   faFilter,
 } from "@fortawesome/free-solid-svg-icons";
-const ListingFilter = () => {
+const ListingFilter = ({ listingLayout, setListingLayout }) => {
   const formSubmit = (e) => {
     console.log(e.target.value);
   };
@@ -46,12 +46,17 @@ const ListingFilter = () => {
           </form>
         </div>
         <div className="sortBtn">
-          {/* <a href="#" className="lst"><i className="fa fa-th-list"></i></a> */}
-          <a className="lst mx-1">
-            {" "}
+          {" "}
+          <a
+            className={`lst mx-1 ${listingLayout === "list" ? "act" : ""} `}
+            onClick={() => setListingLayout("list")}
+          >
             <FontAwesomeIcon icon={faThList} />
           </a>
-          <a className="grd act mx-1">
+          <a
+            className={`grd  mx-1 ${listingLayout === "grid" ? "act" : ""} `}
+            onClick={() => setListingLayout("grid")}
+          >
             <FontAwesomeIcon icon={faThLarge} />
           </a>
           <a className="leftSide mx-1">

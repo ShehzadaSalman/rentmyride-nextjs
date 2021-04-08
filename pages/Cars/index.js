@@ -1,14 +1,7 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-const TopBar = dynamic(import("../../components/TopBar"), {
-  loading: () => <p>Loading...</p>,
-});
-import axios from "axios";
-const Footer = dynamic(() => import("../../components/footer"), { ssr: false });
 import CustomerReview from "../../components/customer-review";
-import SideNav from "../../components/SideNav";
 import InnerNavBanner from "../../components/InnerNavBanner";
-const Header = dynamic(() => import("../../components/Header"), { ssr: false });
 import SearchFilter from "../../components/sidebar/SearchFilter";
 import BrandFilter from "../../components/sidebar/BrandFilter";
 import NewHiredPackageSlider from "../../components/homepage/NewHiredPackageSlider";
@@ -16,7 +9,10 @@ import ListingCard from "../../components/ListingCard";
 import ListingFilter from "../../components/ListingFilter";
 import SideNavFilter from "../../components/SideNavFilter";
 import PaginationComponent from "../../components/PaginationComponent";
+
+import { useState } from "react";
 const CategoryPage = ({ listing, info }) => {
+  const [listingLayout, setListingLayout] = useState("list");
   return (
     <>
       <SideNavFilter />
@@ -30,13 +26,21 @@ const CategoryPage = ({ listing, info }) => {
         {/* the main content comes here */}
         <div className="main-content">
           <div className="px-3">
-            <ListingFilter />
+            <ListingFilter
+              listingLayout={listingLayout}
+              setListingLayout={setListingLayout}
+            />
           </div>
 
           <div className="row hiredCarss">
             {listing.map((li, key) => (
-              <div key={key} className="mb-2 col-md-4">
-                <ListingCard data={li} />
+              <div
+                key={key}
+                className={`mb-2  ${
+                  listingLayout === "list" ? "col-md-12" : "col-md-4"
+                }`}
+              >
+                <ListingCard listingLayout={listingLayout} data={li} />
               </div>
             ))}
           </div>

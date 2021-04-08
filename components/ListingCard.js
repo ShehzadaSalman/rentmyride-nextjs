@@ -13,20 +13,38 @@ const ListingCard = (props) => {
     depositAmount,
     detailPage,
   } = props.data;
+
   return (
     <>
       <div className="d-flex justify-content-center">
-        <div className="carItem px-0 mx-0">
+        <div
+          className={`carItem d-flex px-0 mx-0 ${
+            props.listingLayout === "list" ? "w-100" : "flex-column"
+          } `}
+        >
           <div style={{ maxWidth: "340px" }}>
             <DemoNavSlider
               mainCarousel={crouselImages}
               carouselNav={crouselImageNavigation}
             />
           </div>
-          <div className="offerdt pt-0">
-            <h5 className="py-1 mb-0">
-              <Link href="Cars/detailpage">{title}</Link>
-            </h5>
+          <div
+            className={`offerdt pt-0  ${
+              props.listingLayout === "list"
+                ? "d-flex flex-column justify-content-center w-100 px-3"
+                : ""
+            } `}
+          >
+            {props.listingLayout === "list" ? (
+              <h4 className="py-1 mb-0 border-bottom pb-3">
+                <Link href="Cars/detailpage">{title}</Link>
+              </h4>
+            ) : (
+              <h5 className="py-1 mb-0 ">
+                <Link href="Cars/detailpage">{title}</Link>
+              </h5>
+            )}
+
             <ul className="mb-0 py-2">
               <li>
                 <img
