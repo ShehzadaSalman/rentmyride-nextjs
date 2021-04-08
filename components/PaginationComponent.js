@@ -50,25 +50,19 @@ const PaginationComponent = ({ data }) => {
       <nav aria-label="Page navigation example" className="mt-5">
         <ul className="pagination">
           <li className="page-item">
-            <a className="page-link" onClick={prevPage}>
+            <a className="page-link">
               <FontAwesomeIcon icon={faChevronLeft} />
             </a>
           </li>
           {/* <AvailablePages /> */}
           {pagesList.map((li, key) => (
             <li key={key} className="page-item">
-              <a
-                className="page-link"
-                onClick={(e) => changePage(e, li)}
-                href="#"
-              >
-                {li}
-              </a>
+              <a className="page-link">{li}</a>
             </li>
           ))}
           {/*  Available pages end here */}
           <li className="page-item">
-            <a className="page-link" onClick={nextPage}>
+            <a className="page-link">
               <FontAwesomeIcon icon={faChevronRight} />
             </a>
           </li>

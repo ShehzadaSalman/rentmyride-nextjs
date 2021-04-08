@@ -41,7 +41,7 @@ const CategoryPage = ({ listing, info }) => {
             ))}
           </div>
           <div className="d-flex justify-content-center">
-            {/* <PaginationComponent data={info} /> */}
+            <PaginationComponent data={info} />
           </div>
           {/* pagination ends here */}
         </div>
