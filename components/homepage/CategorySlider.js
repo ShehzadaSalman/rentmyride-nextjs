@@ -6,7 +6,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import styles from "../../components/css/brandingSlide.module.scss";
+import styles from "../../components/css/brandingSlide.module.css";
 let slider = null; // to get reference of the slider
 const CategorySlider = () => {
   let categorySlider = [

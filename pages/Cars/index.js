@@ -12,7 +12,7 @@ import PaginationComponent from "../../components/PaginationComponent";
 
 import { useState } from "react";
 const CategoryPage = ({ listing, info }) => {
-  const [listingLayout, setListingLayout] = useState("list");
+  const [listingLayout, setListingLayout] = useState("grid");
   return (
     <>
       <SideNavFilter />
