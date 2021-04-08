@@ -112,10 +112,14 @@ export default class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <a href="#">Stretch Limo</a>
+                    <Link href="/Cars">
+                      <a>Stretch Limo</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Car Rental</a>
+                    <Link href="/Cars">
+                      <a>Car Rental</a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/testimonial">
@@ -123,11 +127,13 @@ export default class Footer extends Component {
                     </Link>
                   </li>
                   <li>
-                    <a href="#">Blogs</a>
+                    <Link href="/Blogs">
+                      <a>Blogs</a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/feedback">
-                      <a href="#">Feedback</a>
+                      <a>Feedback</a>
                     </Link>
                   </li>
                   <li>
