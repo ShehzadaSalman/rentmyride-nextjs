@@ -1,18 +1,5 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import CustomerReview from "../components/customer-review";
-import NewBrandSlider from "../components/homepage/NewBrandSlider";
-import SideNav from "../components/SideNav";
-import Layout from "../layouts/layout1";
-// dynamic imports
-const AccordionFAQ = dynamic(() => import("../components/AccordionFAQ"), {
-  loading: () => <p>Loading...</p>,
-});
-const VideoSection = dynamic(() => import("../components/VideoSection"));
-const NewsPaper = dynamic(() => import("../components/homepage/NewsPaper"));
-
-const LuxuryWraps = dynamic(() => import("../components/LuxuryWraps"));
-const WhyChoosUs = dynamic(() => import("../components/WhyChoosUs"));
 const SearchForm = dynamic(() => import("../components/SearchForm"), {
   loading: () => (
     <div
@@ -23,11 +10,17 @@ const SearchForm = dynamic(() => import("../components/SearchForm"), {
     </div>
   ),
 });
-const Header = dynamic(() => import("../components/Header"), { ssr: false });
-const BrandSlider = dynamic(
-  () => import("../components/homepage/BrandSlider"),
-  { ssr: false }
-);
+import CustomerReview from "../components/customer-review";
+import NewBrandSlider from "../components/homepage/NewBrandSlider";
+
+const AccordionFAQ = dynamic(() => import("../components/AccordionFAQ"), {
+  loading: () => <p>Loading...</p>,
+});
+const VideoSection = dynamic(() => import("../components/VideoSection"));
+const NewsPaper = dynamic(() => import("../components/homepage/NewsPaper"));
+const LuxuryWraps = dynamic(() => import("../components/LuxuryWraps"));
+const WhyChoosUs = dynamic(() => import("../components/WhyChoosUs"));
+
 const CategorySlider = dynamic(
   () => import("../components/homepage/CategorySlider"),
   { ssr: false }
@@ -36,16 +29,6 @@ const CarPackageSlider = dynamic(
   () => import("../components/homepage/CarPackageSlider"),
   { ssr: false }
 );
-// const HiredPackageSlider = dynamic(() => import('../components/homepage/HiredPackageSlider'))
-const Footer = dynamic(() => import("../components/footer"), { ssr: false });
-const TopBar = dynamic(import("../components/TopBar"), {
-  loading: () => <p className="text-center">Loading...</p>,
-});
-
-// const Footer = React.lazy(() => import('../components/footer'), { ssr: false });
-
-// import { NewsPaper } from '../components/homepage/NewsPaper';
-
 const Home = () => {
   return (
     <>

@@ -1,12 +1,6 @@
-import Footer from "../../components/footer";
-import Header from "../../components/Header";
 import { useState } from "react";
-import TopBar from "../../components/TopBar";
 import InnerNavBanner from "../../components/InnerNavBanner";
-import DemoNavSlider from "../../components/DemoNavSlider";
-import axios from "axios";
 import CarDetailSlider from "../../components/CarDetailSlider";
-import SideNav from "../../components/SideNav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import DayPickerInput from "react-day-picker/DayPickerInput";
