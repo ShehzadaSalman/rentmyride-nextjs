@@ -157,6 +157,7 @@ const Home = () => {
           </div>
         </div>
         <VideoSection />
+
         <div className="faq">
           <div className="container">
             <div className="row">
@@ -180,6 +181,11 @@ const Home = () => {
                   </div>
                 </div>
                 <AccordionFAQ />
+                <div>
+                  {/* <video autoplay="" loop="">
+                    <source src="/bannerforweb.mov" type="video/mp4" />
+                  </video> */}
+                </div>
               </div>
               <div className="col-sm-6 col-md-6">
                 <div className="mainCar">
