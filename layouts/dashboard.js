@@ -11,8 +11,6 @@ const DashboardLayout = (props) => {
   console.info(pathname);
   return (
     <>
-      {/* <TopBar /> */}
-      {/* <Header /> */}
       <InnerNavBanner page="User Dashboard" />
       <div className="mainContent contactPage accountPage">
         <div className="container">
@@ -95,7 +93,6 @@ const DashboardLayout = (props) => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
