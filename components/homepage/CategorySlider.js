@@ -1,6 +1,7 @@
 import React from "react";
 import Slider, { slickNext } from "react-slick";
 import Image from "next/image";
+import Skeleton from "react-loading-skeleton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -117,7 +118,12 @@ const CategorySlider = () => {
                   backgroundColor: "0px 0px 11px -4px #d6d6d6",
                 }}
               >
-                <Image src={li.img} alt="Brand Cars" width={25} height={40} />
+                {li.img ? (
+                  <Image src={li.img} alt="Brand Cars" width={25} height={40} />
+                ) : (
+                  <Skeleton circle={true} height={70} width={70} />
+                )}
+
                 <p className="mb-0 mt-1 mb-2">
                   <strong>{li.title}</strong>{" "}
                 </p>

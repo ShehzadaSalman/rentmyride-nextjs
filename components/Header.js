@@ -60,9 +60,17 @@ const Header = () => {
                   <a>Stretch Limo </a>
                 </Link>
               </li>
+
               <li>
                 <Link href="/Cars">
                   <a>Packages</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/MegaOffers">
+                  <a className={pathname === "/MegaOffers" ? "active" : ""}>
+                    Mega Offers
+                  </a>
                 </Link>
               </li>
               <li>

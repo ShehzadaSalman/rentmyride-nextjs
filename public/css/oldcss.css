@@ -7196,3 +7196,54 @@ a.c-btn-whatsapp {
     max-width: 1200px;
   }
 }
+
+.bggreyclr {
+  background-color: #f1f1f1 !important;
+  margin-top: 20px !important;
+  padding-bottom: 40px !important;
+}
+.carItem {
+  background-color: #ffff !important;
+}
+.package-new,
+.membership {
+  border: 1px solid #f1f1f1 !important;
+  padding: 15px !important;
+  box-shadow: 1px 1px #d3d3d3;
+  background-color: #fff !important;
+  margin-bottom: 20px !important;
+}
+.package-image img,
+.package-txt,
+.package-priced {
+  margin: 0 auto;
+  display: table;
+  text-align: center;
+}
+.package-new ul,
+.membership ul {
+  padding: 0px !important;
+  min-height: 241px;
+}
+.package-new ul li,
+.membership ul li {
+  list-style: none !important;
+  text-align: center !important;
+  font-size: 13px !important;
+  color: #9a9a9a !important;
+  font-weight: 400;
+  line-height: 35px !important;
+}
+.package-priced select {
+  word-wrap: normal;
+  background-color: #f4f4f4;
+  padding: 10px 12px;
+  border-radius: 6px;
+  width: 250px;
+  border: 1px solid #f4433630;
+  background: #f4f4f4 url(/images/selectArrow.png) no-repeat 95% center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-size: 10%;
+}

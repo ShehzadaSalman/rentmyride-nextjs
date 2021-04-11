@@ -2,6 +2,7 @@ import React from "react";
 import Slider, { slickNext } from "react-slick";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Skeleton from "react-loading-skeleton";
 import {
   faChevronLeft,
   faChevronRight,
@@ -86,7 +87,12 @@ const NewBrandSlider = () => {
           {imagesArray.map((li, key) => (
             <div key={key} className="text-center px-1 py-1">
               <div className="px-2 d-flex justify-content-center">
-                <Image src={li} alt="Brand Cars" width={85} height={110} />
+                {li ? (
+                  <Image src={li} alt="Brand Cars" width={85} height={110} />
+                ) : (
+                  //
+                  <Skeleton circle={true} height={90} width={90} />
+                )}
               </div>
             </div>
           ))}
