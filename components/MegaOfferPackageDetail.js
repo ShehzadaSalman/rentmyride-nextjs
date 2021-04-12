@@ -44,7 +44,7 @@ const MegaOfferPackage = () => {
                       value="2"
                       id="Id"
                       name="Id"
-                      tabindex="0"
+                      tabIndex="0"
                     />
                     <img
                       src="https://cdn.rentmyride.ae/Portal/content/myrideImages/OfferTypeImagesPath/premium.png"

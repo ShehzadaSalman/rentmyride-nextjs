@@ -30,6 +30,14 @@ const SideNav = () => {
         <a href="#">Car With Driver</a>
         <a href="#">Stretch Limo</a>
         <a href="#">Packages</a>
+        <Link href="/MegaOffers">
+          <a
+            onClick={closeNav}
+            className={pathname === "/MegaOffers" ? "active" : ""}
+          >
+            Mega Offers
+          </a>
+        </Link>
         <Link href="Blogs">
           <a
             onClick={closeNav}

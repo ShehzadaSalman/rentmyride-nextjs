@@ -64,8 +64,8 @@ const MegaOffers = ({ listing }) => {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-md-6">
-            <div className="vedioWrap megaoffer videoplayer d-flex justify-content-center align-items-center">
+          <div className="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="w-100 vedioWrap megaoffer videoplayer d-flex justify-content-center align-items-center">
               <span className="d-flex" onClick={() => setOpen(true)}>
                 <Image
                   src="/images/videoicon.png"
