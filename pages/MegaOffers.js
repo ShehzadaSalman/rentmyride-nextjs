@@ -4,10 +4,21 @@ import CustomerReview from "../components/customer-review";
 import customerReview from "../components/customer-review";
 import MegaOfferPackage from "../components/MegaOfferPackageDetail";
 import ListingCard from "../components/ListingCard";
+import ModalVideo from "react-modal-video";
+import { useState } from "react";
 
 const MegaOffers = ({ listing }) => {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
+      <ModalVideo
+        channel="custom"
+        autoplay
+        isOpen={isOpen}
+        url="https://static.videezy.com/system/resources/previews/000/004/015/original/waves_shore.mp4"
+        onClose={() => setOpen(false)}
+      />
       <div className="container mt-5">
         <img
           src="https://cdn.rentmyride.ae/Portal/content/myrideImages/MegaOfferSlider/rentmyride_banner.png"
@@ -51,27 +62,15 @@ const MegaOffers = ({ listing }) => {
             </div>
           </div>
           <div className="col-sm-6 col-md-6">
-            <div className="vedioWrap megaoffer videoplayer">
-              <div className="vimeo-wrapper"></div>
-              <div className="loaders">
-                <img src="/images/loader.gif" />
-              </div>
-
-              <a
-                href="https://cdn.rentmyride.ae/Portal/content/myrideImages/MembershipVideo/mega offer.mov"
-                className="video"
-              >
+            <div className="vedioWrap megaoffer videoplayer d-flex justify-content-center align-items-center">
+              <span className="d-flex" onClick={() => setOpen(true)}>
                 <Image
                   src="/images/videoicon.png"
                   height="144"
                   width="144"
                   alt="video player"
                 />
-                {/* <img
-className="video_icon"
-src="/Assets/images/videoicon.png"
-/> */}
-              </a>
+              </span>
             </div>
           </div>
         </div>

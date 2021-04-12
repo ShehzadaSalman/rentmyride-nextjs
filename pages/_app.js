@@ -4,7 +4,9 @@ import "../public/css/newcss.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-day-picker/lib/style.css";
+import "react-modal-video/scss/modal-video.scss";
 import Head from "next/head";
+
 import Layout from "../layouts/layout1";
 
 function MyApp({ Component, pageProps }) {
