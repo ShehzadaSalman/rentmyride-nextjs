@@ -40,7 +40,7 @@ const Home = () => {
                 <span>
                   Enjoy your journey <br />
                   with our
-                  <small>Comfortable cars</small>.
+                  <small> Comfortable cars</small>.
                 </span>
               </h2>
               <p>Serving people from last 3 years with great success.</p>
