@@ -9,7 +9,11 @@ const UserAccount = () => {
     <>
       <DashboardLayout>
         <h3>User Profile</h3>
-        <a onClick={() => setEditAccount(false)} className="edits  cstm-edit">
+        <a
+          style={{ color: "#fff", cursor: "pointer" }}
+          onClick={() => setEditAccount(false)}
+          className="edits  cstm-edit"
+        >
           Edit Profile
         </a>
         <h2>Contact Detail</h2>
