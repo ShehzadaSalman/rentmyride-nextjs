@@ -36,7 +36,11 @@ const Inquiry = () => {
             ></textarea>
           </div>
           <div className="mt-4">
-            <a title="" className="cstm-edit">
+            <a
+              style={{ color: "#fff", cursor: "pointer" }}
+              title=""
+              className="cstm-edit"
+            >
               Send
             </a>
           </div>

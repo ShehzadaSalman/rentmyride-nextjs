@@ -62,7 +62,12 @@ const ChangePassword = () => {
                 </div>
               </div>
               <div className="mt-3">
-                <a class="cstm-btn cstm-edit">Update</a>
+                <a
+                  style={{ color: "#fff", cursor: "pointer" }}
+                  className="cstm-btn cstm-edit"
+                >
+                  Update
+                </a>
               </div>
             </div>
           </form>

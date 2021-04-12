@@ -168,12 +168,20 @@ const UserAccount = () => {
                   value=""
                 />
               </div>
-              {/* <div className="custm-profile d-none">
+
+              <a
+                style={{ color: "#fff", cursor: "pointer" }}
+                className="cstm-btn cstm-edit mt-3"
+              >
+                Update
+              </a>
+
+              <div className="custm-profile d-none">
                 <button>Update</button>
                 <a className="edits">
                   <button className="ml-5">Cancel</button>
                 </a>
-              </div> */}
+              </div>
             </form>{" "}
           </div>
         )}
