@@ -6,8 +6,6 @@ import Link from "next/link";
 const ForgottenPassword = () => {
   return (
     <>
-      <TopBar />
-      <Header />
       <InnerNavBanner page="Forgot Password" />
       <div className="mainContent contactPage">
         <div className="container">
@@ -43,7 +41,6 @@ const ForgottenPassword = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
